@@ -1,3 +1,5 @@
 Central Valley Modeling Documentation
 
-Documentation built with mkdocs](https://www.mkdocs.org/)
+[https://centralvalleymodeling.github.io/](https://centralvalleymodeling.github.io/)
+
+Documentation built with [mkdocs](https://www.mkdocs.org/)
