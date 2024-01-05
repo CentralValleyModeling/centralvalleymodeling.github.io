@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Lookup Tables - CalSim 3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Lookup Tables";
+        var mkdocs_page_input_path = "lookuptables.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CalSim 3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Lookup Tables</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#agminmaxgw">AgMinMaxGW</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#agreuse">AgReuse (!!)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#american_resinfo">American_ResInfo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#american_reslevel">American_ResLevel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#american_silverlakeleakage">American_SilverLakeLeakage</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#american_uarp_storobj">American_UARP_StorObj</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#amersteelhead">AmerSteelhead (!!)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#annlimit">ANNlimit (!!)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#annualreqdel_swp">AnnualReqDel_swp</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#apr_snowmelt_release_pattern">Apr_snowmelt_release_pattern (!!)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ar_90excfall">AR_90ExcFall</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#bankslimits">BanksLimits</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#black_butte_min">black_butte_min</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#calaveras_dist">calaveras_dist</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ccwd_ann_demand">CCWD_ann_demand</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ccwd_demand_pattern">CCWD_demand_pattern</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ccwd_intake_pref">CCWD_INTAKE_PREF</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chilibaryrtype_hist">ChiliBarYrType_hist</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cho_gcid_min">cho_gcid_min</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chow_max_surf">chow_max_surf</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chowchilla_agdist">chowchilla_agdist</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chowchilla_seep">chowchilla_seep</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#clear_ck_min_pa">clear_ck_min_PA</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#contracts_cvpservice">Contracts_CVPService</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#contracts_cvpsettlement">Contracts_CVPSettlement</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#contracts_frsa">Contracts_FRSA</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cosma_wwtp_permonth">COSMA_WWTP_PerMonth</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cosumnes_demands_oasisval">Cosumnes_demands_OASISVal</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cvp_sod_contracts">CVP_SOD_Contracts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cvpsl_fill_targets">CVPSL_fill_targets</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#daguerre_del_pattern">Daguerre_del_pattern</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#demand">demand</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#dltidx_expidx_swp_s">dltidx_expidx_swp_s</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#do">DO</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#east_park_min">east_park_min</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eccid_transfer">ECCID_Transfer</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eiratio">EiRatio</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eldoradoforebay_monthlypattern">ElDoradoForebay_monthlypattern</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eomay_target">EOMay_Target</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#estexpcvp">EstExpCVP</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#estmn_gross_res">ESTMN_Gross_Res</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#estmncarryover">EstmnCarryover</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#evap_est">evap_est</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#exchcontractlimits">ExchContractLimits</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#exportestimate_cvp">ExportEstimate_CVP</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#exportestimate_swp">ExportEstimate_SWP</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#featherfish_058">featherfish_058</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#feb_snowmelt_release_pattern">Feb_snowmelt_release_pattern</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#febeiratio">FebEiRatio</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fk_delivery_class1">FK_delivery_class1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fk_delivery_dist">FK_delivery_dist</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fk_delivery_total">FK_delivery_total</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#flowlossfactors">FlowLossFactors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#folevapcoef">FolEvapCoef</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fre_no_notch">FRE_No_Notch</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fre_notch">FRE_Notch</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#frenotch_onoff">FRENotch_OnOff</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#freq_exceedence">Freq_Exceedence</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fresno_agdist">fresno_agdist</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fresno_seep">fresno_seep</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#friant_allocation">Friant_Allocation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#friant_canal_losses">Friant_canal_losses</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#friant_evap">Friant_Evap</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#friant_max_del">Friant_max_del</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#historicflow">HistoricFlow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#historicunimp_precip">HistoricUnimp_Precip</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hnsly_gross_res">HNSLY_Gross_Res</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hnslycarryover">HnslyCarryover</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hst_base">HSt_base</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#isolatedfacility">IsolatedFacility</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#isolatedfacilitycontrol">IsolatedFacilityControl</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#jubsfu_dist">JUBSFU_Dist</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kellogg_creek_inflow">Kellogg_Creek_Inflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kern_gw_rechlim">Kern_GW_RechLim</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kerngw_nodstor">KernGW_NODStor</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#keswickwinterflow">KeswickWinterFlow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lcpsim_jobcontrol">LCPSIM_JobControl</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lcpsim_sb_output">LCPSIM_SB_Output</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lcpsim_sc_output">LCPSIM_SC_Output</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lv_evaporation">LV_evaporation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lv_precipitation">LV_Precipitation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lyons_target">lyons_target</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#madera_delivery_class1">Madera_delivery_class1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#madera_delivery_total">Madera_delivery_total</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mar_snowmelt_release_pattern">Mar_snowmelt_release_pattern</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#maxpermissible">MaxPermissible</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#may_snowmelt_release_pattern">May_snowmelt_release_pattern</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#merced_minflows">Merced_MinFlows</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mfp_demandfractions">MFP_DemandFractions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mfppow_forecast">MFPpow_forecast</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mif_eid">MIF_EID</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mif_mfp">MIF_MFP</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mif_pgech">MIF_PGECh</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mif_pgech_req">MIF_PGECh_req</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mif_pgelv">MIF_PGELV</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#minflow">minflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_demands">Mok_Demands</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_gwseepage">Mok_GWSeepage</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_jsaflow">Mok_JSAFlow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_lodiprecip">Mok_LodiPrecip</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_p137flow">Mok_P137Flow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_pardeetargets">Mok_PardeeTargets</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_percut">Mok_percut</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_rainfloodreservation">Mok_RainfloodReservation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_resinfo">Mok_ResInfo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_reslevel">Mok_ResLevel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mok_snowmeltreservation">Mok_SnowmeltReservation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mrr_schedule">MRR_Schedule</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ncp_with_relax">ncp_with_relax</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ndd_cho_min">ndd_cho_min</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ndo_flow_std">ndo_flow_std</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#newfacswitch">NewFacSwitch</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#newspicer_target">newspicer_target</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#nodos">NODOS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#nodos_jobcontrol">NODOS_jobcontrol</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#omriverfloweq2">OMRiverFlowEq2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#putah_minflow">Putah_minflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#qwest">qwest</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#redbluff_base">redbluff_base</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#refuge">refuge</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#res_info">res_info</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#res_level">res_level</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#riovista">riovista</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#rpf_rufo_rufw">Rpf_RufO_RufW</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#s92carryover">S92carryover</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sac_weir">SAC_weir</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#salinity_std_col">salinity_std_col</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#salinity_std_emt_new">salinity_std_emt_new</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#salinity_std_jpt_new">salinity_std_jpt_new</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#salinity_std_rsl">salinity_std_rsl</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#seep_rates">seep_rates</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#shastancplevel">ShastaNCPlevel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#shrngratios">ShrngRatios</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#shsta_floodcurve">shsta_floodCurve</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#smscg_triggermtz">SMSCG_TriggerMTZ</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#srrp_recapture_pot">SRRP_Recapture_Pot</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#srsc_to_nod">SRSC_to_NOD</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stan_mon">stan_mon</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stan_pulse_rpa">stan_pulse_rpa</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stan_rpa">stan_rpa</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stan_yr">stan_yr</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanf_yr">stanf_yr</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_beardsley_reslevel">Stanislaus_beardsley_reslevel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_beaverck_div">Stanislaus_BeaverCk_Div</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_donnell_reslevel">Stanislaus_donnell_reslevel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_donnell_supplflow">Stanislaus_donnell_supplflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_lyons_reslevel">Stanislaus_lyons_reslevel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_lyons_targetflow">Stanislaus_lyons_targetflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_newspicer_trigmon">Stanislaus_newspicer_trigmon</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_nf_div">Stanislaus_NF_Div</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_philadel_div">Stanislaus_philadel_div</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_pinecrest_target">Stanislaus_pinecrest_target</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_relief_rel1">Stanislaus_relief_rel1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_relief_rel2">Stanislaus_relief_rel2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_relief_reslevel">Stanislaus_relief_reslevel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_res_info">Stanislaus_res_info</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stanislaus_upa_diversion">Stanislaus_upa_diversion</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stony_gorge_min">stony_gorge_min</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stony_gross_res">Stony_Gross_Res</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_3_tablea">swp_3_tablea</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_3pattern_demands">swp_3pattern_demands</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_3pattern_slrule_new">swp_3pattern_SLRule_new</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_art21_ann_max">swp_art21_ann_max</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_butt_alloc">SWP_Butt_Alloc</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_carryover">swp_carryover</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_limits">swp_limits</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_nod_alloc">SWP_NOD_Alloc</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swp_table_a">swp_table_a</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swprule_cap_oroville">swprule_cap_oroville</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swprule_deltar">swprule_deltar</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#swprulecv_params">swprulecv_params</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tablea">TableA</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tcca_per">tcca_per</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tcgcintertie">TCGCIntertie</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tracylimits">TracyLimits</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trinfactor">TrinFactor</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trinimportmonthly">TrinImportMonthly</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trinity_import">trinity_import</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trinitymin">Trinitymin</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trinminflow_forecast">TrinMinFlow_Forecast</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trinoffseason">TrinOffSeason</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tuolallocnormal">TuolAllocNormal</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tuolumne_lagrangeferc">Tuolumne_LaGrangeFERC</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tuolumne_resinfo">Tuolumne_ResInfo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_bsh002">UARPmif_BSH002</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_grl001">UARPmif_GRL001</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_grl010">UARPmif_GRL010</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_lrb003">UARPmif_LRB003</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_rub044">UARPmif_RUB044</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_sfa039">UARPmif_SFA039</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_sfr006">UARPmif_SFR006</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_slv005">UARPmif_SLV005</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_slv014">UARPmif_SLV014</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uarpmif_ssv013">UARPmif_SSV013</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_davisminflow">UF_DavisMinFlow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_ferc_gzl008">UF_FERC_GZL008</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_ferc_lbuck">UF_FERC_LBUCK</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_ferc_nff035">UF_FERC_NFF035</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_ferc_nff046">UF_FERC_NFF046</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_ferc2105">UF_FERC2105</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_mffdelivery">UF_MFFDelivery</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_p2088minflow">UF_P2088minflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_res_info">UF_res_info</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_res_level">UF_res_level</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uf_sffres_level">UF_SFFres_level</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#urbanminmaxgw">UrbanMinMaxGW</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#usjrs_fp_req">USJRS_FP_REQ</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vern_wq_std">Vern_WQ_std</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vernmin">VernMin</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#waterrightamounts">WaterRightAmounts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#watershedareappt">WatershedAreaPpt</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wetlandminmaxgw">WetlandMinMaxGW</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wheelcap">WheelCap</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wiin_wetness">WIIN_wetness</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wsi_cvp_nodag">WSI_CVP_NODAG</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wsi_di_cvp_sys">wsi_di_CVP_SYS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wsi_di_swp_sys">wsi_di_SWP_SYS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wts_jobcontrol">WTS_JobControl</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wts_patterns">WTS_Patterns</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wts_stage1_targets">WTS_Stage1_Targets</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wwtp_factors">wwtp_factors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wytype_sjrr">wytype_SJRR</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#x2days_chs">x2days_chs</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#x2days_roe">x2days_roe</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#xchanneldays">xchanneldays</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_carryover">Yuba_carryover</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_contracts">Yuba_contracts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_loweryubaminflow">Yuba_LowerYubaMinflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_min_ferc2246">Yuba_min_FERC2246</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_min_ferc2246_wqc">Yuba_min_FERC2246_WQC</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_min_ferc2266">Yuba_min_FERC2266</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_min_ferc2266_wqc">yuba_min_FERC2266_WQC</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yuba_min_ferc2310">Yuba_min_FERC2310</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yubabear_res_info">YubaBear_Res_info</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#yubacitycontractamounts">YubaCityContractAmounts</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CalSim 3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Lookup Tables</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="lookup-table-documentation">Lookup Table Documentation</h1>
+<h2 id="agminmaxgw">AgMinMaxGW</h2>
+<p>Consists of multiple sources. Summarized in CS3 Report Chapter 11 Agricultural Water Use Table 11-15. </p>
+<h2 id="agreuse">AgReuse (!!)</h2>
+<h2 id="american_resinfo">American_ResInfo</h2>
+<p>Evaporation Rate Spreadsheets: French Meadows, Hell Hole, Gerle, Loon Lake, Union Valley, Ice House, Folsom, Lake Valley, Stumpy Meadows, Silver, Caples, Lake Aloha, Echo Lake, Jenkinson Lake; Source of data in spreadsheets: USGS Annual Water Supply Reports,  USACE, Bulletin 17: Reservoir Maximum Capacity </p>
+<h2 id="american_reslevel">American_ResLevel</h2>
+<p>Streamflow and Reservoir Elevation Gaging Plan, SMUD, 2015; FERC Project No. 2101</p>
+<h2 id="american_silverlakeleakage">American_SilverLakeLeakage</h2>
+<p>SILVERLAKELEAKAGE_ANALYSIS_ECORP (SPREADSHEET, SEE 'FERC TABLE')</p>
+<h2 id="american_uarp_storobj">American_UARP_StorObj</h2>
+<p>SMUD UARP Water Balance Model Technical Report</p>
+<h2 id="amersteelhead">AmerSteelhead (!!)</h2>
+<h2 id="annlimit">ANNlimit (!!)</h2>
+<h2 id="annualreqdel_swp">AnnualReqDel_swp</h2>
+<p>SWP SOD Contract Assumption and Input Calculations for CalSim Spreadsheet (FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public.xlsm)</p>
+<h2 id="apr_snowmelt_release_pattern">Apr_snowmelt_release_pattern (!!)</h2>
+<p>Nancy Parker, Reclamation </p>
+<h2 id="ar_90excfall">AR_90ExcFall</h2>
+<h2 id="bankslimits">BanksLimits</h2>
+<h2 id="black_butte_min">black_butte_min</h2>
+<h2 id="calaveras_dist">calaveras_dist</h2>
+<h2 id="ccwd_ann_demand">CCWD_ann_demand</h2>
+<h2 id="ccwd_demand_pattern">CCWD_demand_pattern</h2>
+<h2 id="ccwd_intake_pref">CCWD_INTAKE_PREF</h2>
+<h2 id="chilibaryrtype_hist">ChiliBarYrType_hist</h2>
+<h2 id="cho_gcid_min">cho_gcid_min</h2>
+<h2 id="chow_max_surf">chow_max_surf</h2>
+<h2 id="chowchilla_agdist">chowchilla_agdist</h2>
+<h2 id="chowchilla_seep">chowchilla_seep</h2>
+<h2 id="clear_ck_min_pa">clear_ck_min_PA</h2>
+<h2 id="contracts_cvpservice">Contracts_CVPService</h2>
+<h2 id="contracts_cvpsettlement">Contracts_CVPSettlement</h2>
+<h2 id="contracts_frsa">Contracts_FRSA</h2>
+<h2 id="cosma_wwtp_permonth">COSMA_WWTP_PerMonth</h2>
+<h2 id="cosumnes_demands_oasisval">Cosumnes_demands_OASISVal</h2>
+<h2 id="cvp_sod_contracts">CVP_SOD_Contracts</h2>
+<h2 id="cvpsl_fill_targets">CVPSL_fill_targets</h2>
+<h2 id="daguerre_del_pattern">Daguerre_del_pattern</h2>
+<h2 id="demand">demand</h2>
+<h2 id="dltidx_expidx_swp_s">dltidx_expidx_swp_s</h2>
+<h2 id="do">DO</h2>
+<h2 id="east_park_min">east_park_min</h2>
+<h2 id="eccid_transfer">ECCID_Transfer</h2>
+<h2 id="eiratio">EiRatio</h2>
+<h2 id="eldoradoforebay_monthlypattern">ElDoradoForebay_monthlypattern</h2>
+<h2 id="eomay_target">EOMay_Target</h2>
+<h2 id="estexpcvp">EstExpCVP</h2>
+<h2 id="estmn_gross_res">ESTMN_Gross_Res</h2>
+<h2 id="estmncarryover">EstmnCarryover</h2>
+<h2 id="evap_est">evap_est</h2>
+<h2 id="exchcontractlimits">ExchContractLimits</h2>
+<h2 id="exportestimate_cvp">ExportEstimate_CVP</h2>
+<h2 id="exportestimate_swp">ExportEstimate_SWP</h2>
+<h2 id="featherfish_058">featherfish_058</h2>
+<h2 id="feb_snowmelt_release_pattern">Feb_snowmelt_release_pattern</h2>
+<h2 id="febeiratio">FebEiRatio</h2>
+<h2 id="fk_delivery_class1">FK_delivery_class1</h2>
+<h2 id="fk_delivery_dist">FK_delivery_dist</h2>
+<h2 id="fk_delivery_total">FK_delivery_total</h2>
+<h2 id="flowlossfactors">FlowLossFactors</h2>
+<h2 id="folevapcoef">FolEvapCoef</h2>
+<h2 id="fre_no_notch">FRE_No_Notch</h2>
+<h2 id="fre_notch">FRE_Notch</h2>
+<h2 id="frenotch_onoff">FRENotch_OnOff</h2>
+<h2 id="freq_exceedence">Freq_Exceedence</h2>
+<h2 id="fresno_agdist">fresno_agdist</h2>
+<h2 id="fresno_seep">fresno_seep</h2>
+<h2 id="friant_allocation">Friant_Allocation</h2>
+<h2 id="friant_canal_losses">Friant_canal_losses</h2>
+<h2 id="friant_evap">Friant_Evap</h2>
+<h2 id="friant_max_del">Friant_max_del</h2>
+<h2 id="historicflow">HistoricFlow</h2>
+<h2 id="historicunimp_precip">HistoricUnimp_Precip</h2>
+<h2 id="hnsly_gross_res">HNSLY_Gross_Res</h2>
+<h2 id="hnslycarryover">HnslyCarryover</h2>
+<h2 id="hst_base">HSt_base</h2>
+<h2 id="isolatedfacility">IsolatedFacility</h2>
+<h2 id="isolatedfacilitycontrol">IsolatedFacilityControl</h2>
+<h2 id="jubsfu_dist">JUBSFU_Dist</h2>
+<h2 id="kellogg_creek_inflow">Kellogg_Creek_Inflow</h2>
+<h2 id="kern_gw_rechlim">Kern_GW_RechLim</h2>
+<h2 id="kerngw_nodstor">KernGW_NODStor</h2>
+<h2 id="keswickwinterflow">KeswickWinterFlow</h2>
+<h2 id="lcpsim_jobcontrol">LCPSIM_JobControl</h2>
+<h2 id="lcpsim_sb_output">LCPSIM_SB_Output</h2>
+<h2 id="lcpsim_sc_output">LCPSIM_SC_Output</h2>
+<h2 id="lv_evaporation">LV_evaporation</h2>
+<h2 id="lv_precipitation">LV_Precipitation</h2>
+<h2 id="lyons_target">lyons_target</h2>
+<h2 id="madera_delivery_class1">Madera_delivery_class1</h2>
+<h2 id="madera_delivery_total">Madera_delivery_total</h2>
+<h2 id="mar_snowmelt_release_pattern">Mar_snowmelt_release_pattern</h2>
+<h2 id="maxpermissible">MaxPermissible</h2>
+<h2 id="may_snowmelt_release_pattern">May_snowmelt_release_pattern</h2>
+<h2 id="merced_minflows">Merced_MinFlows</h2>
+<h2 id="mfp_demandfractions">MFP_DemandFractions</h2>
+<h2 id="mfppow_forecast">MFPpow_forecast</h2>
+<h2 id="mif_eid">MIF_EID</h2>
+<h2 id="mif_mfp">MIF_MFP</h2>
+<h2 id="mif_pgech">MIF_PGECh</h2>
+<h2 id="mif_pgech_req">MIF_PGECh_req</h2>
+<h2 id="mif_pgelv">MIF_PGELV</h2>
+<h2 id="minflow">minflow</h2>
+<h2 id="mok_demands">Mok_Demands</h2>
+<h2 id="mok_gwseepage">Mok_GWSeepage</h2>
+<h2 id="mok_jsaflow">Mok_JSAFlow</h2>
+<h2 id="mok_lodiprecip">Mok_LodiPrecip</h2>
+<h2 id="mok_p137flow">Mok_P137Flow</h2>
+<h2 id="mok_pardeetargets">Mok_PardeeTargets</h2>
+<h2 id="mok_percut">Mok_percut</h2>
+<h2 id="mok_rainfloodreservation">Mok_RainfloodReservation</h2>
+<h2 id="mok_resinfo">Mok_ResInfo</h2>
+<h2 id="mok_reslevel">Mok_ResLevel</h2>
+<h2 id="mok_snowmeltreservation">Mok_SnowmeltReservation</h2>
+<h2 id="mrr_schedule">MRR_Schedule</h2>
+<h2 id="ncp_with_relax">ncp_with_relax</h2>
+<h2 id="ndd_cho_min">ndd_cho_min</h2>
+<h2 id="ndo_flow_std">ndo_flow_std</h2>
+<h2 id="newfacswitch">NewFacSwitch</h2>
+<h2 id="newspicer_target">newspicer_target</h2>
+<h2 id="nodos">NODOS</h2>
+<h2 id="nodos_jobcontrol">NODOS_jobcontrol</h2>
+<h2 id="omriverfloweq2">OMRiverFlowEq2</h2>
+<h2 id="putah_minflow">Putah_minflow</h2>
+<h2 id="qwest">qwest</h2>
+<h2 id="redbluff_base">redbluff_base</h2>
+<h2 id="refuge">refuge</h2>
+<h2 id="res_info">res_info</h2>
+<h2 id="res_level">res_level</h2>
+<h2 id="riovista">riovista</h2>
+<h2 id="rpf_rufo_rufw">Rpf_RufO_RufW</h2>
+<h2 id="s92carryover">S92carryover</h2>
+<h2 id="sac_weir">SAC_weir</h2>
+<h2 id="salinity_std_col">salinity_std_col</h2>
+<h2 id="salinity_std_emt_new">salinity_std_emt_new</h2>
+<h2 id="salinity_std_jpt_new">salinity_std_jpt_new</h2>
+<h2 id="salinity_std_rsl">salinity_std_rsl</h2>
+<h2 id="seep_rates">seep_rates</h2>
+<h2 id="shastancplevel">ShastaNCPlevel</h2>
+<h2 id="shrngratios">ShrngRatios</h2>
+<h2 id="shsta_floodcurve">shsta_floodCurve</h2>
+<h2 id="smscg_triggermtz">SMSCG_TriggerMTZ</h2>
+<h2 id="srrp_recapture_pot">SRRP_Recapture_Pot</h2>
+<h2 id="srsc_to_nod">SRSC_to_NOD</h2>
+<h2 id="stan_mon">stan_mon</h2>
+<h2 id="stan_pulse_rpa">stan_pulse_rpa</h2>
+<h2 id="stan_rpa">stan_rpa</h2>
+<h2 id="stan_yr">stan_yr</h2>
+<h2 id="stanf_yr">stanf_yr</h2>
+<h2 id="stanislaus_beardsley_reslevel">Stanislaus_beardsley_reslevel</h2>
+<h2 id="stanislaus_beaverck_div">Stanislaus_BeaverCk_Div</h2>
+<h2 id="stanislaus_donnell_reslevel">Stanislaus_donnell_reslevel</h2>
+<h2 id="stanislaus_donnell_supplflow">Stanislaus_donnell_supplflow</h2>
+<h2 id="stanislaus_lyons_reslevel">Stanislaus_lyons_reslevel</h2>
+<h2 id="stanislaus_lyons_targetflow">Stanislaus_lyons_targetflow</h2>
+<h2 id="stanislaus_newspicer_trigmon">Stanislaus_newspicer_trigmon</h2>
+<h2 id="stanislaus_nf_div">Stanislaus_NF_Div</h2>
+<h2 id="stanislaus_philadel_div">Stanislaus_philadel_div</h2>
+<h2 id="stanislaus_pinecrest_target">Stanislaus_pinecrest_target</h2>
+<h2 id="stanislaus_relief_rel1">Stanislaus_relief_rel1</h2>
+<h2 id="stanislaus_relief_rel2">Stanislaus_relief_rel2</h2>
+<h2 id="stanislaus_relief_reslevel">Stanislaus_relief_reslevel</h2>
+<h2 id="stanislaus_res_info">Stanislaus_res_info</h2>
+<h2 id="stanislaus_upa_diversion">Stanislaus_upa_diversion</h2>
+<h2 id="stony_gorge_min">stony_gorge_min</h2>
+<h2 id="stony_gross_res">Stony_Gross_Res</h2>
+<h2 id="swp_3_tablea">swp_3_tablea</h2>
+<h2 id="swp_3pattern_demands">swp_3pattern_demands</h2>
+<h2 id="swp_3pattern_slrule_new">swp_3pattern_SLRule_new</h2>
+<h2 id="swp_art21_ann_max">swp_art21_ann_max</h2>
+<h2 id="swp_butt_alloc">SWP_Butt_Alloc</h2>
+<h2 id="swp_carryover">swp_carryover</h2>
+<h2 id="swp_limits">swp_limits</h2>
+<h2 id="swp_nod_alloc">SWP_NOD_Alloc</h2>
+<h2 id="swp_table_a">swp_table_a</h2>
+<h2 id="swprule_cap_oroville">swprule_cap_oroville</h2>
+<h2 id="swprule_deltar">swprule_deltar</h2>
+<h2 id="swprulecv_params">swprulecv_params</h2>
+<h2 id="tablea">TableA</h2>
+<h2 id="tcca_per">tcca_per</h2>
+<h2 id="tcgcintertie">TCGCIntertie</h2>
+<h2 id="tracylimits">TracyLimits</h2>
+<h2 id="trinfactor">TrinFactor</h2>
+<h2 id="trinimportmonthly">TrinImportMonthly</h2>
+<h2 id="trinity_import">trinity_import</h2>
+<h2 id="trinitymin">Trinitymin</h2>
+<h2 id="trinminflow_forecast">TrinMinFlow_Forecast</h2>
+<h2 id="trinoffseason">TrinOffSeason</h2>
+<h2 id="tuolallocnormal">TuolAllocNormal</h2>
+<h2 id="tuolumne_lagrangeferc">Tuolumne_LaGrangeFERC</h2>
+<h2 id="tuolumne_resinfo">Tuolumne_ResInfo</h2>
+<h2 id="uarpmif_bsh002">UARPmif_BSH002</h2>
+<h2 id="uarpmif_grl001">UARPmif_GRL001</h2>
+<h2 id="uarpmif_grl010">UARPmif_GRL010</h2>
+<h2 id="uarpmif_lrb003">UARPmif_LRB003</h2>
+<h2 id="uarpmif_rub044">UARPmif_RUB044</h2>
+<h2 id="uarpmif_sfa039">UARPmif_SFA039</h2>
+<h2 id="uarpmif_sfr006">UARPmif_SFR006</h2>
+<h2 id="uarpmif_slv005">UARPmif_SLV005</h2>
+<h2 id="uarpmif_slv014">UARPmif_SLV014</h2>
+<h2 id="uarpmif_ssv013">UARPmif_SSV013</h2>
+<h2 id="uf_davisminflow">UF_DavisMinFlow</h2>
+<h2 id="uf_ferc_gzl008">UF_FERC_GZL008</h2>
+<h2 id="uf_ferc_lbuck">UF_FERC_LBUCK</h2>
+<h2 id="uf_ferc_nff035">UF_FERC_NFF035</h2>
+<h2 id="uf_ferc_nff046">UF_FERC_NFF046</h2>
+<h2 id="uf_ferc2105">UF_FERC2105</h2>
+<h2 id="uf_mffdelivery">UF_MFFDelivery</h2>
+<h2 id="uf_p2088minflow">UF_P2088minflow</h2>
+<h2 id="uf_res_info">UF_res_info</h2>
+<h2 id="uf_res_level">UF_res_level</h2>
+<h2 id="uf_sffres_level">UF_SFFres_level</h2>
+<h2 id="urbanminmaxgw">UrbanMinMaxGW</h2>
+<h2 id="usjrs_fp_req">USJRS_FP_REQ</h2>
+<h2 id="vern_wq_std">Vern_WQ_std</h2>
+<h2 id="vernmin">VernMin</h2>
+<h2 id="waterrightamounts">WaterRightAmounts</h2>
+<h2 id="watershedareappt">WatershedAreaPpt</h2>
+<h2 id="wetlandminmaxgw">WetlandMinMaxGW</h2>
+<h2 id="wheelcap">WheelCap</h2>
+<h2 id="wiin_wetness">WIIN_wetness</h2>
+<h2 id="wsi_cvp_nodag">WSI_CVP_NODAG</h2>
+<h2 id="wsi_di_cvp_sys">wsi_di_CVP_SYS</h2>
+<h2 id="wsi_di_swp_sys">wsi_di_SWP_SYS</h2>
+<h2 id="wts_jobcontrol">WTS_JobControl</h2>
+<h2 id="wts_patterns">WTS_Patterns</h2>
+<h2 id="wts_stage1_targets">WTS_Stage1_Targets</h2>
+<h2 id="wwtp_factors">wwtp_factors</h2>
+<h2 id="wytype_sjrr">wytype_SJRR</h2>
+<h2 id="x2days_chs">x2days_chs</h2>
+<h2 id="x2days_roe">x2days_roe</h2>
+<h2 id="xchanneldays">xchanneldays</h2>
+<h2 id="yuba_carryover">Yuba_carryover</h2>
+<h2 id="yuba_contracts">Yuba_contracts</h2>
+<h2 id="yuba_loweryubaminflow">Yuba_LowerYubaMinflow</h2>
+<h2 id="yuba_min_ferc2246">Yuba_min_FERC2246</h2>
+<h2 id="yuba_min_ferc2246_wqc">Yuba_min_FERC2246_WQC</h2>
+<h2 id="yuba_min_ferc2266">Yuba_min_FERC2266</h2>
+<h2 id="yuba_min_ferc2266_wqc">yuba_min_FERC2266_WQC</h2>
+<h2 id="yuba_min_ferc2310">Yuba_min_FERC2310</h2>
+<h2 id="yubabear_res_info">YubaBear_Res_info</h2>
+<h2 id="yubacitycontractamounts">YubaCityContractAmounts</h2>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

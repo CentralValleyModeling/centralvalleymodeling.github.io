@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+# CalSim 3 Documentation
+[Edit this documentation on GitHub](https://github.com/CentralValleyModeling/centralvalleymodeling.github.io)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+CalSim 3 is a new and improved water resources planning model, jointly developed by the California Department of Water Resources (DWR) and the Mid-Pacific Region of the U.S. Bureau of Reclamation (Reclamation), to simulate operations of the State Water Project (SWP) and the Central Valley Project (CVP) and much of the water resources infrastructure in the Central Valley of California and the Sacramento-San Joaquin Delta region. It is the next generation of the CalSim-II model which has been used in various Central Valley water resources planning studies since its release in 2002. 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The latest CalSim 3 baseline model is located at [https://github.com/CentralValleyModeling/calsim3-dcr](https://github.com/CentralValleyModeling/calsim3-dcr)
