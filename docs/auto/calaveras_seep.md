@@ -1,0 +1,25 @@
+## calaveras_seep
+calaveras_seep.table
+
+R.Field
+
+USBR
+
+12/03/2003
+
+Calaveras River seepage estimate given the water forecast.
+
+Information is based on BOGUS information (Used Fresno, Fill in when data is available).
+
+forecast = TAF, calaveras = TAF
+
+### First 7 Rows of the Table
+|   forecast |   calaveras |
+|-----------:|------------:|
+|          0 |           0 |
+|          6 |           3 |
+|         12 |           6 |
+|         18 |           9 |
+|         24 |          12 |
+|         40 |          20 |
+|       9999 |          25 |

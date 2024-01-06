@@ -1,0 +1,18 @@
+## CCWD_OMR_CONTROL
+Set months where OMR controls on Delta exports will prevent filling LV
+
+1= OMR control, 0 = no OMR control
+
+### First 10 Rows of the Table
+|   Month |   OMR_switch |
+|--------:|-------------:|
+|       1 |            0 |
+|       2 |            0 |
+|       3 |            1 |
+|       4 |            1 |
+|       5 |            1 |
+|       6 |            1 |
+|       7 |            0 |
+|       8 |            0 |
+|       9 |            1 |
+|      10 |            0 |

@@ -1,0 +1,22 @@
+## Mok_GWSeepage
+Flow (cfs)
+
+Seepage1: Camanche to Elliot (cfs)
+
+Seepage2: Elliot to Lodi Lake(cfs)
+
+Source Gary Palhegyi, EBMUD 06/04/19. Draper_Follow-Up-Info_5-16-19.xlsx
+
+### First 10 Rows of the Table
+|   Flow |   Seepage1 |   Seepage2 |
+|-------:|-----------:|-----------:|
+|      0 |       0    |       0    |
+|    150 |       3.12 |       9.36 |
+|    300 |       3.32 |       9.96 |
+|    600 |       3.47 |      10.41 |
+|   1000 |       3.62 |      10.86 |
+|   2000 |       3.87 |      11.62 |
+|   3000 |       4.05 |      12.16 |
+|   4000 |       4.18 |      12.55 |
+|   5000 |       4.32 |      12.95 |
+|  10000 |       4.42 |      13.26 |

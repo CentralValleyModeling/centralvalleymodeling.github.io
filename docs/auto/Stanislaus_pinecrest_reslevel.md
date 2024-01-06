@@ -1,0 +1,18 @@
+## Stanislaus_pinecrest_reslevel
+Defines the level 3 of Pinecrest Reservoir
+
+These are set as the minimum storage that must be met before water is diverted to Lyons or the Philadelphia Canal
+
+### First 10 Rows of the Table
+|   Mon |   S_PCRST_level3 |
+|------:|-----------------:|
+|     1 |             8529 |
+|     2 |             6645 |
+|     3 |             4552 |
+|     4 |             3606 |
+|     5 |             3170 |
+|     6 |             3402 |
+|     7 |             7100 |
+|     8 |            18312 |
+|     9 |            18312 |
+|    10 |            12300 |

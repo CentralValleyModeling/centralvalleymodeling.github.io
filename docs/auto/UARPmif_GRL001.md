@@ -1,0 +1,20 @@
+## UARPmif_GRL001
+Minimum streamflow requirements for Gerle Creek below Gerle Creek Reservoir Dam
+
+Flow requirements developed from Appendix A of FERC Project No. 2101-084 License
+
+Values in cfs
+
+### First 10 Rows of the Table
+|   Month |   Critical |   Dry |   BelowNormal |   AboveNormal |   Wet |   EOMCritical |   EOMDry |   EOMBelowNormal |   EOMAboveNormal |   EOMWet |
+|--------:|-----------:|------:|--------------:|--------------:|------:|--------------:|---------:|-----------------:|-----------------:|---------:|
+|       1 |          5 |     9 |            10 |            10 |    10 |             0 |        0 |                0 |                0 |        0 |
+|       2 |          4 |     4 |             6 |             6 |     6 |             0 |        0 |                0 |                0 |        0 |
+|       3 |          4 |     5 |             6 |             6 |     6 |             0 |        0 |                0 |                0 |        0 |
+|       4 |          5 |     6 |             6 |             6 |     6 |            35 |       46 |               54 |               45 |       45 |
+|       5 |          5 |     6 |             6 |             6 |     6 |            30 |       40 |               48 |               39 |       39 |
+|       6 |          7 |    10 |            12 |             9 |     9 |            25 |       34 |               42 |               33 |       33 |
+|       7 |          9 |    12 |            15 |             9 |     9 |            18 |       24 |               30 |               24 |       24 |
+|       8 |          9 |    12 |            15 |            15 |    15 |             9 |       12 |               15 |               15 |       15 |
+|       9 |          9 |    12 |            15 |            15 |    15 |             0 |        0 |                0 |                0 |        0 |
+|      10 |          7 |    10 |            13 |            15 |    15 |             0 |        0 |                0 |                0 |        0 |

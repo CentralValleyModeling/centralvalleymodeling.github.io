@@ -1,0 +1,18 @@
+## TrinFactor
+A factor to protect Trinity Storage across multiple dry years.
+
+Scaled by Trinity Storage. Full water supply available when Trinity is at 1,400 TAF.
+
+Shasta Factor based on EoSep FC in Shasta. We don't want to import water over if we
+
+are going to spill in Shasta later.
+
+### First 6 Rows of the Table
+|   Storage |   Trinity |   Shasta |
+|----------:|----------:|---------:|
+|         0 |         0 |        1 |
+|       600 |         0 |        1 |
+|      1400 |         1 |        1 |
+|      3400 |         1 |        1 |
+|      4552 |         1 |        0 |
+|      9999 |         1 |        0 |

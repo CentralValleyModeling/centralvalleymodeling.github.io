@@ -1,0 +1,22 @@
+## CCWD_ann_demand
+CCWD_ann_demand - FUTURE LEVEL
+
+Los Vaqueros Reservoir Demand
+
+Wyear_type = water year type (SAC_index)
+
+CCWD_base_demand = Contra Costa Water District future (2030) demand (TAF) for Service Area C.  End of February
+
+CCWD_rel_demand = Contra Costa Water District reliability demand (TAF).  End of February
+
+Source information: CCWD 2015 Urban Water Management Plan (LV evaporation subtracted - 5.5 TAF/year)
+
+### First 6 Rows of the Table
+|   wyear_type |   CCWD_base_demand |   CCWD_rel_demand |
+|-------------:|-------------------:|------------------:|
+|            1 |              125.7 |                 0 |
+|            2 |              132.4 |                 0 |
+|            3 |              136.6 |                 0 |
+|            4 |              147.6 |                 0 |
+|            5 |              155.2 |                 0 |
+|              |                    |                   |

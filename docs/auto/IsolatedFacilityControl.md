@@ -1,0 +1,10 @@
+## IsolatedFacilityControl
+Turn ON(1) and OFF(0) IF arcs for Tracy(User1), Banks(User2),CCWD (User3), Through Delta Exports (User4)
+
+### First 4 Rows of the Table
+|   user |   switch |
+|-------:|---------:|
+|      1 |        0 |
+|      2 |        0 |
+|      3 |        0 |
+|      4 |        1 |

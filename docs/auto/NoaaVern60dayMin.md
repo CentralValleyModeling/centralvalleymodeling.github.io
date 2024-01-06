@@ -1,0 +1,11 @@
+## NoaaVern60dayMin
+NOAA Phase II RPA flow reqt at Vernalis for Apr1-May31.
+
+### First 5 Rows of the Table
+|   WYT |   NOAAmin |
+|------:|----------:|
+|     1 |      6000 |
+|     2 |      6000 |
+|     3 |      4500 |
+|     4 |      3000 |
+|     5 |      6000 |

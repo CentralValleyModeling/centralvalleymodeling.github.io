@@ -1,0 +1,24 @@
+## yuba_min_FERC2310
+Author Megan Lionberger, HDR
+
+Created on 04/20/16
+
+Based on the old FERC license for the PG&E Drum-Spaulding Project (FERC 2310)
+
+Minimum streamflow on Fordyce Creek below Fordyce Dam,
+
+and South Yuba River below Spaulding Dam
+
+### First 10 Rows of the Table
+|   month |   FordyceDam |   SpauldingDam |
+|--------:|-------------:|---------------:|
+|       1 |            5 |              5 |
+|       2 |            5 |              5 |
+|       3 |            5 |              5 |
+|       4 |            5 |              5 |
+|       5 |            5 |              5 |
+|       6 |            5 |              5 |
+|       7 |            5 |              5 |
+|       8 |            5 |              5 |
+|       9 |            5 |              5 |
+|      10 |            5 |              5 |

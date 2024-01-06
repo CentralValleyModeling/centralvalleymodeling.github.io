@@ -1,0 +1,26 @@
+## UF_FERC2105
+Author Puneet Khatavkar, Stantec
+
+Created on 01/08/21
+
+Based on the WQ Certification (FERC 2105)
+
+Minimum Instream Flow Requirements for:
+
+1. North Fork Feather River Flows below Canyon Dam (Almanor Reervoir)
+
+2. North Fork Feather River Flows below Belden Dam
+
+### First 10 Rows of the Table
+|   month |   Almanor_Wet |   Almanor_Norm |   Almanor_Dry |   Almanor_CD |   Belden_Wet |   Belden_Norm |   Belden_Dry |   Belden_CD |
+|--------:|--------------:|---------------:|--------------:|-------------:|-------------:|--------------:|-------------:|------------:|
+|       1 |            60 |             60 |            60 |           60 |          120 |           120 |          100 |          75 |
+|       2 |            60 |             60 |            60 |           60 |          120 |           120 |          110 |          85 |
+|       3 |            75 |             75 |            75 |           70 |          120 |           120 |          115 |          90 |
+|       4 |            90 |             90 |            90 |           75 |          140 |           140 |          135 |         105 |
+|       5 |           100 |            100 |           100 |           75 |          140 |           140 |          140 |         130 |
+|       6 |           125 |            125 |           110 |           90 |          180 |           175 |          175 |         170 |
+|       7 |           150 |            125 |           110 |           90 |          235 |           225 |          195 |         180 |
+|       8 |           150 |            125 |           110 |           90 |          235 |           225 |          195 |         185 |
+|       9 |           150 |            125 |           110 |           80 |          225 |           225 |          160 |          90 |
+|      10 |            95 |             90 |            80 |           75 |          175 |           175 |          130 |          80 |

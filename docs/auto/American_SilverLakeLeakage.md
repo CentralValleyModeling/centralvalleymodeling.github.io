@@ -1,0 +1,17 @@
+## American_SilverLakeLeakage
+Silver Lake leakage to Oyster Creek relationship
+
+Leakage values in cfs
+
+### First 9 Rows of the Table
+|   Elevation |   Leakage |
+|------------:|----------:|
+|        7184 |         0 |
+|        7189 |         1 |
+|        7191 |         2 |
+|        7194 |         3 |
+|        7197 |         5 |
+|        7199 |         7 |
+|        7202 |        11 |
+|        7204 |        13 |
+|        7207 |        17 |
