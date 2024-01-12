@@ -25,7 +25,9 @@ SWP SOD Contract Assumption and Input Calculations for CalSim Spreadsheet (FIXED
 
 ## Apr_snowmelt_release_pattern (!!)
 Nancy Parker, Reclamation 
+
 ## AR_90ExcFall
+
 ## BanksLimits
 ## black_butte_min
 ## calaveras_dist
@@ -136,6 +138,7 @@ Nancy Parker, Reclamation
 ## redbluff_base
 ## refuge
 ## res_info
+[Link to Spreadsheets](https://cadwr.box.com/s/gk0kkflsssolca7edjcex4bu6gqftlk3)
 ## res_level
 ## riovista
 ## Rpf_RufO_RufW
