@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Model Setup - CalSim 3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Model Setup";
+        var mkdocs_page_input_path = "modelsetup.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CalSim 3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../hellocalsim/">Hello CalSim</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Model Setup</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#wrims">WRIMS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#launch-file">Launch File</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#initial-file">Initial File</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#state-variable-sv-input-files">State Variable (SV) Input Files</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#decision-variable-dv-output-files">Decision Variable (DV) Output Files</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#main-wresl-file">Main WRESL file</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lookuptables/">Lookup Tables</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CalSim 3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Model Setup</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="model-setup">Model Setup</h1>
+<h2 id="wrims">WRIMS</h2>
+<p><a href="https://water.ca.gov/Library/Modeling-and-Analysis/Modeling-Platforms/Water-Resource-Integrated-Modeling-System">WRIMS</a> is a generalized water resources modeling system for evaluating operational alternatives of large, complex river basins. WRIMS integrates a simulation language for flexible operational criteria specification, a linear programming solver for efficient water allocation decisions, and graphics capabilities for ease of use. These combined capabilities provide a comprehensive and powerful modeling tool for water resource systems simulation. The WRIMS GUI/IDE is the entry point for modifying, running and debugging CalSim 3 models.</p>
+<h2 id="launch-file">Launch File</h2>
+<p>The .launch file is the main configuration file for launching a CalSim 3 run. It designates the location of the main file, 
+the <a href="">input (SV)</a> .dss file and location to store the <a href="">output (DV)</a> files. It should be located in the top-level directory of the 
+CalSim 3 model package.  </p>
+<p>To edit the .launch file <em>Right-Click on the .launch file → Run As → Run Configurations</em>
+<img alt="An Example Launch File" src="../img/launchfile.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="## Main WRESL file">Main WRESL File</a></td>
+<td>The top-level file within the CalSim 3 logic hierarchy.</td>
+</tr>
+<tr>
+<td><a href="## Decision Variable (DV) Output Files">Dvar File</a></td>
+<td>The CalSim 3 "Decision Variable" output file location. This file is conventionally placed in .../dss/output.</td>
+</tr>
+<tr>
+<td><a href="## State Variable (SV) Input Files">Svar File</a></td>
+<td>The CalSim 3 "State Variable" input file location. This file will typically be located in .../dss/input.</td>
+</tr>
+<tr>
+<td><a href="## Initial File">Init File</a></td>
+<td>the CalSim 3 initial file location. This file will typically be located in .../dss/input.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If a launch file does not already exist, then you will need to create one. <a href="../img/newlaunchfile.gif">Click here for instructions</a></p>
+</div>
+<h2 id="initial-file">Initial File</h2>
+<h2 id="state-variable-sv-input-files">State Variable (SV) Input Files</h2>
+<h2 id="decision-variable-dv-output-files">Decision Variable (DV) Output Files</h2>
+<h2 id="main-wresl-file">Main WRESL file</h2>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../hellocalsim/" class="btn btn-neutral float-left" title="Hello CalSim"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../lookuptables/" class="btn btn-neutral float-right" title="Lookup Tables">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../hellocalsim/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../lookuptables/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

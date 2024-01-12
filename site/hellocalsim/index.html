@@ -43,6 +43,22 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                 </li>
               </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Hello CalSim</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#step-1-download-files">Step 1: Download Files</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-2-open-the-wrims-guiide-and-load-calsim-3-study">Step 2: Open the WRIMS GUI/IDE and Load CalSim 3 Study</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-3-open-launch-file-and-run-calsim-3-study">Step 3: Open ".launch" file and Run CalSim 3 Study</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../modelsetup/">Model Setup</a>
+                </li>
+              </ul>
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../lookuptables/">Lookup Tables</a>
                 </li>
@@ -71,9 +87,35 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="hello-calsim">Hello CalSim</h1>
+<p>This page contains instructions to download and run a basic CalSim 3 model.</p>
+<h2 id="step-1-download-files">Step 1: Download Files</h2>
+<p>The Water Resource Integrated Modeling System (WRIMS) is a generalized water resources modeling system for 
+evaluating operational alternatives of large, complex river basins. CalSim 3 is an application of WRIMS. The
+WRIMS GUI/IDE is the entry point for modifying, running and debugging CalSim 3 models.
+<a href="https://water.ca.gov/Library/Modeling-and-Analysis/Modeling-Platforms/Water-Resource-Integrated-Modeling-System">Download the WRIMS GUI/IDE here</a>  </p>
+<p>An example CalSim 3 model package is provided here. This package contains all the necessary inputs and code needed to run the model.
+<a href="https://data.cnra.ca.gov/dataset/2d836273-6b81-4f04-bd9e-bbe1a736a0a6/resource/3f437fa9-3e89-4403-a697-e1ea818a495f/download/2021_dcr_final_existingconditions.zip">Download the 2021 DCR CalSim 3 model package here</a></p>
+<h2 id="step-2-open-the-wrims-guiide-and-load-calsim-3-study">Step 2: Open the WRIMS GUI/IDE and Load CalSim 3 Study</h2>
+<p>To start a CalSim 3 run, you will first need to load the study into WRIMS.<br />
+Open the WRIMS GUI/IDE and import the CalSim 3 model by selecting <em>File → New → Project</em>.
+Next, browse to the CalSim 3 model folder that you have downloaded and unzipped, and type in an alias as your Project Name.</p>
+<p><img alt="Load CalSim 3 Study into WRIMS" src="../img/wrims_load_study.gif" /></p>
+<h2 id="step-3-open-launch-file-and-run-calsim-3-study">Step 3: Open ".launch" file and Run CalSim 3 Study</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This step is applicable if an appropriate .launch file is already included in the CalSim 3 study package. If you need to 
+modify a launch file, see <a href="../modelsetup/##Launch File">Configuring the .launch File</a></p>
+</div>
+<p>Once you have a study loaded into WRIMS, the next step is to run the study.
+Expand the CalSim 3 study that you've loaded into WRIMS and right-click on the .launch file → Run As → Select the .launch file name.
+<img alt="Run CalSim 3 Study From WRIMS" src="../img/wrims_run_study.gif" /></p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../modelsetup/" class="btn btn-neutral float-right" title="Model Setup">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -95,6 +137,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../modelsetup/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
