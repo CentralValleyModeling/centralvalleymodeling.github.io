@@ -11,4 +11,8 @@ WRIMS GUI/IDE is the entry point for modifying, running and debugging CalSim 3 m
 An example CalSim 3 model package is provided here. This package contains all the necessary inputs and code needed to run the model.
 [Download an example CalSim 3 model package here]()
 
-## Step 2: Open the WRIMS GUI/IDE
+## Step 2: Open the WRIMS GUI/IDE and Load CalSim 3 Study
+![Load CalSim 3 Study into WRIMS](img/wrims_load_study.gif)
+
+## Step 3: Open ".launch" file and Run CalSim 3 Study
+![Run CalSim 3 Study From WRIMS](img/wrims_run_study.gif)
