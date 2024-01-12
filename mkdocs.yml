@@ -1,5 +1,6 @@
 site_name: CalSim 3 Documentation
 nav:
   - Home: index.md
+  - Hello CalSim: hellocalsim.md
   - Lookup Tables: lookuptables.md
 theme: readthedocs
