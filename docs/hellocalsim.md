@@ -9,7 +9,7 @@ WRIMS GUI/IDE is the entry point for modifying, running and debugging CalSim 3 m
 [Download the WRIMS GUI/IDE here](https://water.ca.gov/Library/Modeling-and-Analysis/Modeling-Platforms/Water-Resource-Integrated-Modeling-System)  
 
 An example CalSim 3 model package is provided here. This package contains all the necessary inputs and code needed to run the model.
-[Download the 2021 DCR CalSim 3 model package here](https://github.com/CentralValleyModeling/calsim3-example/archive/refs/tags/v1.0.0.zip)
+[Download an example CalSim 3 model package here](https://github.com/CentralValleyModeling/calsim3-example/archive/refs/tags/v1.0.0.zip)
 
 ## Step 2: Open the WRIMS GUI/IDE and Load CalSim 3 Study
 To start a CalSim 3 run, you will first need to load the study into WRIMS.  
