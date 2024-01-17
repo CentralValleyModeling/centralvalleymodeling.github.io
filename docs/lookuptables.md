@@ -89,6 +89,16 @@ Nancy Parker, Reclamation
 ## HNSLY_Gross_Res
 ## HnslyCarryover
 ## HSt_base
+**Author:** Dustin Jones/SRS (Updated)  
+**Date:**  11-22-99/12-10-99  
+
+**Description:**
+Based on State Water Resources Control Board Decision 893 (D-893) which was enacted in 1958 as a pre-CVPIA measure to provide fish protection by applying minimum flow requirements along the Lower American River.  D-893 requires a minimum of 500 cfs between September 15 and December 31 and 250 cfs from January through mid-September. During critically dry periods (when unimpaired inflows to Folsom Reservoir bet from April and September fall below 600 TAF) minimum flows can decrease by 25%.  In the table, for each month, the D-893 year type can be either Not Critically Dry ("1") or Critically Dry ("2"). 
+
+Example:  For October (Month = "1"), if conditions are not critically dry (D-893 index is “1”), D-893 calls for a 500 cfs minimum as it falls within the mid-September to December timeframe.  However, under critically dry conditions (“2”), flow requirements decrease by 25%.  Therefore, the minimum flow required becomes 375 cfs for the month.  
+
+**Source:** [Decision on Major Applications to Appropriate Water from American River Systems (PDF)](https://cadwr.box.com/s/rzwiei5rhs9mtg8tlymfgb7wtxuogvt3)
+
 ## IsolatedFacility
 ## IsolatedFacilityControl
 ## JUBSFU_Dist
