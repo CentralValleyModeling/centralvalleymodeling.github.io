@@ -6,16 +6,17 @@ branch `deploy` contains the compiled HTML. The content here is built automatica
 
 ## Setup
 Install the conda from the environment.yml file
-`conda env create -f environment.yml`  
+`conda env create -f environment.yaml`  
 
 ## Making Changes
 ### Step 1: make changes to the the appropriate .md page in `main`  
 Don't forget to commit your changes
 
-### Step 2: deploy your docs to the `deploy` branch with the following command
-`mkdocs gh-deploy --config-file mkdocs.yml --remote-branch deploy`
-
+### Step 2: deploy your docs to the `gh-pages` branch with the following command
+`mkdocs gh-deploy`
 
 > [!NOTE]  
+To host a local version of your site (i.e. to preview changes) run `mkdocs serve`
+
+
 Documentation built with [mkdocs](https://www.mkdocs.org/)  
-`pip install mkdocs`
