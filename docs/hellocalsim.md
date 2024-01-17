@@ -1,6 +1,6 @@
 # Hello CalSim
 
-This page contains instructions to download and run a basic CalSim 3 model.
+This page contains instructions to download and run an example CalSim 3 model.
 
 ## Step 1: Download Files
 The Water Resource Integrated Modeling System (WRIMS) is a generalized water resources modeling system for 
