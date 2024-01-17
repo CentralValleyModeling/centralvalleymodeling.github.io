@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Hello CalSim - CalSim 3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Hello CalSim";
+        var mkdocs_page_input_path = "hellocalsim.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CalSim 3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Hello CalSim</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#step-1-download-files">Step 1: Download Files</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-2-open-the-wrims-guiide-and-load-calsim-3-study">Step 2: Open the WRIMS GUI/IDE and Load CalSim 3 Study</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-3-open-launch-file-and-run-calsim-3-study">Step 3: Open ".launch" file and Run CalSim 3 Study</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../modelsetup/">Model Setup</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lookuptables/">Lookup Tables</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CalSim 3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Hello CalSim</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="hello-calsim">Hello CalSim</h1>
+<p>This page contains instructions to download and run a basic CalSim 3 model.</p>
+<h2 id="step-1-download-files">Step 1: Download Files</h2>
+<p>The Water Resource Integrated Modeling System (WRIMS) is a generalized water resources modeling system for 
+evaluating operational alternatives of large, complex river basins. CalSim 3 is an application of WRIMS. The
+WRIMS GUI/IDE is the entry point for modifying, running and debugging CalSim 3 models.
+<a href="https://water.ca.gov/Library/Modeling-and-Analysis/Modeling-Platforms/Water-Resource-Integrated-Modeling-System">Download the WRIMS GUI/IDE here</a>  </p>
+<p>An example CalSim 3 model package is provided here. This package contains all the necessary inputs and code needed to run the model.
+<a href="https://github.com/CentralValleyModeling/calsim3-example/archive/refs/tags/v1.0.0.zip">Download an example CalSim 3 model package here</a></p>
+<h2 id="step-2-open-the-wrims-guiide-and-load-calsim-3-study">Step 2: Open the WRIMS GUI/IDE and Load CalSim 3 Study</h2>
+<p>To start a CalSim 3 run, you will first need to load the study into WRIMS.<br />
+Open the WRIMS GUI/IDE and import the CalSim 3 model by selecting <em>File → New → Project</em>.
+Next, browse to the CalSim 3 model folder that you have downloaded and unzipped, and type in an alias as your Project Name.</p>
+<p><img alt="Load CalSim 3 Study into WRIMS" src="../img/wrims_load_study.gif" /></p>
+<h2 id="step-3-open-launch-file-and-run-calsim-3-study">Step 3: Open ".launch" file and Run CalSim 3 Study</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This step is applicable if an appropriate .launch file is already included in the CalSim 3 study package. If you need to 
+modify a launch file, see <a href="../modelsetup/##Launch File">Configuring the .launch File</a></p>
+</div>
+<p>Once you have a study loaded into WRIMS, the next step is to run the study.
+Expand the CalSim 3 study that you've loaded into WRIMS and right-click on the .launch file → Run As → Select the .launch file name.
+<img alt="Run CalSim 3 Study From WRIMS" src="../img/wrims_run_study.gif" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../modelsetup/" class="btn btn-neutral float-right" title="Model Setup">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../modelsetup/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
