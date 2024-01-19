@@ -6,7 +6,7 @@ branch `deploy` contains the compiled HTML. The content here is built automatica
 
 ## Setup
 Install the conda from the environment.yml file
-`conda env create -f environment.yaml`  
+`conda env create -f environment.yml`  
 
 ## Making Changes
 ### Step 1: make changes to the the appropriate .md page in `main`  
