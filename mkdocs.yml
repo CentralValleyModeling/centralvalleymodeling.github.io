@@ -4,6 +4,7 @@ nav:
   - Hello CalSim: hellocalsim.md
   - Model Setup: modelsetup.md
   - Lookup Tables: lookuptables.md
+  - Common CalSim3 Variables: common_cs3vars.md
 theme: readthedocs
 markdown_extensions:
   - admonition

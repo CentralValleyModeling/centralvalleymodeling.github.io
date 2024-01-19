@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Common CalSim3 Variables - CalSim 3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Common CalSim3 Variables";
+        var mkdocs_page_input_path = "common_cs3vars.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CalSim 3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../hellocalsim/">Hello CalSim</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../modelsetup/">Model Setup</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lookuptables/">Lookup Tables</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Common CalSim3 Variables</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#sacramento-river-basin-boundary-conditions">Sacramento River Basin boundary conditions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#san-joaquin-river-basin-boundary-conditions">San Joaquin River Basin boundary conditions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#south-of-delta-export-area-boundary-conditions">South of Delta (export area) boundary conditions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#delta-boundary-conditions">Delta boundary conditions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#calsim-input">CalSim input</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CalSim 3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Common CalSim3 Variables</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="common-calsim-3-output-variables">Common CalSim 3 Output Variables</h1>
+<h2 id="sacramento-river-basin-boundary-conditions">Sacramento River Basin boundary conditions</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 3 Variable</th>
+<th>Kind</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S_TRNTY</td>
+<td>STORAGE</td>
+<td>Trinity storage</td>
+</tr>
+<tr>
+<td>C_LWSTN</td>
+<td>CHANNEL</td>
+<td>Trinity River</td>
+</tr>
+<tr>
+<td>D_LWSTN_CCT011</td>
+<td>DIVERSION</td>
+<td>Clear Creek Tunnel Diversion</td>
+</tr>
+<tr>
+<td>C_LWSTN_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Trinity River minimum instream flow</td>
+</tr>
+<tr>
+<td>D_WKYTN_SPT003</td>
+<td>DIVERSION</td>
+<td>Spring Creek Tunnel Diversion</td>
+</tr>
+<tr>
+<td>S_SHSTA</td>
+<td>STORAGE</td>
+<td>Shasta Storage</td>
+</tr>
+<tr>
+<td>C_SHSTA</td>
+<td>CHANNEL</td>
+<td>Sacramento River below Shasta</td>
+</tr>
+<tr>
+<td>C_KSWCK</td>
+<td>CHANNEL</td>
+<td>Sacramento River below Keswick</td>
+</tr>
+<tr>
+<td>C_KSWCK_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Sacramento River minimum instream flow below Keswick</td>
+</tr>
+<tr>
+<td>C_SAC240</td>
+<td>CHANNEL</td>
+<td>Sacramento River downstream of Red Bluff Diversion Dam</td>
+</tr>
+<tr>
+<td>C_SAC240_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Sacramento River minimum instream flow downstream of Red Bluff Diversion Dam</td>
+</tr>
+<tr>
+<td>C_SAC097</td>
+<td>CHANNEL</td>
+<td>Sacramento River at NCP</td>
+</tr>
+<tr>
+<td>C_SAC097_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Sacramento River minimum instream flow at NCP</td>
+</tr>
+<tr>
+<td>S_OROVL</td>
+<td>STORAGE</td>
+<td>Oroville Storage</td>
+</tr>
+<tr>
+<td>C_FTR068</td>
+<td>CHANNEL</td>
+<td>Feather River downstream of Thermalito Diversion Dam</td>
+</tr>
+<tr>
+<td>C_FTR068_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Feather River minimum instream flow downstream of Thermalito Diversion Dam</td>
+</tr>
+<tr>
+<td>C_FTR059</td>
+<td>CHANNEL</td>
+<td>Feather River Below Thermalito Return</td>
+</tr>
+<tr>
+<td>C_FTR059_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Feather River minimum instream flow Below Thermalito Return</td>
+</tr>
+<tr>
+<td>C_FTR003</td>
+<td>CHANNEL</td>
+<td>Feather River near mouth</td>
+</tr>
+<tr>
+<td>C_FTR003_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Feather River minimum instream flow near mouth</td>
+</tr>
+<tr>
+<td>S_FOLSM</td>
+<td>STORAGE</td>
+<td>Folsom Storage</td>
+</tr>
+<tr>
+<td>C_NTOMA</td>
+<td>CHANNEL</td>
+<td>American River below Nimbus</td>
+</tr>
+<tr>
+<td>C_NTOMA_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>American River minimum instream flow below Nimbus</td>
+</tr>
+<tr>
+<td>C_AMR004</td>
+<td>CHANNEL</td>
+<td>American River below H Street</td>
+</tr>
+<tr>
+<td>C_AMR004_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>American River minimum instream flow below H Street</td>
+</tr>
+<tr>
+<td>C_SAC049</td>
+<td>CHANNEL</td>
+<td>Sacramento River Downstream of American River (YC: this is actually Freeport)</td>
+</tr>
+<tr>
+<td>DEL_CVP_PAG_N</td>
+<td>DELIVERY-CVP</td>
+<td>CVP NOD AG delivery</td>
+</tr>
+<tr>
+<td>DEL_CVP_PMI_N</td>
+<td>DELIVERY-CVP</td>
+<td>CVP NOD M&amp;I delivery</td>
+</tr>
+<tr>
+<td>DEL_CVP_PSC_N</td>
+<td>DELIVERY-CVP</td>
+<td>CVP NOD Settlement delivery</td>
+</tr>
+<tr>
+<td>DEL_CVP_PRF_N</td>
+<td>DELIVERY-CVP</td>
+<td>CVP NOD refuge delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPAG_SYS</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP NOD AG percent delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPMI_SYS</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP NOD M&amp;I percent delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPRF_SYS</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP NOD Refuge percent delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPSC_SYS</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP NOD Settlement percent delivery</td>
+</tr>
+</tbody>
+</table>
+<h2 id="san-joaquin-river-basin-boundary-conditions">San Joaquin River Basin boundary conditions</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 3 Variable</th>
+<th>Kind</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C_SJR070</td>
+<td>CHANNEL</td>
+<td>San Joaquin river at Vernalis</td>
+</tr>
+<tr>
+<td>S_MLRTN</td>
+<td>STORAGE</td>
+<td>Millerton Storage</td>
+</tr>
+<tr>
+<td>D_MLRTN_FRK000</td>
+<td>DIVERSION</td>
+<td>Friant-Kern Canal diversion at Friant</td>
+</tr>
+<tr>
+<td>D_MLRTN_MDC006</td>
+<td>DIVERSION</td>
+<td>Madera Canal diversion at Friant</td>
+</tr>
+<tr>
+<td>C_MLRTN</td>
+<td>CHANNEL</td>
+<td>Friant Release</td>
+</tr>
+<tr>
+<td>C_SJR205</td>
+<td>CHANNEL</td>
+<td>San Joaquin River flow below Bifurcation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="south-of-delta-export-area-boundary-conditions">South of Delta (export area) boundary conditions</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 3 Variable</th>
+<th>Kind</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DEL_CVP_PAG_S</td>
+<td>DELIVERY-CVP</td>
+<td>CVP SOD AG delivery</td>
+</tr>
+<tr>
+<td>DEL_CVP_PMI_S</td>
+<td>DELIVERY-CVP</td>
+<td>CVP SOD M&amp;I delivery</td>
+</tr>
+<tr>
+<td>DEL_CVP_PEX_S</td>
+<td>DELIVERY-CVP</td>
+<td>CVP SOD Exchange delivery</td>
+</tr>
+<tr>
+<td>DEL_CVP_PRF_S</td>
+<td>DELIVERY-CVP</td>
+<td>CVP SOD refuge delivery</td>
+</tr>
+<tr>
+<td>DEL_CVP_PLS_S</td>
+<td>DELIVERY-CVP</td>
+<td>CVP SOD losses</td>
+</tr>
+<tr>
+<td>DEL_CVP_TOTAL_S</td>
+<td>DELIVERY-CVP</td>
+<td>Total CVP SOD delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPAG_S</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP SOD AG percent delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPEX_S</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP SOD Exchange percent delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPMI_S</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP SOD M&amp;I percent delivery</td>
+</tr>
+<tr>
+<td>PERDV_CVPRF_S</td>
+<td>PERCENT-DELIVERY</td>
+<td>CVP SOD Refuge percent delivery</td>
+</tr>
+<tr>
+<td>DEL_SWP_MWD</td>
+<td>DELIVERY-SWP</td>
+<td>SWP MWD delivery</td>
+</tr>
+<tr>
+<td>DEL_SWP_PAG_S</td>
+<td>DELIVERY-SWP</td>
+<td>SWP SOD AG delivery</td>
+</tr>
+<tr>
+<td>DEL_SWP_OTH</td>
+<td>DELIVERY-SWP</td>
+<td>SWP SOD M&amp;I delivery</td>
+</tr>
+<tr>
+<td>DEL_SWP_PIN</td>
+<td>DELIVERY-SWP</td>
+<td>SWP Article 21 delivery</td>
+</tr>
+<tr>
+<td>SWP_PERCENT_ACT</td>
+<td>ALIAS</td>
+<td>SWP percent delivery</td>
+</tr>
+<tr>
+<td>SWP_LOSS</td>
+<td>SWP_DELIVERY</td>
+<td>SWP SOD Losses</td>
+</tr>
+<tr>
+<td>S_SLUIS_CVP</td>
+<td>STORAGE</td>
+<td>CVP San Luis storage</td>
+</tr>
+<tr>
+<td>S_SLUIS_SWP</td>
+<td>STORAGE</td>
+<td>SWP San Luis storage</td>
+</tr>
+<tr>
+<td>D_SLUIS_PCH000</td>
+<td>DIVERSION</td>
+<td>CVP Santa Clara diversion</td>
+</tr>
+<tr>
+<td>C_SLUIS_CVP</td>
+<td>CHANNEL</td>
+<td>CVP San Luis release</td>
+</tr>
+<tr>
+<td>C_SLUIS_SWP</td>
+<td>CHANNEL</td>
+<td>SWP San Luis release</td>
+</tr>
+<tr>
+<td>S_DELVE</td>
+<td>AGE</td>
+<td>Del Valle storage</td>
+</tr>
+<tr>
+<td>S_CSTIC</td>
+<td>STORAGE</td>
+<td>Castaic storage</td>
+</tr>
+<tr>
+<td>S_PYRMD</td>
+<td>STORAGE</td>
+<td>Pyramid storage</td>
+</tr>
+<tr>
+<td>S_SVRWD</td>
+<td>STORAGE</td>
+<td>Silverwood storage</td>
+</tr>
+<tr>
+<td>S_PRRIS</td>
+<td>STORAGE</td>
+<td>Lake Perris storage</td>
+</tr>
+<tr>
+<td>E_SLUIS_CVP</td>
+<td>EVAPORATION</td>
+<td>CVP San Luis evaporation</td>
+</tr>
+<tr>
+<td>E_SLUIS_SWP</td>
+<td>EVAPORATION</td>
+<td>SWP San Luis evaporation</td>
+</tr>
+<tr>
+<td>E_DELVE</td>
+<td>EVAPORATION</td>
+<td>Del Valle</td>
+</tr>
+<tr>
+<td>E_CSTIC</td>
+<td>EVAPORATION</td>
+<td>Castaic</td>
+</tr>
+<tr>
+<td>E_PYRMD</td>
+<td>EVAPORATION</td>
+<td>Pyramid</td>
+</tr>
+<tr>
+<td>E_SVRWD</td>
+<td>EVAPORATION</td>
+<td>Silverwood</td>
+</tr>
+<tr>
+<td>E_PRRIS</td>
+<td>EVAPORATION</td>
+<td>Lake Perris</td>
+</tr>
+<tr>
+<td>D607A</td>
+<td>DIVERSION</td>
+<td>Mendota Pool diversion</td>
+</tr>
+<tr>
+<td>D607B</td>
+<td>DIVERSION</td>
+<td>Mendota Pool diversion</td>
+</tr>
+<tr>
+<td>D_MDOTA_91_PR</td>
+<td>DIVERSION</td>
+<td>Mendota Pool diversion</td>
+</tr>
+<tr>
+<td>D607D</td>
+<td>DIVERSION</td>
+<td>Mendota Pool diversion</td>
+</tr>
+<tr>
+<td>R_91_PR_FSL005</td>
+<td>RETURN-FLOW</td>
+<td>Mendota Pool return flow</td>
+</tr>
+<tr>
+<td>C_SJR205</td>
+<td>CHANNEL</td>
+<td>SJR to Mendota Pool</td>
+</tr>
+<tr>
+<td>D_MLRTN_FRK000</td>
+<td>DIVERSION</td>
+<td>FKC</td>
+</tr>
+<tr>
+<td>D_MLRTN_MDC006</td>
+<td>DIVERSION</td>
+<td>MC</td>
+</tr>
+<tr>
+<td>D_SBA009_ACFC</td>
+<td>FLOW-DELIVERY</td>
+<td>Alameda Co. FC&amp;WCD, Zone 7</td>
+</tr>
+<tr>
+<td>D_SBA020_ACFC</td>
+<td>FLOW-DELIVERY</td>
+<td>Alameda Co. FC&amp;WCD, Zone 7</td>
+</tr>
+<tr>
+<td>D_SBA029_ACWD</td>
+<td>FLOW-DELIVERY</td>
+<td>Alameda County WD</td>
+</tr>
+<tr>
+<td>D_SBA036_SCVWD</td>
+<td>FLOW-DELIVERY</td>
+<td>SWP Santa Clara Valley WD</td>
+</tr>
+<tr>
+<td>D_ESB324_AVEK</td>
+<td>FLOW-DELIVERY</td>
+<td>Antelope Valley-East Kern WA</td>
+</tr>
+<tr>
+<td>D_PCH000_SCVWD</td>
+<td>DIVERSION</td>
+<td>CVP SCVWD</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Derived Timeseries (South of Delta)
+CVP Exchange contract diversion from Mendota Pool:<br />
+D_MDOTA_64_XA + D_MDOTA_73_XA  </p>
+<p>Upper DMC diversion:<br />
+D_DMC011_71_PA8 + D_DMC016_WTPJJO + D_DMC021_50_PA1  </p>
+<p>Upper DMC diversion: <br />
+D_DMC064_71_PA6 + D_DMC054_NMW004 + D_DMC044_71_PA4 + D_DMC044_71_PA5 +D_DMC034_71_PA3 + D_DMC034_WWW001 + D_DMC034_71_PA2 + D_DMC030_71_PA1</p>
+</div>
+<h2 id="delta-boundary-conditions">Delta boundary conditions</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 3 Variable</th>
+<th>Kind</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C_SAC041</td>
+<td>CHANNEL</td>
+<td>Sacramento River at Hood</td>
+</tr>
+<tr>
+<td>C_MOK019</td>
+<td>CHANNEL</td>
+<td>Mokelumne River inflow to Delta</td>
+</tr>
+<tr>
+<td>C_SJR056</td>
+<td>CHANNEL</td>
+<td>San Joaquin River inflow to Delta (include Calaveras) (YC: Does NOT include Calaveras)</td>
+</tr>
+<tr>
+<td>C_YBP020</td>
+<td>CHANNEL</td>
+<td>Yolo Bypass inflow to Delta</td>
+</tr>
+<tr>
+<td>C_CLV004</td>
+<td>CHANNEL</td>
+<td>CALAVERAS</td>
+</tr>
+<tr>
+<td>D_SAC030_MOK014</td>
+<td>DIVERSION</td>
+<td>DXC</td>
+</tr>
+<tr>
+<td>C_SAC029B</td>
+<td>CHANNEL</td>
+<td>Georgiana Sl</td>
+</tr>
+<tr>
+<td>C_CSL004B</td>
+<td>CHANNEL</td>
+<td>NBA diversion from Delta</td>
+</tr>
+<tr>
+<td>C_DMC000</td>
+<td>CHANNEL</td>
+<td>Total Tracy export from Delta</td>
+</tr>
+<tr>
+<td>C_CAA003</td>
+<td>CHANNEL</td>
+<td>Total Banks export from Delta</td>
+</tr>
+<tr>
+<td>C_CAA003_SWP</td>
+<td>FLOW-DELIVERY</td>
+<td>Banks Export for SWP</td>
+</tr>
+<tr>
+<td>C_CAA003_CVC</td>
+<td>FLOW-DELIVERY</td>
+<td>Banks Export for CVC</td>
+</tr>
+<tr>
+<td>NDOI_MIN</td>
+<td>FLOW</td>
+<td>MRDO</td>
+</tr>
+<tr>
+<td>BANKSALLOWOUT</td>
+<td>FLOW-ALLOW-BANKS</td>
+<td>Allowable Banks pumping</td>
+</tr>
+<tr>
+<td>TRACYALLOWOUT</td>
+<td>FLOW-ALLOW-TRACY</td>
+<td>Allowable Tracy pumping</td>
+</tr>
+<tr>
+<td>EXPRATIO_</td>
+<td>EI-RATIO-STD</td>
+<td>Export/Inflow Ratio standard</td>
+</tr>
+<tr>
+<td>EXPORTACTUALTD</td>
+<td>EXPORT-PRJ</td>
+<td>Total project exports, was EXPORTACTUAL</td>
+</tr>
+<tr>
+<td>EIEXPCTRL</td>
+<td>EXPORT-CTRL-EI</td>
+<td>Allowable export under E/I</td>
+</tr>
+<tr>
+<td>DXC</td>
+<td>GATE-DAYS-OPEN</td>
+<td>Days per month DXC is open</td>
+</tr>
+<tr>
+<td>C_SAC017_ADD</td>
+<td>FLOW-ADDITIONAL-INSTREAM</td>
+<td>Flow at Rio Vista</td>
+</tr>
+<tr>
+<td>C_SAC017_MIF</td>
+<td>FLOW-MIN-INSTREAM</td>
+<td>Minimum instream flow at Rio Vista</td>
+</tr>
+<tr>
+<td>DeltaInflowforNDOI</td>
+<td>FLOW</td>
+<td>Delta inflow</td>
+</tr>
+<tr>
+<td>D_BKR004_NBA009</td>
+<td>DIVERSION</td>
+<td>NBA</td>
+</tr>
+<tr>
+<td>VERNWQFINAL</td>
+<td>SALINITY-EC</td>
+<td>SJR at Vernalis</td>
+</tr>
+<tr>
+<td>DD_SAC017_SACS</td>
+<td>DIVERSION</td>
+<td>Delta CU</td>
+</tr>
+<tr>
+<td>DD_SJR026_SJRE</td>
+<td>DIVERSION</td>
+<td>Delta CU</td>
+</tr>
+<tr>
+<td>DD_MOK004_MOK</td>
+<td>DIVERSION</td>
+<td>Delta CU</td>
+</tr>
+<tr>
+<td>DD_SJR013_SJRW</td>
+<td>DIVERSION</td>
+<td>Delta CU</td>
+</tr>
+<tr>
+<td>UNUSED_FS</td>
+<td>UNUSED-FS</td>
+<td>COA - Unused Federal Share</td>
+</tr>
+<tr>
+<td>UNUSED_SS</td>
+<td>UNUSED-SS</td>
+<td>COA - Unused state Share</td>
+</tr>
+<tr>
+<td>UWFE</td>
+<td>UWFE</td>
+<td>COA - Unstored water for export</td>
+</tr>
+<tr>
+<td>IBU</td>
+<td>IBU</td>
+<td>COA - Inbasin use</td>
+</tr>
+<tr>
+<td>SWPDS</td>
+<td>STORAGE-CHANGE</td>
+<td>COA - storage withdrawal</td>
+</tr>
+<tr>
+<td>SHADS</td>
+<td>STORAGE-CHANGE</td>
+<td>COA - storage withdrawal</td>
+</tr>
+<tr>
+<td>FOLDS</td>
+<td>STORAGE-CHANGE</td>
+<td>COA - storage withdrawal</td>
+</tr>
+<tr>
+<td>WHSSW</td>
+<td>STORAGE-WDL</td>
+<td>COA - storage withdrawal</td>
+</tr>
+<tr>
+<td>CVP_SHARE</td>
+<td>PERCENT-COA</td>
+<td>COA - CVP share</td>
+</tr>
+<tr>
+<td>SWP_SHARE</td>
+<td>PERCENT-COA</td>
+<td>COA - SWP share</td>
+</tr>
+<tr>
+<td>NDOI_ADD_CVP</td>
+<td>FLOW-CHANNEL</td>
+<td>COA - CVP share of outflow</td>
+</tr>
+<tr>
+<td>NDOI_ADD_SWP</td>
+<td>FLOW-CHANNEL</td>
+<td>COA - SWP share of outflow</td>
+</tr>
+<tr>
+<td>D_SAC050_FPT013</td>
+<td>DIVERSION</td>
+<td>COA - Freeport diversion project</td>
+</tr>
+<tr>
+<td>NDOI_ADD</td>
+<td>FLOW</td>
+<td>surplus delta outflow (flow above flow standard)</td>
+</tr>
+<tr>
+<td>D_DMC007_CAA009</td>
+<td>DIVERSION</td>
+<td>DMC intertie</td>
+</tr>
+<tr>
+<td>JP_MRDO</td>
+<td>FLOW</td>
+<td>ANN MRDO</td>
+</tr>
+<tr>
+<td>EM_MRDO</td>
+<td>FLOW</td>
+<td>ANN MRDO</td>
+</tr>
+<tr>
+<td>RS_MRDO_1</td>
+<td>FLOW</td>
+<td>ANN MRDO</td>
+</tr>
+<tr>
+<td>RS_MRDO_2</td>
+<td>FLOW</td>
+<td>ANN MRDO</td>
+</tr>
+<tr>
+<td>RS_MRDO_3</td>
+<td>FLOW</td>
+<td>ANN MRDO</td>
+</tr>
+<tr>
+<td>CO_MRDO</td>
+<td>FLOW</td>
+<td>ANN MRDO</td>
+</tr>
+<tr>
+<td>!B2ACTION2ON__Z3</td>
+<td>TRIGGER</td>
+<td>b2 -  Exp. Red. (D-J)</td>
+</tr>
+<tr>
+<td>!B2ACTION3ON__Z3</td>
+<td>TRIGGER</td>
+<td>b2 -  VAMP Exp.R.</td>
+</tr>
+<tr>
+<td>!B2ACTION4ON__Z3</td>
+<td>TRIGGER</td>
+<td>b2 -  Post VAMP</td>
+</tr>
+<tr>
+<td>!B2ACTION5ON__Z3</td>
+<td>TRIGGER</td>
+<td>b2 -  Exp. Ramping</td>
+</tr>
+<tr>
+<td>!B2ACTION6ON__Z3</td>
+<td>TRIGGER</td>
+<td>b2 -  Pre Vamp</td>
+</tr>
+<tr>
+<td>!B2ACTION7ON__Z3</td>
+<td>TRIGGER</td>
+<td>b2 -  Exp. Red.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+</div>
+<p>Derived Timeseries (Delta)
+CCWD diversion from Delta:<br />
+D_OMR021_ORP000 + D_VCT002_ORP000</p>
+<p>Upper DMC diversion:<br />
+D_DMC011_71_PA8 + D_DMC016_WTPJJO + D_DMC021_50_PA1</p>
+<p>Upper DMC diversion:<br />
+D_DMC064_71_PA6 + D_DMC054_NMW004 + D_DMC044_71_PA4 + D_DMC044_71_PA5 +D_DMC034_71_PA3 + D_DMC034_WWW001 + D_DMC034_71_PA2 + D_DMC030_71_PA1  </p>
+<p>Upper DMC diversion - loss:<br />
+D_DMC064_DMCLOS + D_DMC058_DMCLOS + D_DMC054_DMCLOS + D_DMC049_DMCLOS + D_DMC044_DMCLOS +  D_DMC039_DMCLOS + D_DMC034_DMCLOS + D_DMC030_DMCLOS + D_DMC024_DMCLOS + D_DMC021_DMCLOS + D_DMC016_DMCLOS + D_DMC011_DMCLOS</p>
+<h2 id="calsim-input">CalSim input</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 3 Variable</th>
+<th>Kind</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I_SHSTA</td>
+<td>INFLOW</td>
+<td>Shasta inflow</td>
+</tr>
+<tr>
+<td>I_OROVL</td>
+<td>INFLOW</td>
+<td>Oroville inflow</td>
+</tr>
+<tr>
+<td>I_FOLSM</td>
+<td>INFLOW</td>
+<td>Folsom inflow</td>
+</tr>
+<tr>
+<td>S_SHSTALEVEL5DV</td>
+<td>STORAGE-LEVEL</td>
+<td>Shasta flood control limits (YC: no longer in SV, calculated dynamically)</td>
+</tr>
+<tr>
+<td>S_OROVLLEVEL5</td>
+<td>STORAGE-LEVEL</td>
+<td>Oroville flood control limits</td>
+</tr>
+<tr>
+<td>S_FOLSMLEVEL5</td>
+<td>STORAGE-LEVEL</td>
+<td>Folsom flood control limits</td>
+</tr>
+<tr>
+<td>I_MSH015</td>
+<td>INFLOW</td>
+<td>marsh creek</td>
+</tr>
+<tr>
+<td>DRN_SAC_SOUTH</td>
+<td>DRN</td>
+<td>delta precip</td>
+</tr>
+<tr>
+<td>DRN_SJR_WEST</td>
+<td>DRN</td>
+<td>delta precip</td>
+</tr>
+<tr>
+<td>DRN_SJR_East</td>
+<td>DRN</td>
+<td>delta precip</td>
+</tr>
+<tr>
+<td>DRN_MOK</td>
+<td>DRN</td>
+<td>delta precip</td>
+</tr>
+<tr>
+<td>I_JBP006</td>
+<td>INFLOW</td>
+<td>JBP to Mendota Pool</td>
+</tr>
+<tr>
+<td>I_MLRTN</td>
+<td>INFLOW</td>
+<td>Millerton Inflow</td>
+</tr>
+<tr>
+<td>I_CAA245</td>
+<td>FLOW-INFLOW</td>
+<td>Kern River intertie</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../lookuptables/" class="btn btn-neutral float-left" title="Lookup Tables"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../lookuptables/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
