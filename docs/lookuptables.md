@@ -4,14 +4,27 @@
     Under Construction
 
 ## AgMinMaxGW
-Consists of multiple sources. Summarized in CS3 Report Chapter 11 Agricultural Water Use Table 11-15. 
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Presents minimum GW pumping (as a fraction of applied water demand) for CalSim 3 demand units in the Sacramento River/San Joaquin River/Tulare Lake hydrologic regions. Maximum GW pumping is expressed a “1“ or having a 100 percent non-surface water source.
+
+**Source:** [CS3_VolI_11_AgriculturalWaterUse_clean (DOC)](https://cadwr.box.com/s/dn3ribs7us7znfyxlcy2313nkp6nochc)
+
 
 ## AgReuse (!!)
 ## American_ResInfo
 Evaporation Rate Spreadsheets: French Meadows, Hell Hole, Gerle, Loon Lake, Union Valley, Ice House, Folsom, Lake Valley, Stumpy Meadows, Silver, Caples, Lake Aloha, Echo Lake, Jenkinson Lake; Source of data in spreadsheets: USGS Annual Water Supply Reports,  USACE, Bulletin 17: Reservoir Maximum Capacity 
 
 ## American_ResLevel
-Streamflow and Reservoir Elevation Gaging Plan, SMUD, 2015; FERC Project No. 2101
+**Author:** None  
+**Date:**  None
+
+**Description:**
+These are minimum storage levels for Upper American River Project (UARP) reservoirs that must be maintained by SMUD (Sacramento Municipal Utility District) for July, August and September.
+
+**Source:** [FERC 2101 Streamflow and Reservoir Elevation Gaging Plan (PDF)](https://cadwr.box.com/s/5frzfi45x1azlnij5uy8n4f772tsmhy1)
 
 ## American_SilverLakeLeakage
 SILVERLAKELEAKAGE_ANALYSIS_ECORP (SPREADSHEET, SEE 'FERC TABLE')
@@ -24,7 +37,13 @@ SMUD UARP Water Balance Model Technical Report
 ## ANNlimit (!!)
 
 ## AnnualReqDel_swp
-SWP SOD Contract Assumption and Input Calculations for CalSim Spreadsheet (FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public.xlsm)
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Annual SWP South-of-Delta contract demands by contract type (Agricultural, MWD Municipal&Industrial, Other (non-MWD) M&I, conveyance losses).
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (XLSM)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
 
 ## Apr_snowmelt_release_pattern (!!)
 Nancy Parker, Reclamation 
@@ -32,9 +51,33 @@ Nancy Parker, Reclamation
 ## AR_90ExcFall
 
 ## BanksLimits
+**Author:** Idy Lui (last update)  
+**Date:**  5/17/2019
+
+**Description:**
+Monthly permitted capacity of Banks Pumping Plant (6680 cfs),  Permitted capacity may increase up to 10,300 cfs depending on Vernalis flow between December 15 - March 15.  For July to September, capacity may increased by 500 cfs (to 7180 cfs) to mitigate impact of reducing impact of NMFS BO (Jun 2009) Action IV.2.1.
+
+**Source:** [Final DCR 2019 Technical Addendum (PDF)](https://cadwr.box.com/s/ct4rn6p1qg0l3djytseejn67imeq8pdk)
+
 ## black_butte_min
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Black Butte Reservoir (capacity 136,000 acre-feet) has a minimum release requirement of 30 cfs to maintain 20,000 acre-feet of space for flood protection. pacity of 136,000 acre-feet.
+
+**Source:** [StonyCreek2003ReportandAppendicies (PDF)](https://cadwr.box.com/s/u8k0vf940y0amvnoinsa34c3ycd2szy8)
+
 ## calaveras_dist
 ## CCWD_ann_demand
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Contra Costa Water District annual demand depending on water year type.
+
+**Source:** [Vol 3_LVE2 Final SEIS-SEIR (PDF)](https://cadwr.box.com/s/vt7ez46wsc8kth87inc60z6suwa7bxsn)
+
 ## CCWD_demand_pattern
 ## CCWD_INTAKE_PREF
 ## ChiliBarYrType_hist
