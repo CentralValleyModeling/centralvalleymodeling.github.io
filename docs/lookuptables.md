@@ -120,7 +120,7 @@ These are DWR agricultural settlement contracts with Feather River Service Area 
 **Date:**  None
 
 **Description:**
-This table presents CVP water service contracts for servce areas South of Delta (located in San Joaquin River and Tulare Lake hydrologic regions)..
+This table presents CVP water service contracts for servce areas South of Delta (located in San Joaquin River and Tulare Lake hydrologic regions).
 
 
 **Source:** [CS3_VolI_14_ContractsAndWaterRights_clean_updated  (DOC)](https://cadwr.box.com/s/huos58q5afsr4gb6qucucxia9fsjr2u2)
@@ -176,7 +176,7 @@ This helps determine the End-of-May storage target for the American River Flow M
 **Description:**
 Flow below Thermalito must not exceed 2500 cfs between October 15 and November 30 (except in the case of flood release).  Otherwise this will trigger a 500 cfs increase in required flows to the end of March (to prevent dewatering of spawning sites). To avoid this, CalSim uses a 4000 cfs constraint on flows for October.and a 2500 cfs limit in November.  See example for an explanation for the October constraint.
 
-Example:  A 4000 cfs requirement for all of October provides for a partial month requirement of less than 2500 cfs from Oct 15 to Oct 31 (17 days) => 4000 cfs times (17d/31d) and from Oct 1 to Oct 14 (14 days) => 4000 cfs time (14d/31d).
+Example:  A 4000 cfs requirement for all of October provides for a partial month requirement of less than 2500 cfs from Oct 15 to Oct 31 (17 days) and from Oct 1 to Oct 14 (14 days).
 
 
 **Source:** [ch07_otherassumptions  (PDF)](https://cadwr.box.com/s/yf5fhw1c33u3lhp4irt5tfjmk7dr83t4)
@@ -212,8 +212,8 @@ February Export/Inflow ratio (E:I) depends on January Eight River Index (8RI),  
 ## HNSLY_Gross_Res
 ## HnslyCarryover
 ## HSt_base
-**Author:** Dustin Jones/SRS (Updated)  
-**Date:**  11-22-99/12-10-99  
+**Author:** None  
+**Date:**  None 
 
 **Description:**
 Based on State Water Resources Control Board Decision 893 (D-893) which was enacted in 1958 as a pre-CVPIA measure to provide fish protection by applying minimum flow requirements along the Lower American River.  D-893 requires a minimum of 500 cfs between September 15 and December 31 and 250 cfs from January through mid-September. During critically dry periods (when unimpaired inflows to Folsom Reservoir from April and September fall below 600 TAF) minimum flows can decrease by as much as 50%.  In the table, for each month, the D-893 year type can be either Not Critically Dry ("1") or Critically Dry ("2"). 
@@ -245,32 +245,74 @@ Example:  For September (Month = "12"), if conditions are not critically dry (D-
 ## MFP_DemandFractions
 ## MFPpow_forecast
 ## MIF_EID
-**Author:** Dustin Jones/SRS (Updated)  
-**Date:**  11-22-99/12-10-99  
+**Author:** None  
+**Date:**  None  
 
 **Description:**
-Minimum flow requirements (by month and water year type) below dams as part of El Dorado Project No. 184-065, located on the South Fork of the American River .  Values are determined by month and water year type.  Year tpes: CD - Critically dry: <50% of forecast average pre-project inflow to Folsom reservoir; Dry - Dry: 50–70% of forecast average pre-project inflow to Folsom reservoir; BN - Below Normal: 75–100% of forecast average pre-project inflow to Folsom reservoir; AN - Above Normal: 100–125% of forecast average pre-project inflow to Folsom reservoir; Wet - Wet: >125% of forecast average pre-project inflow to Folsom reservoir.
+Minimum flow requirements applied below dams located on the South Fork of the American River as part of the El Dorado Hydroelectric Project (FERC No.184).  Values are determined by month and water year type.  Year type definitions: Critically dry: <50% of forecast average pre-project inflow to Folsom reservoir; Dry: 50–70% of forecast average pre-project inflow to Folsom reservoir; Below Normal: 75–100% of forecast average pre-project inflow to Folsom reservoir; Above Normal: 100–125% of forecast average pre-project inflow to Folsom reservoir; Wet: >125% of forecast average pre-project inflow to Folsom reservoir.
 
 
 **Source:** [feis_master_sent2ferc (PDF)](https://cadwr.box.com/s/o1bz87rwmi8ejwovse2hta36zhlkg4z2)
 
 ## MIF_MFP
-**Author:** Dustin Jones/SRS (Updated)  
-**Date:**  11-22-99/12-10-99  
+**Author:** None  
+**Date:**  None 
 
 **Description:**
-Minimum flow requirements (by water year type) below dams as part of El Dorado Project No. 184-065, located on the South Fork of the American River .  Values are determined by month and water year type.  CD - Critically dry: <50% of forecast average pre-project inflow to Folsom reservoir; Dry - Dry: 50–70% of forecast average pre-project inflow to Folsom reservoir; BN - Below Normal: 75–100% of forecast average pre-project inflow to Folsom reservoir; AN - Above Normal: 100–125% of forecast average pre-project inflow to Folsom reservoir; Wet - Wet: >125% of forecast average pre-project inflow to Folsom reservoir.
+Minimum flow requirements applied below dams located in the Middle Fork of the American River as part of the Middle Fork Hydroelectric Project (FERC No.2079).  Values are determined by month and water year type.  There are six water year types which are based on forecasted American River unimpaired flow below Folsom Reservoir (based on DWR Bulletin 120 and abbreviated here as “UBFR“).  Year type definitions: Extreme Critical: UBFR < 600,000 AF; Critical:  900,000 AF <= UBFR < 1,000,000 AF; Dry: 1,000,000 AF <= UBFR < 1,500,000 AF; Below Normal: 1,500,000 AF <= UBFR < 2,400,000 AF;  Above Normal: 2,600,000 AF <= UBFR < 3,400,000 AF; Wet: UBFR >= 3,400,000 AF.  March is split into two periods: March 1-14 and March 15-31 (represented in the table as 6.1 and 6.2 respectively) for forecasting purposes.
 
 
-**Source:** [feis_master_sent2ferc (PDF)](https://cadwr.box.com/s/o1bz87rwmi8ejwovse2hta36zhlkg4z2)
+**Source:** [Middle Fork American River Hydroelectric Project (FERC 2079) (PDF)](https://cadwr.box.com/s/i32seu3ji0jbhurr65q1e90d1uz7oir7)
 
 ## MIF_PGECh
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+Minimum instream flow requirements for the South Fork of the American River below Chili Bar Dam as mandated by FERC Project No. 2155.  Water year type definitions mostly similar to those used in Middle Fork Project.  A “Super Dry“ year is defined as a critically dry (CD) year that is preceded by a dry or CD year, or any dry year type which is preceded by any combination of two CD or dry water year types.
+
+**Source:** [Appendix C_CalSim3_UAR_Module_Doc  (PDF)](https://cadwr.box.com/s/rstoxh0y8zcga7wpptyx793vfe1blkal)
+
 ## MIF_PGECh_req
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+These values represent total flow requirements for South Fork American River below Chili Bar Dam.  These are monthly averages over calculated over 94 years (from 1922 to 2015) for each month.  Year type definitions are from FERC Project No. 2155. A “Super Dry“ year is defined as a critically dry (CD) year that is preceded by a dry or CD year, or any dry year type which is preceded by any combination of two CD or dry water year types.
+
+**Source:** [Appendix C_CalSim3_UAR_Module_Doc  (PDF)](https://cadwr.box.com/s/rstoxh0y8zcga7wpptyx793vfe1blkal)
+
 ## MIF_PGELV
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+These are minimum streamflow requirements (in cfs) proposed by Pg&E for the Upper Drum-Spaulding Project at North Fork American River, below Lake Valley Reservoir (FERC Project No. 2310).   total flow requirements for South Fork American River below Chili Bar Dam.  These are monthly averages over calculated over 94 years (from 1922 to 2015) for each month.  Year type definitions are from FERC Project No. 2155. A “Super Dry“ year is defined as a critically dry (CD) year that is preceded by a dry or CD year, or any dry year type which is preceded by any combination of two CD or dry water year types.
+
+**Source:** [20141219-4003(30000282) (PDF)](https://cadwr.box.com/s/nzhv3n9lyl4bavnksw6vlq6tgrzfg0ej)
+
 ## minflow
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+Monthly minimum instream requirements for various flow arcs (CalSim 3 only uses C_arc = 200 values, tied to the Feather Low Flow Channel).  The minimum flow requirement is 800 cfs from September 9 to March 31 (Chinook salmon spawing season), and 700 cfs for the rest of the year.
+
+Example:  The September minimum flow is 773.333 cfs in the table.  This is a monthly average of 700 cfs minimum from Sep 1 to Sep 8 (8 days) and 800 cfs from Sep 9 to 30 (22 days) or 700*(8d/30d)+800*(22d/30d) = 773.333 cfs.
+
+**Source:** [FERC 2100-121410_15 (PDF)](https://cadwr.box.com/s/xnptd6i1qkeo89glphjtbbbmejmi4t2u)
+
 ## Mok_Demands
 ## Mok_GWSeepage
 ## Mok_JSAFlow
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+Minimum requirements (applied by EBMUD) as stated in the Mokelumne Joint Seetlement Agreement for flows below Camanche and Woodbridge Dams. "WBAAprSepTAF" is the sum of April to September requirements for Woodbridge (in TAF).
+
+**Source:** [LOWER MOKELUMNE RIVER PROJECT - FERC Project No. 2916-004 JOINT SETTLEMENT AGREEMENT 1996 (PDF)](https://cadwr.box.com/s/v2538agwjp98a7rpmxl5xv6w89df5ycv)
+
 ## Mok_LodiPrecip
 ## Mok_P137Flow
 ## Mok_PardeeTargets
