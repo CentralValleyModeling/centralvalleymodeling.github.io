@@ -314,7 +314,29 @@ Minimum requirements (applied by EBMUD) as stated in the Mokelumne Joint Seetlem
 **Source:** [LOWER MOKELUMNE RIVER PROJECT - FERC Project No. 2916-004 JOINT SETTLEMENT AGREEMENT 1996 (PDF)](https://cadwr.box.com/s/v2538agwjp98a7rpmxl5xv6w89df5ycv)
 
 ## Mok_LodiPrecip
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+The Lodi Decree is a series of court orders, stipulations and agreements establishing daily and monthly average flows for the North Fork of the Mokelumne River below Electra Diversion Dam and Powerhouse.  It may be triggered when when precipitation at Salt Springs Reservoir exceeds the limits in the lookup table. 
+
+**Source:** [Appendix D (PDF)](https://cadwr.box.com/s/goutshk1vp9tijmeeygrqmkll5hfzz94)
+
 ## Mok_P137Flow
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+Minimum flow requirements from the 2000 Joint Settlement Agreement for Relicensing of FERC Project 137 for several location at North Fork Mokelumne River including: Tiger's Creek Dam, Electra Dam and Salt Springs Dam. The minimum streamflow schedules have been separated into five water year types:Wet, Above Normal (AN), Below Normal (BN), Dry, and Critically Dry (CD). Water Year Types are based on unimpaired inflow into Pardee Reaervoir where: 
+
+Wet: 	Pardee Inflow >= 958,700 AF
+AN: 	Pardee Inflow < 958,700 AF but >= 724,400 AF
+BN: 	Pardee Inflow < 724,400 AF but >= 518,100 AF
+Dry: 	Pardee Inflow < 518,100 AF but >= 376,100 AF
+CD:	Pardee Inflow < 376,100 AF
+
+**Source:** [ER_Mok  (PDF)](https://cadwr.box.com/s/28t3gcybn50wnjctaxvz00u1aelubr45)
+
 ## Mok_PardeeTargets
 ## Mok_percut
 ## Mok_RainfloodReservation
@@ -335,7 +357,6 @@ Minimum requirements (applied by EBMUD) as stated in the Mokelumne Joint Seetlem
 ## redbluff_base
 ## refuge
 ## res_info
-[Link to Spreadsheets](https://cadwr.box.com/s/gk0kkflsssolca7edjcex4bu6gqftlk3)  
 ## res_level
 ## riovista
 ## Rpf_RufO_RufW
