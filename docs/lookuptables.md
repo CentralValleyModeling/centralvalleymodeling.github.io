@@ -335,48 +335,146 @@ BN: 	Pardee Inflow < 724,400 AF but >= 518,100 AF
 Dry: 	Pardee Inflow < 518,100 AF but >= 376,100 AF
 CD:	Pardee Inflow < 376,100 AF
 
-**Source:** [ER_Mok  (PDF)](https://cadwr.box.com/s/28t3gcybn50wnjctaxvz00u1aelubr45)
+**Source:** [WS-Final-Rprt_Appendices_033018  (PDF)](https://cadwr.box.com/s/ukkioltabel12z1vwvlcveb53jljgqaq)
 
 ## Mok_PardeeTargets
 ## Mok_percut
 ## Mok_RainfloodReservation
 ## Mok_ResInfo
+**Author:** None  
+**Date:**  None 
+
+**Description:** Reservoir storage data for Mokelumne River Hydroelectric Project (FERC 137).
+
+**Source:** [ER_Mok (PDF)](https://cadwr.box.com/s/28t3gcybn50wnjctaxvz00u1aelubr45)
+
 ## Mok_ResLevel
 ## Mok_SnowmeltReservation
 ## MRR_Schedule
 ## ncp_with_relax
+**Author:** None  
+**Date:**  None 
+
+**Description:** Navigational Control Point minimum flow requirement based on Ag allocation and Shasta storage (Low - Shasta below 5.5 maf, Med - Shasta between 3.5 - 4.0 maf, high - Shasta > 4.0 maf).  Values in between Ag allocation levels use maximum flow levels.
+
+Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels and 4000 cfs at Shasta high levels.
+
+**Source:** [app_5A_CalSim (PDF)](https://cadwr.box.com/s/9s291wa9phu01b5tz2b71rzuyebhusju)
+
 ## ndd_cho_min
+**Author:** None  
+**Date:**  None 
+
+**Description:** Northern Diversion Dam (NDD) contains a 36-foot sluiceway with a 12-foot by 6-foot wide electrically operated drum gate that permits 30 cfs or additional water flows to be bypassed downstream during diversions.  Chinook salmon, steelhead trout, and other at-risk species may benefit from these actions to improve upstream fish passage in Stony Creek.
+
+**Source:** [Northside Diversion Dam Fish Passage Feasibility Study (PDF)](https://cadwr.box.com/s/r3emzbqemkbkyoeclxsqt0phd6y9a4ah)
+
 ## ndo_flow_std
+**Author:** None  
+**Date:**  None 
+
+**Description:** Miniumum average Delta outflow requirement based on month and water year type (40-30-30 index).
+
+**Source:** [Delta_Standards (modified) (PDF)](https://cadwr.box.com/s/sp1gpydb5d9q8aw6l5nf445h6r6tqtvt)
+
 ## NewFacSwitch
 ## newspicer_target
 ## NODOS
 ## NODOS_jobcontrol
 ## OMRiverFlowEq2
+**Author:** Paul Hutton  
+**Date:**  April 2008
+**Description:** Model to estimate combined Old and Middle River flow (OMR) using OMR Flow Model coefficients, where: QOMR (cfs) = A * QVernalis + B * QSouth Delta Diversions + C based on HOR, GLC barrier conditions and Vernalis flow.
+
+**Source:** [Hutton_2008_OMR_Report (PDF)](https://cadwr.box.com/s/d944efnit6oi0wen5i3lednvcx8w0v79)
+
 ## Putah_minflow
 ## qwest
 ## redbluff_base
 ## refuge
+**Author:** None  
+**Date:**  None 
+
+**Description:** Annual refuge demands (without losses) and percent conveyance losses.  Note: value for Butte Sink Annual Demand is not used.
+
+**Source:** [CS3_VolI_13_WetlandWaterUse_clean (PDF)](https://cadwr.box.com/s/yq0ks4qom85k8sb1eja9yr86061ik5h5)
+
 ## res_info
+**Author:** None  
+**Date:**  None 
+
+**Description:** Reservoir area-capacity curves.
+
+**Source:** [ER_spreadsheets_2020_2021 (Excel)](https://cadwr.box.com/s/5bqlv2f1daasntvtqvtu859krzso10e6)
+
 ## res_level
 ## riovista
+**Author:** None  
+**Date:**  None 
+
+**Description:** Rio Vista minimum monthly average flow requirements based on month and water year type (40-30-30 index).
+
+**Source:** [Delta_Standards (modified) (PDF)](https://cadwr.box.com/s/sp1gpydb5d9q8aw6l5nf445h6r6tqtvt)
+
 ## Rpf_RufO_RufW
 ## S92carryover
 ## SAC_weir
 ## salinity_std_col
+**Author:** None  
+**Date:**  None 
+
+**Description:** Salinity standard (EC levels) for Collinsville.  Currently, only "EC Standard 1" is being used.
+
+**Source:** [D1641rev (PDF)](https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit)
+
 ## salinity_std_emt_new
+**Author:** None  
+**Date:**  None 
+
+**Description:** Salinity standard (EC, mmhos/cm) standard at Emmaton based on month and water year type (Sacramento Vally 40-30-30 index). for Collinsville.  Currently, only "EC Standard 1" is being used.
+
+**Source:** [D1641rev (PDF)](https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit)
+
 ## salinity_std_jpt_new
 ## salinity_std_rsl
 ## seep_rates
 ## ShastaNCPlevel
 ## ShrngRatios
+**Author:** None  
+**Date:**  None 
+
+**Description:** Project (CVP and SWP) sharing ratios under the Coordinated Operations Agreement (COA) Addendum from 2018 for balanced conditions - when releases from upstream reservoirs plus unregulated flow approximately equal the water supply needed to meet Sacramento Valley inbasin uses, plus exports; and surplus (excess) conditions - when releases from upstream reservoirs plus unregulated flow are greater than the water supply needed to meet Sacramento Valley inbasin uses, plus exports.
+
+**Source:** [20181200_COAAddendum (PDF)](https://cadwr.box.com/s/5tnluk18kjxzd7wyh6dayqrel8jxoub5)
 ## shsta_floodCurve
 ## SMSCG_TriggerMTZ
 ## SRRP_Recapture_Pot
 ## SRSC_to_NOD
 ## stan_mon
 ## stan_pulse_rpa
+**Author:** Tom Fitzhugh (updated)
+**Date:**  06/10/14 
+
+**Description:** Pulse period (April 15 to May 15) flows for fishery purposes.
+
+**Source:** [app_5A_CalSim (PDF)](https://cadwr.box.com/s/9s291wa9phu01b5tz2b71rzuyebhusju)
+
 ## stan_rpa
+**Author:** None
+**Date:**  None 
+
+**Description:** Monthly base flows for fishery purposes (TAF).
+
+**Source:** [app_5A_CalSim (PDF)](https://cadwr.box.com/s/9s291wa9phu01b5tz2b71rzuyebhusju)
+
 ## stan_yr
+**Author:** None
+**Date:**  None 
+
+**Description:** New Melones Operations Plan annual flows for fishery purposes.  Summarized in Appendix 5.A. CalSim II Modeling Results Report Table 5.A-3
+
+**Source:** [app_5A_CalSim (PDF)](https://cadwr.box.com/s/9s291wa9phu01b5tz2b71rzuyebhusju)
+
 ## stanf_yr
 ## Stanislaus_beardsley_reslevel
 ## Stanislaus_BeaverCk_Div
@@ -392,26 +490,132 @@ CD:	Pardee Inflow < 376,100 AF
 ## Stanislaus_relief_rel2
 ## Stanislaus_relief_reslevel
 ## Stanislaus_res_info
+**Author:** Idy Lui
+**Date:**  1/28/19 
+
+**Description:** Area-capacity curves for Upper Stanislaus reservoirs.  Area-Capacity Relationships spreadsheets provided by Andy Draper/Stantec.
+
+**Source:** [ER_UpperStanislaus (Excel)](https://cadwr.box.com/s/ipze2dkr9otxgvn1u146bgvrmd6gxv14)
+
 ## Stanislaus_upa_diversion
 ## stony_gorge_min
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum flow requirement below Stony Gorge Reservoir which maintains flood space during winter and provides recreational flow for the rest of the year.
+
+**Source:** [AppendixC-Reservoir_Operations_ModelingTechnical (PDF)](https://cadwr.box.com/s/bb3eeoloy7zwkvlsk4sc9b17j0k7cd3z)
+
 ## Stony_Gross_Res
 ## swp_3_tablea
+**Author:** None
+**Date:**  None 
+
+**Description:** Table A contract amounts based on demand profile (30, 50, 60 and 100 percent).
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
+
 ## swp_3pattern_demands
+**Author:** None
+**Date:**  None 
+
+**Description:** SWP contractor demand based on month, demand profile, and remaining demand for each contractor.  
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
+
 ## swp_3pattern_SLRule_new
+**Author:** None
+**Date:**  None 
+
+**Description:** This table contains a distribution of deliveries for use with SWP Rule Curve determination  
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
+
 ## swp_art21_ann_max
+**Author:** None
+**Date:**  None 
+
+**Description:** Annual Article 21 demands were calculated by using the maximum of these data sources: 
+1) Article 21 historical deliveries 2005-2018 - take annual maximum delivery for each contractor
+2) Article 21 historical requests 2011,2017,2019 - take annual maximum request for each contractor
+3) Contractor stated annual maximums
+
+Then, scale up the annual demand from historical delivery or request by 20% to act as a buffer in future studies where more article 21 opportunities (Not done to contractor specified values)		
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
+
 ## SWP_Butt_Alloc
+**Author:** None
+**Date:**  None 
+
+**Description:** Determine Butte County allocation which is based on SWP South-of-Delta allocation.  This provided in Section 1.a of the Settlement Agreement in Principle for Butte allocations.  Allocations are linearly interpolated.
+
+Example: Assume the SOD Allocation is 39%. To interpolate between 35% and 40% to get an allocation of 39%:
+39% = 0.65 + (4/5)(0.70 - 0.65) = 0.65 or 65% allocation: (27,500)(0.69) = 18,975 AF
+
+**Source:** [SWP Supply Allocation Settlement Agreements (PDF)](https://cadwr.box.com/s/py1ct1tufhhppiaeguwskonomk0dstiz)
+
 ## swp_carryover
+**Author:** None
+**Date:**  None 
+
+**Description:** SWP carryover amounts based on demand profile (30, 50, 60 and 100 percent)  
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
+
 ## swp_limits
 ## SWP_NOD_Alloc
+**Author:** None
+**Date:**  None 
+
+**Description:** North-of-Delta SWP allocations for SCWA, Napa, and Yuba City based on water year types (Sacramento Valley 40-30-30 index). Allocations are proposed under the settlement agreement.
+
+**Source:** [SWP Supply Allocation Settlement Agreements (PDF)](https://cadwr.box.com/s/py1ct1tufhhppiaeguwskonomk0dstiz)
+
 ## swp_table_a
+**Author:** None
+**Date:**  None 
+
+**Description:** Table A entitlement for SWP contractors.
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
+
 ## swprule_cap_oroville
 ## swprule_deltar
 ## swprulecv_params
+**Author:** None
+**Date:**  None 
+
+**Description:** Evaporation and loss amount (from timeseres for SWP delivery losses and San Luis evaporation) taken from timeseries (Oct 1921 - Mar 1923) and converted to TAF.
+
+**Source:** [SWP Demands table (Excel)](https://cadwr.box.com/s/9bckxln3scvogee2xcegmdyc6krp4hl1)
+
 ## TableA
+**Author:** None
+**Date:**  None 
+
+**Description:** Total SWP entitlements for Agricultural, Municipal & Industrial (MI) for MWD, MI (non-MWD) and losses (from conveyance) in TAF.
+
+**Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
+
 ## tcca_per
 ## TCGCIntertie
 ## TracyLimits
+**Author:** None
+**Date:**  None 
+
+**Description:** Tracy (Jones) pumping plant permitted capacity and physical capacity. Permit capacity set by D-1641; Physical capacity source: Jones Pumping Plant Reclamation Fact Sheet; Discussed in Appendix 5.A. CalSim II Modeling Results Report Section 5.A.5.1.2.2 (Page 5.A-16).
+
+**Source:** [app_5A_CalSim (PDF)](https://cadwr.box.com/s/9s291wa9phu01b5tz2b71rzuyebhusju)
+
 ## TrinFactor
+**Author:** None
+**Date:**  None 
+
+**Description:** This is the 369-815 taf/yr Trinity minimum required flow based on the Trinity River index.
+
+**Source:** [app_5A_CalSim (PDF)](https://cadwr.box.com/s/9s291wa9phu01b5tz2b71rzuyebhusju)
+
 ## TrinImportMonthly
 ## trinity_import
 ## Trinitymin
@@ -421,34 +625,276 @@ CD:	Pardee Inflow < 376,100 AF
 ## Tuolumne_LaGrangeFERC
 ## Tuolumne_ResInfo
 ## UARPmif_BSH002
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for Brush Creek below Brush Creek Reservoir (FERC Project No. 2101-084).  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_GRL001
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for Gerle Creek below Gerle Creek Reservoir Dam under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_GRL010
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for Gerle Creek below Loon Lake Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_LRB003
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for Little Rubicon River below Buck Island Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_RUB044
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for Rubicon River below Rubicon Reservoir Dam under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_SFA039
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for South Fork American River below Slab Creek Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_SFR006
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for South Fork Rubicon below Robbs Peak Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_SLV005
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for Silver Creek below Junction Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_SLV014
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for Silver Creek below Junction Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UARPmif_SSV013
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum streamflow requirements for South Fork Silver Creek below Ice House Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
+
+Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+Critical: UBFR less than 0.900 MAF
+
+EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
+
+**Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
+
 ## UF_DavisMinFlow
 ## UF_FERC_GZL008
+**Author:** None
+**Date:**  None 
+
+**Description:** Grizzly Creek Minimum Instream Flow Requirements Below Grizzly Forebay by Water Year Type (in cfs) under provisions of FERC Project No. 619. Water years are categorized into four water year types based on inflow to Lake Oroville: Wet, Normal, Dry, and Critically Dry. The year types are defined as:
+
+Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
+Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
+Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
+Critical Dry: Inflow less than 2,505 TAF at Oroville.
+
+**Source:** [bucks_wqc (PDF)](https://cadwr.box.com/s/psfschbx4k08p3d02giusctj7ki6mo3a)
+
 ## UF_FERC_LBUCK
+**Author:** None
+**Date:**  None 
+
+**Description:** Grizzly Creek minimum instream flow requirements below Lower Buck Dam by Water Year Type (in cfs) under provisions of FERC Project No. 619. Water years are categorized into four water year types based on inflow to Lake Oroville: Wet, Normal, Dry, and Critically Dry. The year types are defined as:
+
+Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
+Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
+Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
+Critical Dry: Inflow less than 2,505 TAF at Oroville.
+
+**Source:** [bucks_wqc (PDF)](https://cadwr.box.com/s/psfschbx4k08p3d02giusctj7ki6mo3a)
+
 ## UF_FERC_NFF035
 ## UF_FERC_NFF046
 ## UF_FERC2105
+**Author:** Puneet Khatavkar, Stantec
+**Date:**  01/08/21 
+
+**Description:** Minimum Instream Flow Requirements (from FERC Project No. 2105) for: 
+1. North Fork Feather River Flows below Canyon Dam (Almanor Reervoir)
+2. North Fork Feather River Flows below Belden Dam 
+
+Water years are categorized into four water year types based on inflow to Lake Oroville: Wet, Normal, Dry, and Critically Dry. The year types are defined as:
+
+Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
+Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
+Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
+Critical Dry: Inflow less than 2,505 TAF at Oroville.
+
+**Source:** [unffr_appx_a (PDF)](https://cadwr.box.com/s/chfd2mihjh31j2mn6ovdgvnvi00ylw9z)
+
 ## UF_MFFDelivery
 ## UF_P2088minflow
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum instream flow requirements for the South Fork Feather River below Little Grass Valley Dam based on the month and water year type.  based on the forecast of unimpaired runoff in the Feather River at Oroville.
+The water year type definitions are:
+
+Wet: Flow greater than or equal to 7.1 million acre-feet (MAF)
+AN: Flow greater than or equal to 4.0 MAF but less than 7.1 MAF
+BN: Flow greater than 2.4 MAF but less than 4.0 MAF
+Dry: Flow less than or equal to 2.4 MAF
+
+**Source:** [final_south_feather_wqc_2018_11_30 (PDF)](https://cadwr.box.com/s/xw16gm38hq8aticr65nqdfi4z2g3w5pg)
+
 ## UF_res_info
+**Author:** None
+**Date:**  None 
+
+**Description:** Area-capacity curves for Upper Feather reservoirs.  
+
+**Source:** [ER_UpperFeather (Excel)](https://cadwr.box.com/s/t160c7juv4614nv8jp43q6yae77kpxks)
+
 ## UF_res_level
 ## UF_SFFres_level
 ## UrbanMinMaxGW
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum and maximum amounts of groundwater pumping for demand unit. Values are expressed as fraction of urban water demand.  
+
+**Source:** [CS3_VolI_12_UrbanWaterUse_clean. (DOC)](https://cadwr.box.com/s/o7khhzv8zk1cq20pwwf4sdzyxwawe820)
+
 ## USJRS_FP_REQ
 ## Vern_WQ_std
 ## VernMin
+**Author:** None
+**Date:**  None 
+
+**Description:** Vernalis Minimum flows for Feb thru Jun. East and West dependant on X2 position in relation to Chipps Is.  The larger flow objective is taken if X2 must be west of Chipps Is. 
+
+**Source:** [Delta_Standards (modified) (PDF)](https://cadwr.box.com/s/sp1gpydb5d9q8aw6l5nf445h6r6tqtvt)
+
 ## WaterRightAmounts
+**Author:** None
+**Date:**  None 
+
+**Description:** Annual water rights amounts for North-of-Delta (in TAF).  Some amounts include CVP contract amounts (see notes in table). The table includes non-project agricultural diversions from the Sacramento River (Table 14-13 in source document).
+
+
+**Source:** [CS3_VolI_14_ContractsAndWaterRights_clean_updated (DOC)](https://cadwr.box.com/s/huos58q5afsr4gb6qucucxia9fsjr2u2)
+
 ## WatershedAreaPpt
 ## WetlandMinMaxGW
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum and maximum amounts of groundwater pumping for demand unit. Values are expressed as fraction of applied water demand.
+
+**Source:** [CS3_VolI_13_WetlandWaterUse_clean (PDF)](https://cadwr.box.com/s/yq0ks4qom85k8sb1eja9yr86061ik5h5)
+
 ## WheelCap
+**Author:** None
+**Date:**  None 
+
+**Description:** SWP can use available Banks capacity to wheel water for CVP through the Joint Point of Diversion which has no limit.  Table represents this as a large number, "99999" under "cap."
+
+**Source:** [Final DCR 2019 Technical Addendum (PDF)](https://cadwr.box.com/s/ct4rn6p1qg0l3djytseejn67imeq8pdk)
+
 ## WIIN_wetness
 ## WSI_CVP_NODAG
 ## wsi_di_CVP_SYS
@@ -459,15 +905,120 @@ CD:	Pardee Inflow < 376,100 AF
 ## wwtp_factors
 ## wytype_SJRR
 ## x2days_chs
+**Author:** None
+**Date:**  None 
+
+**Description:** Number of days when maximumu daily average electrical conductivity (EC) of 2.64 mmhos/cm Must Be Maintained at Chipps Is.
+
+**Source:** [D1641rev (PDF)](https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit)
+
 ## x2days_roe
+**Author:** None
+**Date:**  None 
+
+**Description:** Number of days when maximumu daily average electrical conductivity (EC) of 2.64 mmhos/cm Must Be Maintained at Roe Is.
+
+**Source:** [D1641rev (PDF)](https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit)
+
 ## xchanneldays
+**Author:** None
+**Date:**  None 
+
+**Description:** Number of days the Delta Cross Channel gates are open to help augment flow through the interior of the Delta (and to the pumps).
+
+**Source:** [D1641rev (PDF)](https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit)
+
 ## Yuba_carryover
 ## Yuba_contracts
+**Author:** None
+**Date:**  None 
+
+**Description:** Yuba Water Agency contracts and water rights amounts for member districts.  Diversion points include:  Brophy ID, South Yuba ID, Dry Creek MWC, Cordua ID, and City of Marysville.
+
+**Source:** [CS3_VolI_14_ContractsAndWaterRights_clean_updated (DOC)](https://cadwr.box.com/s/huos58q5afsr4gb6qucucxia9fsjr2u2)
+
 ## Yuba_LowerYubaMinflow
+**Author:** None
+**Date:**  None 
+
+**Description:** Minimum flow requirements at Smartville and Marysville according to water year types based on the Yuba River Index.
+
+Yuba River Index = 0.5·X + 0.3·Y + 0.2·Z
+
+Where 	X = Current year’s April-July Yuba River unimpaired runoff
+	Y = Current year’s October-March Yuba River unimpaired runoff
+	Z = Previous year’s index
+	
+Classification Index Thousand Acre-Feet (TAF)
+Wet: Equal to or greater than 1,230
+Above Normal:  Greater than 990 and less than 1,230
+Below Normal: Equal to or less than 990 and greater than 790
+Dry: Equal to or less than 790 and greater than 630
+Critical: Equal to or less than 630
+
+**Source:** [Appendix D-Modeling Technical Memorandum (PDF)](https://cadwr.box.com/s/xwyhz0j8b58cecf1qkli1afurjeyotsb)
+
 ## Yuba_min_FERC2246
+**Author:** Megan Lionberger, HDR
+**Date:**  04/20/16 
+
+**Description:** Minimum streamflow (or natural flow, whichever is less) on Middle Yuba below Our House Diversion Dam, Oregon Creek below Log Cabin Diversion Dam, and North Yuba River below New Bullards Bar Dam. As specified in the Yuba River Development Project (FERC No. 2246-06) Flows are dependent on water year type
+
+Water year type refers to the Existing FERC Year Type, flow values are in units of CFS
+! Existing FERC Year Type is based on the April 1 forecast of % of average unimpaired runoff in the Yuba River at Smartsville
+! 1 (A) = 50-100% of April-1 average
+! 2 (B) = 45-50% of April-1 average
+! 3 (C) = 40-45% of April-1 average
+! 4 (D) < 40% of April-1 average
+
+**Source:** [01-02-19-FEIS (PDF)](https://cadwr.box.com/s/dqbcqpc2mian07mm4tyytm4wkhv5ymcm)
+
 ## Yuba_min_FERC2246_WQC
+**Author:** Puneet Khatavkar, Stantec
+**Date:**  01/14/21 
+
+**Description:** Minimum streamflow (or natural flow, whichever is less) on Middle Yuba below Our House Diversion Dam, Oregon Creek below Log Cabin Diversion Dam, and North Yuba River below New Bullards Bar Dam. Based on the YCWA Yuba River Development Project (FERC 2246).
+
+Water year types is based on unimpaired inflows at Smartville (cfs).
+
+Where: 	Critically Dry: Inflows are Equal to or Less than 900			
+	Dry:  Inflows are between 901 to 1,460			
+	Below Normal:  Inflows are between 1,461 to 2,190			
+	Above Normal:  Inflows are between 2,191 to 3,240			
+	Wet:  Inflows are greater than 3,240
+
+
+**Source:** [01-02-19-FEIS (PDF)](https://cadwr.box.com/s/dqbcqpc2mian07mm4tyytm4wkhv5ymcm)
+
 ## Yuba_min_FERC2266
+**Author:** Megan Lionberger, HDR
+**Date:**  04/20/16 
+
+**Description:** Minimum streamflow on Middle Yuba River below Jackson Meadows Dam, Middle Yuba River below Milton Diversion Dam, and Canyon Creek below Bowman-Spaulding Diversion Dam. Based on the FERC license for the NID Yuba-Bear Project (FERC 2266).
+
+**Source:** [yb_wqc (PDF)](https://cadwr.box.com/s/unf7ipc8l4hb5gaavlupu3k0bgogo9qp)
+
 ## yuba_min_FERC2266_WQC
+**Author:** Puneet Khatavkar, Stantec
+**Date:**  01/12/20 
+
+**Description:** Minimum streamflow on Middle Yuba River below Jackson Meadows Dam, Middle Yuba River below Milton Diversion Dam, and Canyon Creek below Bowman-Spaulding Diversion Dam.  Based on new Water Quality Certification for the NID Yuba-Bear Project (FERC 2266) issued in August 2020.
+
+**Source:** [yb_wqc (PDF)](https://cadwr.box.com/s/unf7ipc8l4hb5gaavlupu3k0bgogo9qp)
+
 ## Yuba_min_FERC2310
+**Author:** Megan Lionberger, HDR
+**Date:**  04/20/16 
+
+**Description:**  Minimum streamflow on Fordyce Creek below Fordyce Dam, and South Yuba River below Spaulding Dam. Based on the old FERC license for the PG&E Drum-Spaulding Project (FERC 2310).
+
+**Source:** [pge_annotated0507 (PDF)](https://cadwr.box.com/s/qepfqezzaoqqysxbp7ad37t0m54ybs4m)
 ## YubaBear_Res_info
+**Author:** None
+**Date:**  None
+
+**Description:**  Area-capacity curves for reservoirs in the Yuba-Bear region.
+
+**Source:** [ER_YubaBear (Excel)](https://cadwr.box.com/s/fr4alx0zhw00wj9qwpn7nvio8v7m8tds)
+
 ## YubaCityContractAmounts
