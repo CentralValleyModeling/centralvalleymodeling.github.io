@@ -419,6 +419,13 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 ## Rpf_RufO_RufW
 ## S92carryover
 ## SAC_weir
+**Author:** None  
+**Date:**  None 
+
+**Description:** Spill curve for Sacrmento Weir.  Used to estimate daily spill over the weir.  This was developed by using monthly to daily flow mapping process which involves using historical daily flow patterns taken from DAYFLOW.
+
+**Source:** [app_5A_CalSim (PDF)](https://cadwr.box.com/s/9s291wa9phu01b5tz2b71rzuyebhusju)
+
 ## salinity_std_col
 **Author:** None  
 **Date:**  None 
