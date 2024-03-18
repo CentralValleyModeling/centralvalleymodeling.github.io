@@ -11,12 +11,15 @@
 Presents minimum GW pumping (as a fraction of applied water demand) for CalSim 3 demand units in the Sacramento River/San Joaquin River/Tulare Lake hydrologic regions. Maximum GW pumping is expressed a “1“ or having a 100 percent non-surface water source.
 
 
-**Source:** [CS3_VolI_11_AgriculturalWaterUse_clean (DOC)](https://cadwr.box.com/s/ojp1bsy92q4evhl404v77uzx3zriepl5)
+**Source:** [CS3_VolI_11_AgriculturalWaterUse_clean (PDF)](https://cadwr.box.com/s/ojp1bsy92q4evhl404v77uzx3zriepl5)
 
 
 ## AgReuse (!!)
 ## American_ResInfo
-Evaporation Rate Spreadsheets: French Meadows, Hell Hole, Gerle, Loon Lake, Union Valley, Ice House, Folsom, Lake Valley, Stumpy Meadows, Silver, Caples, Lake Aloha, Echo Lake, Jenkinson Lake; Source of data in spreadsheets: USGS Annual Water Supply Reports,  USACE, Bulletin 17: Reservoir Maximum Capacity 
+Area-capacity curves for reservoirs in the Lower, Middle Fork and Upper American River (French Meadows, Hell Hole, Gerle, Loon Lake, Union Valley, Ice House, Folsom, Lake Valley, Stumpy Meadows, Silver, Caples, Lake Aloha, Echo Lake, Jenkinson Lake, etc.).
+
+
+**Source:** [ER_AmericanRiv (Excel)](https://cadwr.box.com/s/gk0kkflsssolca7edjcex4bu6gqftlk3)
 
 ## American_ResLevel
 **Author:** None  
@@ -92,6 +95,15 @@ Contra Costa Water District annual demand depending on water year type.
 ## chowchilla_agdist
 ## chowchilla_seep
 ## clear_ck_min_PA
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Reclamation proposes a minimum base flow in Clear Creek of 200 cfs from October through May and 150 cfs from June to September in all year types except critical year
+types (minimum is 150 cfs each month during critical years).
+
+**Source:** [Re-managed-Instream-Flows-in-the-Sac-River-Basin (PDF)](https://cadwr.box.com/s/883byvizigjzr27p968nl3jfg2j09tqy)
+
 ## Contracts_CVPService
 **Author:** None  
 **Date:**  None
@@ -198,8 +210,27 @@ February Export/Inflow ratio (E:I) depends on January Eight River Index (8RI),  
 ## FlowLossFactors
 ## FolEvapCoef
 ## FRE_No_Notch
+**Author:** None  
+**Date:**  None
+
+**Description:** Need flow curves
+
+**Source:** Need flow curves
+
 ## FRE_Notch
+**Author:** None  
+**Date:**  None
+
+**Description:** Need flow curves
+
+**Source:** Need flow curves
 ## FRENotch_OnOff
+**Author:** None  
+**Date:**  None
+
+**Description:** Need flow curves
+
+**Source:** Need flow curves
 ## Freq_Exceedence
 ## fresno_agdist
 ## fresno_seep
@@ -242,6 +273,45 @@ Example:  For September (Month = "12"), if conditions are not critically dry (D-
 ## MaxPermissible
 ## May_snowmelt_release_pattern
 ## Merced_MinFlows
+**Author:** None  
+**Date:**  None  
+
+**Description:**
+Minimum flow requirements for the Merced River Hydropower Project (FERC 2179-043). The following describe the minimum flow agreements applied by this table:
+
+Davis-Grunsky Agreement: Provides a miniumum flow of 180 to 220 cfs in the Merced River between Crocker-Huffman diversion dam and Shaffer Bridge from November through March every year for fall-run Chinook salmon.
+Davis-Grunsky Act requirements are assumed to be 220 cfs in non-dry years, per the FERC definition. In FERC dry years, the Davis-Grunsky Act requirement is modeled as 180 cfs.
+
+The existing FERC license defines a “normal” or "non-dry" year as when the May 1 DWR Bulletin 120 forecasted April through July inflow to Lake McClure is greater than 450,000 AF,
+and a “dry” year when inflow is forecasted to be less than 450,000 AF.
+
+The Cowell Agreement, calls for —Merced ID to provide releases from Crocker-Huffman diversion dam up to the following flows for use by the Cowell Agreement diverters at 11 locations: 100 cfs in March; 175 cfs
+in April; 225 cfs in May; 250 cfs in June until the flow of the Merced River falls below 1,200 cfs; 225 cfs flow for the next 31 days; 175 cfs flow for the next 31 days; 150 cfs for the next 30 days; and 50 cfs thereafter or the natural inflow into Lake McClure, whichever is
+less, through the last day of February.
+
+The FERC license requires a specific flow at Shaffer Bridge, approximately 20 miles downstream from Crocker-Huffman.
+Flows vary by month and water year type between 15-100 cfs.  The following schedule for these flows (dependent on year type) are as follows:
+
+				Normal Year (cfs)	Dry Years (cfs)
+June 1 through October 15	25			15
+October 16 through October 31	75			60
+November 1 through December 31	100			75
+January 1 through May 31	75			60
+
+Example:  For the month of October, the flow requirement is calculated using monthly averaging, combining flow (cfs) with the corresponding number of days (d):
+
+Normal Year
+(25 cfs(15d)+75 cfs (16d))/31d = 50.81 cfs
+
+Dry Year
+(15 cfs(15d)+60 cfs(16d))/31d = 38.23 cfs
+
+**Source:** [feis_master_sent2ferc (PDF)](https://cadwr.box.com/s/o1bz87rwmi8ejwovse2hta36zhlkg4z2)
+applied below dams located on the South Fork of the American River as part of the El Dorado Hydroelectric Project (FERC No.184).  Values are determined by month and water year type.  Year type definitions: Critically dry: <50% of forecast average pre-project inflow to Folsom reservoir; Dry: 50–70% of forecast average pre-project inflow to Folsom reservoir; Below Normal: 75–100% of forecast average pre-project inflow to Folsom reservoir; Above Normal: 100–125% of forecast average pre-project inflow to Folsom reservoir; Wet: >125% of forecast average pre-project inflow to Folsom reservoir.
+
+
+**Source:** [Merced EIS_Master_with Cover (PDF)](https://cadwr.box.com/s/8dtz6mo5g35kr0f8jkvguh3qoleplejw)
+
 ## MFP_DemandFractions
 ## MFPpow_forecast
 ## MIF_EID
@@ -342,7 +412,8 @@ CD:	Pardee Inflow < 376,100 AF
 ## Mok_RainfloodReservation
 ## Mok_ResInfo
 **Author:** None  
-**Date:**  None 
+**Date:**  None can't find numbers in camanche flood control diag.
+
 
 **Description:** Reservoir storage data for Mokelumne River Hydroelectric Project (FERC 137).
 
@@ -350,6 +421,22 @@ CD:	Pardee Inflow < 376,100 AF
 
 ## Mok_ResLevel
 ## Mok_SnowmeltReservation
+**Author:** None  
+**Date:**  None 
+
+
+**Description:** can't find numbers in camanche flood control diag.
+
+**Source:**
+**Author:** None  
+**Date:**  None 
+
+
+**Description:** can't find numbers in camanche flood control diag.
+
+**Source:**
+
+
 ## MRR_Schedule
 ## ncp_with_relax
 **Author:** None  
@@ -384,6 +471,7 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 ## OMRiverFlowEq2
 **Author:** Paul Hutton  
 **Date:**  April 2008
+
 **Description:** Model to estimate combined Old and Middle River flow (OMR) using OMR Flow Model coefficients, where: QOMR (cfs) = A * QVernalis + B * QSouth Delta Diversions + C based on HOR, GLC barrier conditions and Vernalis flow.
 
 **Source:** [Hutton_2008_OMR_Report (PDF)](https://cadwr.box.com/s/d944efnit6oi0wen5i3lednvcx8w0v79)
@@ -459,7 +547,7 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 ## SRSC_to_NOD
 ## stan_mon
 ## stan_pulse_rpa
-**Author:** Tom Fitzhugh (updated)
+**Author:** Tom Fitzhugh (updated) 
 **Date:**  06/10/14 
 
 **Description:** Pulse period (April 15 to May 15) flows for fishery purposes.
@@ -497,7 +585,7 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 ## Stanislaus_relief_rel2
 ## Stanislaus_relief_reslevel
 ## Stanislaus_res_info
-**Author:** Idy Lui
+**Author:** Idy Lui 
 **Date:**  1/28/19 
 
 **Description:** Area-capacity curves for Upper Stanislaus reservoirs.  Area-Capacity Relationships spreadsheets provided by Andy Draper/Stantec.
@@ -903,10 +991,25 @@ Dry: Flow less than or equal to 2.4 MAF
 **Source:** [Final DCR 2019 Technical Addendum (PDF)](https://cadwr.box.com/s/ct4rn6p1qg0l3djytseejn67imeq8pdk)
 
 ## WIIN_wetness
+**Author:** None
+**Date:**  None 
+
+**Description:** Table may no longer be used by the model.
+
+**Source:** 
 ## WSI_CVP_NODAG
 ## wsi_di_CVP_SYS
+**Author:** None
+**Date:**  None 
+
+**Description:** Generated by model
+**Source:** 
+
 ## wsi_di_SWP_SYS
 ## WTS_JobControl
+
+ Sacramento Valley Water Management Agreement (SVWMA)
+
 ## WTS_Patterns
 ## WTS_Stage1_Targets
 ## wwtp_factors
