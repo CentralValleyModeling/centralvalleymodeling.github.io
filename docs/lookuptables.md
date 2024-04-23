@@ -659,6 +659,14 @@ Example: Assume the SOD Allocation is 39%. To interpolate between 35% and 40% to
 **Source:** [FIXED_BST_SWP_SOD_2021DCR_Oct2021_Public (Excel)](https://cadwr.box.com/s/xcbfnnvqr0hz9kxfxb3vgf0q9ij9pv0k)
 
 ## swp_limits
+**Author:** None
+**Date:**  2/6/2024 
+
+**Description:** Represents monthly operational availability limits applied to SWP pumping facilities. Previous limits were based on SWP outages (planned and unplanned from 2001 - 2006). Updated to reflect more recent SWP outage occurances. Limits are taken from Table 1 ("Recommmended") under the tab
+"Hunt Review." Monthly limits in the spreadsheet table are ordered by calendar year (January - December) and when transfering to the lookup, were reordered by wateryear (October - September).
+
+**Source:** [Plant OA Summary for CalSIM scenarios (Excel)](https://cadwr.box.com/s/qjsx7jn32vltu8cjtzdwzoyjd34ibtl1)
+
 ## SWP_NOD_Alloc
 **Author:** None
 **Date:**  None 
