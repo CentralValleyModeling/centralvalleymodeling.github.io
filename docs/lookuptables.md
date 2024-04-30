@@ -409,6 +409,17 @@ CD:	Pardee Inflow < 376,100 AF
 
 ## Mok_PardeeTargets
 ## Mok_percut
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+This table sets the amount of delivery cuts to be made to the Mokelumne Aqueduct.  The cuts (in percentage) are tied to the supply storage projected for April to the end of September for the Mokelumne River.  This is determined by
+summing end of March storage at Pardee, Comanche and EBMUD Terminal reservoirs with available inflows from April to September.  Generally, a supply index of below 500 TAF calls for a 15 percent cut in deliveries. An SI above 500 TAF would
+not require delivery cuts (0 percent, etc.).
+
+**Source:** [Water_Supply_Board_Briefing_-_February_23_2021_FINAL_BOARD  (PDF)](https://cadwr.box.com/s/61heharw78yad0c527wwruj7d4k5nprq)
+
+
 ## Mok_RainfloodReservation
 ## Mok_ResInfo
 **Author:** None  
