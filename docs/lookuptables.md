@@ -55,6 +55,15 @@ Annual SWP South-of-Delta contract demands by contract type (Agricultural, MWD M
 Nancy Parker, Reclamation 
 
 ## AR_90ExcFall
+**Author:** Jonathan Byers  
+**Date:**  2/26/2024
+
+**Description:**
+This table provides the 90% exceedance inflow forecast into Folsom for October, November and December. This is used in the American River Flow Management Standard to help determine the minimum storage needed at a the end of a given month, ensuring that end of December Folsom storage target is met and minimum release requirements are made.  In CalSim, total Folsom
+inflow is calculated as the sum of flows from North Fork, South Fork and local inflows into Folsom Reservoir.  
+
+**Source:** [AR_90EXCFall_yc_TF_LTO_3.12.13_9.0.0_Danube_hist (XLSX)](https://cadwr.box.com/s/l7a704cnvbwre23jnuql3hzavdkwkddg)
+
 
 ## BanksLimits
 **Author:** Idy Lui (last update)  
