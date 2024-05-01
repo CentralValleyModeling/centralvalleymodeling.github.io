@@ -80,7 +80,7 @@ Monthly permitted capacity of Banks Pumping Plant (6680 cfs),  Permitted capacit
 **Date:**  None
 
 **Description:**
-Black Butte Reservoir (capacity 136,000 acre-feet) has a minimum release requirement of 30 cfs to maintain 20,000 acre-feet of space for flood protection. pacity of 136,000 acre-feet.
+Black Butte Reservoir (capacity 136,000 acre-feet) has a minimum release requirement of 30 cfs to maintain 20,000 acre-feet of space for flood protection.
 
 
 **Source:** [StonyCreek2003ReportandAppendicies (PDF)](https://cadwr.box.com/s/u8k0vf940y0amvnoinsa34c3ycd2szy8)
@@ -151,6 +151,15 @@ This table presents CVP water service contracts for servce areas South of Delta 
 ## demand
 ## dltidx_expidx_swp_s
 ## DO
+**Author:** None  
+**Date:**  None
+
+**Description:**
+These are monthly required minimum "surrogate" flows below Goodwin (in TAF) needed to meet Stanislaus dissolved oxygen objectives.
+
+
+**Source:** [feirch04  (PDF)](https://cadwr.box.com/s/d4jeoqn4hj8pkv33uvwz85elg1whefex)
+
 ## east_park_min
 **Author:** None  
 **Date:**  None
