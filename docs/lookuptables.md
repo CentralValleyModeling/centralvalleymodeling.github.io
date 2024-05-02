@@ -100,6 +100,15 @@ Contra Costa Water District annual demand depending on water year type.
 ## CCWD_INTAKE_PREF
 ## ChiliBarYrType_hist
 ## cho_gcid_min
+**Author:** None  
+**Date:**  None
+
+**Description:**
+The Constant-head Orifice (CHO) brings in water released from Black Butte Reservoir into Stony Creek for flood reservation requirements or for summer recreation purposes.
+
+**Source:** [StonyCreek2003ReportandAppendicies (PDF)](https://cadwr.box.com/s/u8k0vf940y0amvnoinsa34c3ycd2szy8)
+
+
 ## chow_max_surf
 ## chowchilla_agdist
 ## chowchilla_seep
@@ -310,11 +319,12 @@ less, through the last day of February.
 The FERC license requires a specific flow at Shaffer Bridge, approximately 20 miles downstream from Crocker-Huffman.
 Flows vary by month and water year type between 15-100 cfs.  The following schedule for these flows (dependent on year type) are as follows:
 
-				Normal Year (cfs)	Dry Years (cfs)
-June 1 through October 15	25			15
-October 16 through October 31	75			60
-November 1 through December 31	100			75
-January 1 through May 31	75			60
+|				|Normal Year (cfs)  |Dry Years (cfs)|
+|:------------------------------|:-----------------:|:-------------:|
+|June 1 through October 15	|25		    |15		    |
+|October 16 through October 31	|75		    |60             |
+|November 1 through December 31	|100		    |75             |
+|January 1 through May 31	|75		    |60             |
 
 Example:  For the month of October, the flow requirement is calculated using monthly averaging, combining flow (cfs) with the corresponding number of days (d):
 
