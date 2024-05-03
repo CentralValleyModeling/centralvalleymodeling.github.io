@@ -772,11 +772,11 @@ Example: Assume the SOD Allocation is 39%. To interpolate between 35% and 40% to
 
 **Description:** Minimum streamflow requirements for Brush Creek below Brush Creek Reservoir (FERC Project No. 2101-084).  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 **Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
 
@@ -786,11 +786,11 @@ Critical: UBFR less than 0.900 MAF
 
 **Description:** Minimum streamflow requirements for Gerle Creek below Gerle Creek Reservoir Dam under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -802,11 +802,11 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Minimum streamflow requirements for Gerle Creek below Loon Lake Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -818,11 +818,11 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Minimum streamflow requirements for Little Rubicon River below Buck Island Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -834,11 +834,11 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Minimum streamflow requirements for Rubicon River below Rubicon Reservoir Dam under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -850,11 +850,11 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Minimum streamflow requirements for South Fork American River below Slab Creek Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -866,11 +866,11 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Minimum streamflow requirements for South Fork Rubicon below Robbs Peak Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -882,11 +882,11 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Minimum streamflow requirements for Silver Creek below Junction Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 **Source:** [ferc_p2101_upper_american (PDF)](https://cadwr.box.com/s/o48vdacl0xu6r9cnouylxwb8vgt8spqg)
 
@@ -896,11 +896,11 @@ Critical: UBFR less than 0.900 MAF
 
 **Description:** Minimum streamflow requirements for Silver Creek below Junction Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -912,11 +912,11 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Minimum streamflow requirements for South Fork Silver Creek below Ice House Reservoir under the provisions of FERC Project No. 2101-084.  Flow requirements are based on month and water year type. The minimum streamflow schedules have been separated into five water year types: Wet, AN, BN, Dry, and CD. They are based on the amount of unimpaired flow below Folsom Reservoir (abbreviated here as "UBFR"), where:
 
-Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
-AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
-BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
-Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
-Critical: UBFR less than 0.900 MAF
+- Wet: UBFR greater than or equal to 3.500 Million Acre-Feet (MAF)
+- AN: UBFR greater than or equal to 2.600 MAF but less than 3.500 MAF
+- BN: UBFR greater than or equal to 1.700 MAF but less than 2.600 MAF
+- Dry: UBFR greater than or equal to 0.900 MAF but less than 1.700 MAF
+- Critical: UBFR less than 0.900 MAF
 
 EOM terms are summation of minimum flows from January to May (each of the five year types has this term) to develop forecast amounts to determine future water availability.
 
@@ -929,10 +929,10 @@ EOM terms are summation of minimum flows from January to May (each of the five y
 
 **Description:** Grizzly Creek Minimum Instream Flow Requirements Below Grizzly Forebay by Water Year Type (in cfs) under provisions of FERC Project No. 619. Water years are categorized into four water year types based on inflow to Lake Oroville: Wet, Normal, Dry, and Critically Dry. The year types are defined as:
 
-Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
-Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
-Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
-Critical Dry: Inflow less than 2,505 TAF at Oroville.
+- Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
+- Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
+- Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
+- Critical Dry: Inflow less than 2,505 TAF at Oroville.
 
 **Source:** [bucks_wqc (PDF)](https://cadwr.box.com/s/psfschbx4k08p3d02giusctj7ki6mo3a)
 
@@ -942,10 +942,10 @@ Critical Dry: Inflow less than 2,505 TAF at Oroville.
 
 **Description:** Grizzly Creek minimum instream flow requirements below Lower Buck Dam by Water Year Type (in cfs) under provisions of FERC Project No. 619. Water years are categorized into four water year types based on inflow to Lake Oroville: Wet, Normal, Dry, and Critically Dry. The year types are defined as:
 
-Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
-Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
-Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
-Critical Dry: Inflow less than 2,505 TAF at Oroville.
+- Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
+- Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
+- Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
+- Critical Dry: Inflow less than 2,505 TAF at Oroville.
 
 **Source:** [bucks_wqc (PDF)](https://cadwr.box.com/s/psfschbx4k08p3d02giusctj7ki6mo3a)
 
@@ -956,15 +956,16 @@ Critical Dry: Inflow less than 2,505 TAF at Oroville.
 **Date:**  01/08/21 
 
 **Description:** Minimum Instream Flow Requirements (from FERC Project No. 2105) for: 
-1. North Fork Feather River Flows below Canyon Dam (Almanor Reervoir)
-2. North Fork Feather River Flows below Belden Dam 
+
+- 1. North Fork Feather River Flows below Canyon Dam (Almanor Reervoir)
+- 2. North Fork Feather River Flows below Belden Dam 
 
 Water years are categorized into four water year types based on inflow to Lake Oroville: Wet, Normal, Dry, and Critically Dry. The year types are defined as:
 
-Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
-Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
-Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
-Critical Dry: Inflow less than 2,505 TAF at Oroville.
+- Wet: Inflow greater than or equal to 5,679 thousand acre-feet (TAF) at Oroville;
+- Normal: Inflow less than 5,679 TAF but greater than or equal to 3,228 TAF at Oroville;
+- Dry: Inflow less than 3,228 TAF but greater than or equal to 2,505 TAF at Oroville; and
+- Critical Dry: Inflow less than 2,505 TAF at Oroville.
 
 **Source:** [unffr_appx_a (PDF)](https://cadwr.box.com/s/chfd2mihjh31j2mn6ovdgvnvi00ylw9z)
 
@@ -976,10 +977,10 @@ Critical Dry: Inflow less than 2,505 TAF at Oroville.
 **Description:** Minimum instream flow requirements for the South Fork Feather River below Little Grass Valley Dam based on the month and water year type.  based on the forecast of unimpaired runoff in the Feather River at Oroville.
 The water year type definitions are:
 
-Wet: Flow greater than or equal to 7.1 million acre-feet (MAF)
-AN: Flow greater than or equal to 4.0 MAF but less than 7.1 MAF
-BN: Flow greater than 2.4 MAF but less than 4.0 MAF
-Dry: Flow less than or equal to 2.4 MAF
+- Wet: Flow greater than or equal to 7.1 million acre-feet (MAF)
+- AN: Flow greater than or equal to 4.0 MAF but less than 7.1 MAF
+- BN: Flow greater than 2.4 MAF but less than 4.0 MAF
+- Dry: Flow less than or equal to 2.4 MAF
 
 **Source:** [final_south_feather_wqc_2018_11_30 (PDF)](https://cadwr.box.com/s/xw16gm38hq8aticr65nqdfi4z2g3w5pg)
 
@@ -1102,16 +1103,18 @@ Dry: Flow less than or equal to 2.4 MAF
 
 Yuba River Index = 0.5·X + 0.3·Y + 0.2·Z
 
-Where 	X = Current year’s April-July Yuba River unimpaired runoff
-	Y = Current year’s October-March Yuba River unimpaired runoff
-	Z = Previous year’s index
+Where:
+
+- X = Current year’s April-July Yuba River unimpaired runoff
+- Y = Current year’s October-March Yuba River unimpaired runoff
+- 5Z = Previous year’s index
 	
 Classification Index Thousand Acre-Feet (TAF)
-Wet: Equal to or greater than 1,230
-Above Normal:  Greater than 990 and less than 1,230
-Below Normal: Equal to or less than 990 and greater than 790
-Dry: Equal to or less than 790 and greater than 630
-Critical: Equal to or less than 630
+- Wet: Equal to or greater than 1,230
+- Above Normal:  Greater than 990 and less than 1,230
+- Below Normal: Equal to or less than 990 and greater than 790
+- Dry: Equal to or less than 790 and greater than 630
+- Critical: Equal to or less than 630
 
 **Source:** [Appendix D-Modeling Technical Memorandum (PDF)](https://cadwr.box.com/s/xwyhz0j8b58cecf1qkli1afurjeyotsb)
 
@@ -1125,10 +1128,10 @@ Water year type refers to the Existing FERC Year Type, flow values are in units 
 ! 
 Existing FERC Year Type is based on the April 1 forecast of % of average unimpaired runoff in the Yuba River at Smartsville
 
-|:1 (A) = 50-100% of April-1 average:|
-|:2 (B) = 45-50% of April-1 average :|
-|:3 (C) = 40-45% of April-1 average :|
-|:4 (D) < 40% of April-1 average    :|
+- 1 (A) = 50-100% of April-1 average
+- 2 (B) = 45-50% of April-1 average 
+- 3 (C) = 40-45% of April-1 average 
+- 4 (D) < 40% of April-1 average   
 
 **Source:** [01-02-19-FEIS (PDF)](https://cadwr.box.com/s/dqbcqpc2mian07mm4tyytm4wkhv5ymcm)
 
@@ -1142,11 +1145,11 @@ Water year types is based on unimpaired inflows at Smartville (cfs).
 
 Where: 	
 
-|Critically Dry: Inflows are Equal to or Less than 900|			
-|Dry:  Inflows are between 901 to 1,460	              |		
-|Below Normal:  Inflows are between 1,461 to 2,190    |			
-|Above Normal:  Inflows are between 2,191 to 3,240    |			
-|Wet:  Inflows are greater than 3,240                 |
+- Critically Dry: Inflows are Equal to or Less than 900			
+- Dry:  Inflows are between 901 to 1,460	              	
+- Below Normal:  Inflows are between 1,461 to 2,190    			
+- Above Normal:  Inflows are between 2,191 to 3,240    			
+- Wet:  Inflows are greater than 3,240                 
 
 
 **Source:** [01-02-19-FEIS (PDF)](https://cadwr.box.com/s/dqbcqpc2mian07mm4tyytm4wkhv5ymcm)
