@@ -1122,11 +1122,13 @@ Critical: Equal to or less than 630
 **Description:** Minimum streamflow (or natural flow, whichever is less) on Middle Yuba below Our House Diversion Dam, Oregon Creek below Log Cabin Diversion Dam, and North Yuba River below New Bullards Bar Dam. As specified in the Yuba River Development Project (FERC No. 2246-06) Flows are dependent on water year type
 
 Water year type refers to the Existing FERC Year Type, flow values are in units of CFS
-! Existing FERC Year Type is based on the April 1 forecast of % of average unimpaired runoff in the Yuba River at Smartsville
-! 1 (A) = 50-100% of April-1 average
-! 2 (B) = 45-50% of April-1 average
-! 3 (C) = 40-45% of April-1 average
-! 4 (D) < 40% of April-1 average
+! 
+Existing FERC Year Type is based on the April 1 forecast of % of average unimpaired runoff in the Yuba River at Smartsville
+
+|:1 (A) = 50-100% of April-1 average:|
+|:2 (B) = 45-50% of April-1 average :|
+|:3 (C) = 40-45% of April-1 average :|
+|:4 (D) < 40% of April-1 average    :|
 
 **Source:** [01-02-19-FEIS (PDF)](https://cadwr.box.com/s/dqbcqpc2mian07mm4tyytm4wkhv5ymcm)
 
@@ -1138,11 +1140,13 @@ Water year type refers to the Existing FERC Year Type, flow values are in units 
 
 Water year types is based on unimpaired inflows at Smartville (cfs).
 
-Where: 	Critically Dry: Inflows are Equal to or Less than 900			
-	Dry:  Inflows are between 901 to 1,460			
-	Below Normal:  Inflows are between 1,461 to 2,190			
-	Above Normal:  Inflows are between 2,191 to 3,240			
-	Wet:  Inflows are greater than 3,240
+Where: 	
+
+|Critically Dry: Inflows are Equal to or Less than 900|			
+|Dry:  Inflows are between 901 to 1,460	              |		
+|Below Normal:  Inflows are between 1,461 to 2,190    |			
+|Above Normal:  Inflows are between 2,191 to 3,240    |			
+|Wet:  Inflows are greater than 3,240                 |
 
 
 **Source:** [01-02-19-FEIS (PDF)](https://cadwr.box.com/s/dqbcqpc2mian07mm4tyytm4wkhv5ymcm)
