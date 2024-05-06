@@ -35,7 +35,28 @@ These are minimum storage levels for Upper American River Project (UARP) reservo
 SILVERLAKELEAKAGE_ANALYSIS_ECORP (SPREADSHEET, SEE 'FERC TABLE')
 
 ## American_UARP_StorObj
-SMUD UARP Water Balance Model Technical Report
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Upper American River Project (UARP) reservoirs at Loon Lake, Ice House and Union Valley reservoirs are operated to build storage during the winter and spring and make releases for power generation
+during the Summer and Fall months.  These operations rely on target storages for each facility which are base on April-July unimpaired runoff
+at the Fair Oaks gage.  A five-level "wetness index" is defined by the following:
+
+|	      |April-July   |     
+|Wetness Index|Runoff (TAF) |	      
+|-------------|-------------|
+|:       A   :| 0           |      
+|:      B    :| 500	    |
+|:     C     :| 1,000       |
+|:      D    :| 1,500	    |
+|:     E     :| 2,000	    |
+
+
+
+
+**Source:** [hydro-rel-rpt-WBM_Technical_Report (PDF)](https://cadwr.box.com/s/su7cbydl4oe0sj17eld16qp7cnzuea3s)
+
 
 ## AmerSteelhead (!!)
 
@@ -94,7 +115,7 @@ Black Butte Reservoir (capacity 136,000 acre-feet) has a minimum release require
 Contra Costa Water District annual demand depending on water year type.
 
 
-**Source:** [Vol 3_LVE2 Final SEIS-SEIR (PDF)](https://cadwr.box.com/s/vt7ez46wsc8kth87inc60z6suwa7bxsn)
+**Source:** [CCWD_2015UWMP_Final_June2016_201610111231300825 (PDF)](https://cadwr.box.com/s/aecdhmsxispmz2yutbv4668adi3pf2h6)
 
 ## CCWD_demand_pattern
 ## CCWD_INTAKE_PREF
@@ -144,6 +165,13 @@ These are DWR agricultural settlement contracts with Feather River Service Area 
 **Source:** [CS3_VolI_14_ContractsAndWaterRights_clean_updated  (DOC)](https://cadwr.box.com/s/huos58q5afsr4gb6qucucxia9fsjr2u2)
 
 ## COSMA_WWTP_PerMonth
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Not used in CalSim 3.
+
+**Source:** 
 ## Cosumnes_demands_OASISVal
 ## CVP_SOD_Contracts
 **Author:** None  
@@ -1101,7 +1129,7 @@ The water year type definitions are:
 
 **Description:** Minimum flow requirements at Smartville and Marysville according to water year types based on the Yuba River Index.
 
-Yuba River Index = 0.5·X + 0.3·Y + 0.2·Z
+Yuba River Index = 0.5X + 0.3Y + 0.2Z
 
 Where:
 
@@ -1186,3 +1214,13 @@ Where:
 **Source:** [ER_YubaBear (Excel)](https://cadwr.box.com/s/fr4alx0zhw00wj9qwpn7nvio8v7m8tds)
 
 ## YubaCityContractAmounts
+**Author:** None
+**Date:**  None
+
+**Description:**  Yuba City’s existing surface water sources include two appropriative water rights, State Water Resources Control Board Permits 14045 and 18558 and two water supply contracts with 
+Yuba City Water District (YCWD) for 4.5 TAF per annum and with the Departent of Water Resources, State Water Project for 9.6 TAF per annum.
+
+
+**Source:** [urban-water-management-plan (PDF)](https://cadwr.box.com/s/08pk32creoqsyajxbdycelu0kyeweh79)
+
+
