@@ -479,12 +479,12 @@ not require delivery cuts (0 percent, etc.).
 ## Mok_RainfloodReservation
 ## Mok_ResInfo
 **Author:** None  
-**Date:**  None can't find numbers in camanche flood control diag.
+**Date:**  None
 
 
-**Description:** Reservoir storage data for Mokelumne River Hydroelectric Project (FERC 137).
+**Description:** Area-Capacity relationships for Lower Mokelumne reservoirs.  Based on updated bathymetric data received from EBMUD.
 
-**Source:** [ER_Mok (PDF)](https://cadwr.box.com/s/28t3gcybn50wnjctaxvz00u1aelubr45)
+**Source:** [Mok_ResInfo (Excel)](https://cadwr.box.com/s/doqbik3beqxremj9z6f1wsfv689b0zow)
 
 ## Mok_ResLevel
 ## Mok_SnowmeltReservation
@@ -544,6 +544,13 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 **Source:** [Hutton_2008_OMR_Report (PDF)](https://cadwr.box.com/s/d944efnit6oi0wen5i3lednvcx8w0v79)
 
 ## Putah_minflow
+**Author:** None
+**Date:**  None
+
+**Description:** Minimum flow requirements along Putah Creek (Diversion Dam, I-80 Road Bridge
+
+**Source:** [Putah Creek (PDF)](https://cadwr.box.com/s/n0l3tr6yqpuefsndym16n9jpg4e4rbte)
+
 ## qwest
 ## redbluff_base
 ## refuge
