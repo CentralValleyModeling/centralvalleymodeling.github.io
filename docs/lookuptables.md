@@ -46,11 +46,11 @@ at the Fair Oaks gage.  A five-level "wetness index" is defined by the following
 |	      |April-July   |     
 |Wetness Index|Runoff (TAF) |	      
 |-------------|-------------|
-|:       A   :| 0           |      
-|:      B    :| 500	    |
-|:     C     :| 1,000       |
-|:      D    :| 1,500	    |
-|:     E     :| 2,000	    |
+|      A      | 0           |      
+|      B      | 500	    |
+|     C       | 1,000       |
+|      D      | 1,500	    |
+|     E       | 2,000	    |
 
 
 
@@ -547,7 +547,7 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 **Author:** None
 **Date:**  None
 
-**Description:** Minimum flow requirements along Putah Creek (Diversion Dam, I-80 Road Bridge
+**Description:** Minimum flow requirements along Putah Creek at various locations (e.g. Putah Diversion Dam and I-80 Road Bridge).
 
 **Source:** [Putah Creek (PDF)](https://cadwr.box.com/s/n0l3tr6yqpuefsndym16n9jpg4e4rbte)
 
@@ -604,8 +604,7 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 
 **Source:** [D1641rev (PDF)](https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit)
 
-## salinity_std_jpt_new
-## salinity_std_rsl
+## salinity_std_jpt_new## salinity_std_rsl
 ## seep_rates
 ## ShastaNCPlevel
 ## ShrngRatios
@@ -617,8 +616,24 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 **Source:** [20181200_COAAddendum (PDF)](https://cadwr.box.com/s/5tnluk18kjxzd7wyh6dayqrel8jxoub5)
 ## shsta_floodCurve
 ## SMSCG_TriggerMTZ
+**Author:** Idy Lui  
+**Date:**  9/22/2020 
+
+**Description:** The Suisun Marsh Habitat Management, Preservation, and Restoration Plan (SMPP) was collaborative development by Federal, State, and local agencies working with
+develop a long-term, comprehensive plan to restore and enhance wetlands in the Suisun Marsh (Marsh) while also providing for flood management and public recreation. The Suisun Marsh Preservation Agreement (SMPA) was signed by
+Reclamation, DWR, DFG, and SRCD in 1987, contains provisions to mitigate the effects of the SWP and CVP operations on Suisun Marsh channel water salinity. It required Reclamation and DWR
+to meet salinity standards specified in the then-current State Water Board D-1485 (the SMPA was amended in 2005).  As part of the SMPA, the EC threshold at Martinez (MTZ) for triggering SMSCG operation for D-1641 and SMPA ( Suisun Marsh Preservation Agreement) 
+is the last 7-day average MTZ EC value of previous month in mmhos/cm. 
+
+**Source:** [SMSCG_MTZ_EC_Trig (Excel)](https://cadwr.box.com/s/2i8nwi0k99dvsmeuk75ri3tyyrwtofg0)
 ## SRRP_Recapture_Pot
-## SRSC_to_NOD
+**Author:** None
+**Date:**  None 
+
+**Description:** SJR Restoration program potential recapture amounts at Patterson ID, Banta Carbona ID, and West Stanislaus ID.
+
+**Source:** [Combined_LTRRRF_PDTM_20170907-1-1 (PDF)](https://cadwr.box.com/s/na9yko60gx977zctzhjht844bsw77w26)
+
 ## stan_mon
 ## stan_pulse_rpa
 **Author:** Tom Fitzhugh (updated) 
