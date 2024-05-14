@@ -43,9 +43,9 @@ Upper American River Project (UARP) reservoirs at Loon Lake, Ice House and Union
 during the Summer and Fall months.  These operations rely on target storages for each facility which are base on April-July unimpaired runoff
 at the Fair Oaks gage.  A five-level "wetness index" is defined by the following:
 
-|	      |April-July   |     
-|Wetness Index|Runoff (TAF) |	      
-|:-------------|:-------------:|
+   
+|Wetness Index|April - July Runoff (TAF) |	      
+|:-------------:|:-------------:|
 |      A      | 0           |      
 |      B      | 500	    |
 |     C       | 1,000       |
