@@ -45,7 +45,7 @@ at the Fair Oaks gage.  A five-level "wetness index" is defined by the following
 
    
 |Wetness Index|April - July Runoff (TAF) |	      
-|:-------------:|:-------------:|
+|:-------------|:-------------:|
 |      A      | 0           |      
 |      B      | 500	    |
 |     C       | 1,000       |
