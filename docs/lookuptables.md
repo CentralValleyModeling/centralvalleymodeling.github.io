@@ -263,6 +263,22 @@ February Export/Inflow ratio (E:I) depends on January Eight River Index (8RI),  
 ## FK_delivery_dist
 ## FK_delivery_total
 ## FlowLossFactors
+**Author:** Idy Lui  
+**Date:**  03/2018
+
+**Description:**
+These loss fractions determine what fraction of the surface water delivery is lost to evaporation, horizontal seepage to canal toe drains, vertical percolation to the underlying aquifer, or spills from the end of the canal distribution system back to the stream or river.
+
+Then naming conventions for these loss factors are as follows:
+
+- EVF - Evaporative loss fraction 
+- LFF - Lateral flow loss fraction			
+- DPF - Deep percolation loss fraction  					
+- OSF - Canal operating spill fraction  					
+ 
+
+**Source:** [CS3L2015V0_ComparisionDiversions  (Excel)](https://cadwr.box.com/s/t60uwj6db0hzzfoks4xdgfq9nz4hxdkt)
+
 ## FolEvapCoef
 ## FRE_No_Notch
 **Author:** None  
@@ -579,6 +595,23 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 **Source:** [Delta_Standards (modified) (PDF)](https://cadwr.box.com/s/sp1gpydb5d9q8aw6l5nf445h6r6tqtvt)
 
 ## Rpf_RufO_RufW
+**Author:** Idy Lui  
+**Date:**  03/2018 
+
+**Description:** The reuse of irrigation water is expressed as a fraction of applied water demand and is associated with reuse variables (prefix 'RU_') within the model.  The table also.
+The table also defines one state variable for miscellaneous evaporative and riparian losses (RPF), and is expressed as a fraction of the applied water demand or urban demand and an associated reuse variable (with prefix 'RP_') in the model.
+
+The naming conventions used in the table (and model) riparian loss factor and reuse factor for other crops (than rice) and wetlands are as follows::
+
+- RPF - Evaporative/Riparian loss factor (Evapotranspiration fraction)
+- RUFO - Reuse fraction of applied water for other crops
+- RUFW - Reuse fraction of applied water for wetlands. 
+
+Note: In the table, (-1) indicates no data and (-2) indicates a time series is used.
+
+**Source:** [CS3L2015V0_ComparisionDiversions (Excel)](https://cadwr.box.com/s/t60uwj6db0hzzfoks4xdgfq9nz4hxdkt)
+
+
 ## S92carryover
 ## SAC_weir
 **Author:** None  
