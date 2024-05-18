@@ -14,7 +14,7 @@ Presents minimum GW pumping (as a fraction of applied water demand) for CalSim 3
 **Source:** [CS3_VolI_11_AgriculturalWaterUse_clean (PDF)](https://cadwr.box.com/s/ojp1bsy92q4evhl404v77uzx3zriepl5)
 
 
-## AgReuse (!!)
+## AgReuse
 ## American_ResInfo
 Area-capacity curves for reservoirs in the Lower, Middle Fork and Upper American River (French Meadows, Hell Hole, Gerle, Loon Lake, Union Valley, Ice House, Folsom, Lake Valley, Stumpy Meadows, Silver, Caples, Lake Aloha, Echo Lake, Jenkinson Lake, etc.).
 
@@ -637,8 +637,14 @@ Note: In the table, (-1) indicates no data and (-2) indicates a time series is u
 
 **Source:** [D1641rev (PDF)](https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit)
 
-## salinity_std_jpt_new## salinity_std_rsl
+## salinity_std_jpt_new
+## salinity_std_rsl
 ## seep_rates
+**Author:** None  
+**Date:**  None 
+
+**Description:** Apparently not used in model.
+
 ## ShastaNCPlevel
 ## ShrngRatios
 **Author:** None  
