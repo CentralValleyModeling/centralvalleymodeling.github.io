@@ -15,6 +15,15 @@ Presents minimum GW pumping (as a fraction of applied water demand) for CalSim 3
 
 
 ## AgReuse
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Reuse of tailwater from irrigation to meet applied water demands is expressed as a fraction of the applied water demand. For the majority of crops, reuse is a constant fraction, defined in the file arcs-WUfactors.wresl. The exception is rice, for which the volume of tailwater and its relation to applied water varies significantly from month to month depending on cultural practices, including flood-up and drawdown. For rice cultivation, the agreuse.table defines the ratio of tailwater to applied water for each month and the fraction of the tailwater that is reused.
+
+
+**Source:** [CS3L2015V0_ComparisionDiversions (Excel)](https://cadwr.box.com/s/t60uwj6db0hzzfoks4xdgfq9nz4hxdkt)
+
 ## American_ResInfo
 Area-capacity curves for reservoirs in the Lower, Middle Fork and Upper American River (French Meadows, Hell Hole, Gerle, Loon Lake, Union Valley, Ice House, Folsom, Lake Valley, Stumpy Meadows, Silver, Caples, Lake Aloha, Echo Lake, Jenkinson Lake, etc.).
 
@@ -119,6 +128,17 @@ Contra Costa Water District annual demand depending on water year type.
 
 ## CCWD_demand_pattern
 ## CCWD_INTAKE_PREF
+**Author:** None  
+**Date:**  None
+
+**Description:**
+This table establishes intake preference months as long as service area water quality objectives are met and Los Vaqueros storage is not reduced(1= preference, 0 = no preference).
+**Source:** [5626_p020749 (PDF)](https://cadwr.box.com/s/6ldaaqelmp81vg7su0jrnqxug5spprwo)
+
+
+Set months that intakes should take preference
+!as long as service area water quality objective
+!met and LV storage is not reduced.  1= preference, 0 = no preference
 ## ChiliBarYrType_hist
 ## cho_gcid_min
 **Author:** None  
