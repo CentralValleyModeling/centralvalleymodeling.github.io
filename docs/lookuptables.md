@@ -207,6 +207,15 @@ This table presents CVP water service contracts for servce areas South of Delta 
 ## Daguerre_del_pattern
 ## demand
 ## dltidx_expidx_swp_s
+**Author:** None  
+**Date:**  None
+
+**Description:**
+This table was originally derived to split the responsibility for export restrictions and supply reductions brought about by the Wanger decisions to the SWP and CVP (the Delta index was based on January to May Eight River Index - please see the entry for EiRatio for a description of this).  The values are currently set to 9999, so as not to constrain operations on top of existing restrictions used in the model.
+
+
+**Source:** [CA_Main_Document_and_Appendices_032509  (PDF)](https://cadwr.box.com/s/ujs3ia9m719nv1qaqk4nrv6ck7yzp76i)
+
 ## DO
 **Author:** None  
 **Date:**  None
@@ -228,6 +237,24 @@ This table presents minimum flow requirements (5 cfs) below East Park Reservoir.
 **Source:** [AppendixC-Reservoir_Operations_ModelingTechnical  (PDF)](https://cadwr.box.com/s/bb3eeoloy7zwkvlsk4sc9b17j0k7cd3z)
 
 ## ECCID_Transfer
+**Author:** None  
+**Date:**  None
+
+**Description:**
+This table outlines an ECCID transfer schedule to CCWD for Normal Years (CVP allocations of 100%) and specifies an additional dry year supply.
+
+**Source:** [CCWD USBR WMP Final Draft wAppdx no reso_201705311512085186  (PDF)](https://cadwr.box.com/s/a8ejs471o60avu7xx9n21aytyl9sejd0)
+
+**Author:** None  
+**Date:**  None
+
+**Description:**
+This table outlines an ECCID (East Contra Costa Irrigation District) transfer schedule to CCWD for Normal years (CVP allocations of 100%) and Dry years (allocations less than 100%).
+
+**Source:** [ARWA 602 - Technical Memorandum 1- Lower American River Flow Management Standard - Project Description-Modified  (PDF)](https://cadwr.box.com/s/c10w9un41sgbz7za5ndqv5vek2lrukor)
+
+
+
 ## EiRatio
 **Author:** None  
 **Date:**  None
