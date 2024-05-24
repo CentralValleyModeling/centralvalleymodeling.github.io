@@ -67,9 +67,9 @@ at the Fair Oaks gage.  A five-level "wetness index" is defined by the following
 **Source:** [hydro-rel-rpt-WBM_Technical_Report (PDF)](https://cadwr.box.com/s/su7cbydl4oe0sj17eld16qp7cnzuea3s)
 
 
-## AmerSteelhead (!!)
+## AmerSteelhead
 
-## ANNlimit (!!)
+## ANNlimit
 
 ## AnnualReqDel_swp
 **Author:** None  
