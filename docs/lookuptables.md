@@ -116,6 +116,21 @@ Black Butte Reservoir (capacity 136,000 acre-feet) has a minimum release require
 **Source:** [StonyCreek2003ReportandAppendicies (PDF)](https://cadwr.box.com/s/u8k0vf940y0amvnoinsa34c3ycd2szy8)
 
 ## calaveras_dist
+**Author:** R. Field  
+**Date:** 12/03/2003
+
+
+**Description:**
+Calaveras River ag and mi distributions percentage given month.  The following list identifies the water demand types used in this table:
+
+- SEWD_MI = Stockton East Water District Municipal and Industrial (M&I)
+- SEWD_AG = Stockton East Water District Agricultural (Ag)
+- CACWD_MI = Calaveras County Water District M&I
+- CACWD_AG = Calaveras County Water District Ag
+
+
+**Source:** [Calaveras_dem (Excel)](https://cadwr.box.com/s/k7wu4wijguw35e0fys5r16mfax6wvcw0)
+
 ## CCWD_ann_demand
 **Author:** None  
 **Date:**  None
