@@ -296,6 +296,12 @@ This helps determine the End-of-May storage target for the American River Flow M
 ## EstmnCarryover
 ## evap_est
 ## ExchContractLimits
+**Author:** None  
+**Date:**  None
+
+**Description:**
+Not used in CalSim 3.
+
 ## ExportEstimate_CVP
 ## ExportEstimate_SWP
 ## featherfish_058
@@ -705,7 +711,7 @@ Note: In the table, (-1) indicates no data and (-2) indicates a time series is u
 **Author:** None  
 **Date:**  None 
 
-**Description:** Apparently not used in model.
+**Description:** Not used in CalSim 3.
 
 ## ShastaNCPlevel
 ## ShrngRatios
