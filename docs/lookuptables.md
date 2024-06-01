@@ -303,7 +303,27 @@ This helps determine the End-of-May storage target for the American River Flow M
 Not used in CalSim 3.
 
 ## ExportEstimate_CVP
+**Author:** None  
+**Date:**  None
+
+**Description:**
+The export estimates for CVP  represented an average monthly estimate of maximum export per month where the primary restrictions on export are based regulatory constraints.  This table was developed using model iterations and also serves to fine tune allocations (which are influenced by seasonal conditions) and to limit shortages simulated in the model.  For example, estimates may change due to wet/flood year conditions on the San Joaquin River which may
+lead to higher export capacity for the months of April, May, and June. The export estimates are no longer applied through this table (values have been replaced by '99999').
+
+
+**Source:** [Export Estimatev2  (DOCX)](https://cadwr.box.com/s/jphqgsoz44lits3he97gnz7mejct4rfl)
+
 ## ExportEstimate_SWP
+**Author:** None  
+**Date:**  None
+
+**Description:**
+The export estimate for SWP represents an average monthly estimate of maximum export per month where the primary restrictions on export are based regulatory constraints.  This table was developed using model iterations and also serves to fine tune allocations (which are influenced by seasonal conditions) and to limit shortages simulated in the model.  For example, estimates may change due to wet/flood year conditions on the San Joaquin River which may
+lead to higher export capacity for the months of April, May, and June.  
+
+
+**Source:** [Export Estimatev2  (DOCX)](https://cadwr.box.com/s/jphqgsoz44lits3he97gnz7mejct4rfl)
+
 ## featherfish_058
 **Author:** None  
 **Date:**  None
@@ -378,7 +398,19 @@ Then naming conventions for these loss factors are as follows:
 ## Friant_Evap
 ## Friant_max_del
 ## HistoricFlow
+**Author:** None  
+**Date:**  None
+
+**Description:** Not used in CalSim 3.
+
 ## HistoricUnimp_Precip
+## HSt_base
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+Not used in CalSim 3.
+
 ## HNSLY_Gross_Res
 ## HnslyCarryover
 ## HSt_base
@@ -394,7 +426,21 @@ Example:  For September (Month = "12"), if conditions are not critically dry (D-
 **Source:** [Decision on Major Applications to Appropriate Water from American River Systems (PDF)](https://cadwr.box.com/s/rzwiei5rhs9mtg8tlymfgb7wtxuogvt3)
 
 ## IsolatedFacility
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+This table sets the total capacity (in CFS) of the Isolated Facility (Delta Tunnels) if modeled.  This table can allow diversions into the tunnels as a function of Sacramento River flow (at Freeport) due to fish screens at the intakes.
+
+**Source:** [Public Draft BDCP Chapter 09 - 0 - Alternatives to Take (PDF)](https://cadwr.box.com/s/4o5um7xy1y3ywhwvgxfn6m0qk1pyg5m2)
+
 ## IsolatedFacilityControl
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+This table contains user controlled "switches" which can activate a modeled facility ("1") or deactivate it ("0").  No source listed..
+
 ## JUBSFU_Dist
 ## Kellogg_Creek_Inflow
 ## Kern_GW_RechLim
@@ -616,9 +662,24 @@ Example:  For an Ag allocation of 30%, flow is at 3250 cfs at Shasta low levels 
 **Source:** [Delta_Standards (modified) (PDF)](https://cadwr.box.com/s/sp1gpydb5d9q8aw6l5nf445h6r6tqtvt)
 
 ## NewFacSwitch
+**Author:** None  
+**Date:**  None
+
+**Description:** This table contains user entered "switches" that can activate modeled facilities or functions ("1") or deactivate them ("0").  The facilities/functions controlled by this table include the intertie between the California Aqueduct and the Delta-Mendota Canal, dedicated Banks pumping for CVP (wheeling), and Shasta storage for SWP. No source listed.
+
 ## newspicer_target
 ## NODOS
+**Author:** None
+**Date:**  None
+
+**Description:** Not used in CalSim 3.
+
 ## NODOS_jobcontrol
+**Author:** None
+**Date:**  None
+
+**Description:** Not used in CalSim 3.
+
 ## OMRiverFlowEq2
 **Author:** Paul Hutton  
 **Date:**  April 2008
