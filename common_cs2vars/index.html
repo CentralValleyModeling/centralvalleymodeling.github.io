@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Common CalSim 2 Variables (Legacy) - CalSim 3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Common CalSim 2 Variables (Legacy)";
+        var mkdocs_page_input_path = "common_cs2vars.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CalSim 3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../hellocalsim/">Hello CalSim</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../modelsetup/">Model Setup</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lookuptables/">Lookup Tables</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../common_cs3vars/">Common CalSim 3 Variables</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Common CalSim 2 Variables (Legacy)</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#storage">Storage</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#river-flow">River Flow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#delta-inflow">Delta Inflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#interior-delta">Interior Delta</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#delta-salinity">Delta Salinity</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#delta-outflow">Delta Outflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#delta-exports">Delta Exports</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-deliveries">Project Deliveries</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CalSim 3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Common CalSim 2 Variables (Legacy)</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="common-calsim-2-output-variables-legacy">Common CalSim 2 Output Variables (Legacy)</h1>
+<h2 id="storage">Storage</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S1</td>
+<td>Trinity storage</td>
+</tr>
+<tr>
+<td>S4</td>
+<td>Shasta Storage</td>
+</tr>
+<tr>
+<td>S6</td>
+<td>Oroville Storage</td>
+</tr>
+<tr>
+<td>S8</td>
+<td>Folsom Storage</td>
+</tr>
+<tr>
+<td>S11</td>
+<td>San Luis CVP Storage</td>
+</tr>
+<tr>
+<td>S12</td>
+<td>San Luis SWP Storage</td>
+</tr>
+</tbody>
+</table>
+<h2 id="river-flow">River Flow</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C100</td>
+<td>Trinity R blw Lewiston</td>
+</tr>
+<tr>
+<td>D100</td>
+<td>Trinity Export</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>Clear Cr blw Whiskeytown</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>Sacramento R @ Keswick</td>
+</tr>
+<tr>
+<td>C129</td>
+<td>Sacramento R @ Wilkins Slough</td>
+</tr>
+<tr>
+<td>C169</td>
+<td>Sacramento R Above Hood</td>
+</tr>
+<tr>
+<td>C203</td>
+<td>Feather R blw Thermalito</td>
+</tr>
+<tr>
+<td>C9</td>
+<td>American R blw Nimbus</td>
+</tr>
+</tbody>
+</table>
+<h2 id="delta-inflow">Delta Inflow</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C400</td>
+<td>Sacramento R Below Hood</td>
+</tr>
+<tr>
+<td>C157</td>
+<td>Yolo Bypass</td>
+</tr>
+<tr>
+<td>C504</td>
+<td>Mokelumne R</td>
+</tr>
+<tr>
+<td>C644</td>
+<td>San Joaquin R d/s Vernalis</td>
+</tr>
+</tbody>
+</table>
+<h2 id="interior-delta">Interior Delta</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C405</td>
+<td>Rio Vista</td>
+</tr>
+<tr>
+<td>C401B</td>
+<td>Delta Cross Channel</td>
+</tr>
+<tr>
+<td>C408</td>
+<td>Old Middle River</td>
+</tr>
+<tr>
+<td>C416A</td>
+<td>Qwest</td>
+</tr>
+</tbody>
+</table>
+<h2 id="delta-salinity">Delta Salinity</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EM_EC_MONTH</td>
+<td>Emmaton  (uMHOS/cm)</td>
+</tr>
+<tr>
+<td>JP_EC_MONTH</td>
+<td>Jersey Point  (uMHOS/cm)</td>
+</tr>
+<tr>
+<td>RS_EC_MONTH</td>
+<td>Rock Slough (uMHOS/cm)</td>
+</tr>
+<tr>
+<td>RS_CL_MONTH</td>
+<td>Rock Slough Chloride (mg/L Cl)</td>
+</tr>
+<tr>
+<td>X2_PRV</td>
+<td>X2 Position (km from Golden Gate Bridge)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="delta-outflow">Delta Outflow</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C406</td>
+<td>Delta Outflow</td>
+</tr>
+<tr>
+<td>C407</td>
+<td>Surplus Delta Outflow</td>
+</tr>
+<tr>
+<td>D407</td>
+<td>Required Delta Outflow for NDOI and X2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="delta-exports">Delta Exports</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D419_SWP_TD</td>
+<td>Banks SWP Through-Delta (TD)</td>
+</tr>
+<tr>
+<td>D419_CVP_TD</td>
+<td>Banks CVP TD</td>
+</tr>
+<tr>
+<td>D419_WTS_TD</td>
+<td>Banks WTS TD</td>
+</tr>
+<tr>
+<td>D418_TD</td>
+<td>Jones TD</td>
+</tr>
+<tr>
+<td>D418_WTS_TD</td>
+<td>Jones WTS TD</td>
+</tr>
+<tr>
+<td>D419_SWP_IF</td>
+<td>Banks Isolated Facility (IF)</td>
+</tr>
+<tr>
+<td>D419_CVP_IF</td>
+<td>Banks CVP IF</td>
+</tr>
+<tr>
+<td>D419_WTS_IF</td>
+<td>Banks WTS IF</td>
+</tr>
+<tr>
+<td>D418_IF</td>
+<td>Jones IF</td>
+</tr>
+<tr>
+<td>D418_WTS_IF</td>
+<td>Jones WTS TD</td>
+</tr>
+</tbody>
+</table>
+<h2 id="project-deliveries">Project Deliveries</h2>
+<table>
+<thead>
+<tr>
+<th>CalSim 2 Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SWP_TA_TOTAL</td>
+<td>SWP Table A</td>
+</tr>
+<tr>
+<td>SWP_IN_TOTAL</td>
+<td>SWP Article 21</td>
+</tr>
+<tr>
+<td>SWP_CO_TOTAL</td>
+<td>SWP Article 56</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../common_cs3vars/" class="btn btn-neutral float-left" title="Common CalSim 3 Variables"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../common_cs3vars/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
