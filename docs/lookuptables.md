@@ -447,8 +447,33 @@ This table contains user controlled "switches" which can activate a modeled faci
 ## KernGW_NODStor
 ## KeswickWinterFlow
 ## LCPSIM_JobControl
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+This table provides assumptions regarding how the flow and storage adjustment terms for SB and SC are distributed in CalSim due to LCPSIM interaction. LCPSIM (Least-cost planning simulation model) is an economics optimization model for urban
+water management options developed by DWR.  The South SF Region is one of two areas modeled by LCPSIM.  Not used in CalSim 3. 
+
 ## LCPSIM_SB_Output
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+This table provides adjustments to flow and storage values in CalSim due to LCPSIM interaction for the South San Francisco Bay (SB) Region. Values were set to zero during WSI-DI regeneration to prevent LCPSIM output from influencing the CalSim model.  LCPSIM (Least-cost planning simulation model) is an economics optimization model for urban
+water management options developed by DWR.  The South SF Bay Region is one of two areas modeled by LCPSIM.  Not used in CalSim 3. 
+
+**Source:** [BST_CALSIMII_WSI-DI_Protocol_022710 (DOCX)](https://cadwr.box.com/s/5k8kaw3tdu6dtqncc00hw0hyptj38uj7)
+
 ## LCPSIM_SC_Output
+**Author:** None  
+**Date:**  None 
+
+**Description:**
+This table provides adjustments to flow and storage values in CalSim due to LCPSIM interaction for the South Coast Region. Values are set to zero during WSI-DI regeneration to prevent LCPSIM output from influencing the CalSim model.  LCPSIM (Least-cost planning simulation model) is an economics optimization model for urban
+water management options developed by DWR.  The South Coast Region is one of two areas modeled by LCPSIM.  Not used in CalSim 3. 
+
+**Source:** [BST_CALSIMII_WSI-DI_Protocol_022710 (DOCX](https://cadwr.box.com/s/5k8kaw3tdu6dtqncc00hw0hyptj38uj7)
+
 ## LV_evaporation
 ## LV_Precipitation
 ## lyons_target
@@ -585,11 +610,11 @@ The Lodi Decree is a series of court orders, stipulations and agreements establi
 **Description:**
 Minimum flow requirements from the 2000 Joint Settlement Agreement for Relicensing of FERC Project 137 for several location at North Fork Mokelumne River including: Tiger's Creek Dam, Electra Dam and Salt Springs Dam. The minimum streamflow schedules have been separated into five water year types:Wet, Above Normal (AN), Below Normal (BN), Dry, and Critically Dry (CD). Water Year Types are based on unimpaired inflow into Pardee Reaervoir where: 
 
-Wet: 	Pardee Inflow >= 958,700 AF
-AN: 	Pardee Inflow < 958,700 AF but >= 724,400 AF
-BN: 	Pardee Inflow < 724,400 AF but >= 518,100 AF
-Dry: 	Pardee Inflow < 518,100 AF but >= 376,100 AF
-CD:	Pardee Inflow < 376,100 AF
+Wet: 	Pardee Inflow is greater than 958,700 AF
+AN: 	Pardee Inflow less than 958,700 AF but greater than 724,400 AF
+BN: 	Pardee Inflow less than 724,400 AF but greater than 518,100 AF
+Dry: 	Pardee Inflow less than 518,100 AF but greater than 376,100 AF
+CD:	Pardee Inflow less than 376,100 AF
 
 **Source:** [WS-Final-Rprt_Appendices_033018  (PDF)](https://cadwr.box.com/s/ukkioltabel12z1vwvlcveb53jljgqaq)
 
