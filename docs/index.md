@@ -5,4 +5,4 @@ CalSim 3 is a new and improved water resources planning model, jointly developed
 
 The latest CalSim 3 baseline model is located at [https://github.com/CentralValleyModeling/calsim3-dcr](https://github.com/CentralValleyModeling/calsim3-dcr)
  
- Please contact us at [CVMsupport@water.ca.gov](CVMsupport@water.ca.gov)
+ Please contact us at [CVMsupport@water.ca.gov](mailto:CVMsupport@water.ca.gov)
