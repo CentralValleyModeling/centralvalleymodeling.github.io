@@ -56,7 +56,7 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#agminmaxgw">AgMinMaxGW</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#agreuse">AgReuse (!!)</a>
+    <li class="toctree-l2"><a class="reference internal" href="#agreuse">AgReuse</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#american_resinfo">American_ResInfo</a>
     </li>
@@ -66,9 +66,9 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#american_uarp_storobj">American_UARP_StorObj</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#amersteelhead">AmerSteelhead (!!)</a>
+    <li class="toctree-l2"><a class="reference internal" href="#amersteelhead">AmerSteelhead</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#annlimit">ANNlimit (!!)</a>
+    <li class="toctree-l2"><a class="reference internal" href="#annlimit">ANNlimit</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#annualreqdel_swp">AnnualReqDel_swp</a>
     </li>
@@ -108,7 +108,7 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#cosma_wwtp_permonth">COSMA_WWTP_PerMonth</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#cosumnes_demands_oasisval">Cosumnes_demands_OASISVal</a>
+    <li class="toctree-l2"><a class="reference internal" href="#consumnes_demands_oasisval">Consumnes_demands_OASISVal</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#cvp_sod_contracts">CVP_SOD_Contracts</a>
     </li>
@@ -186,11 +186,13 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#historicunimp_precip">HistoricUnimp_Precip</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hst_base">HSt_base</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#hnsly_gross_res">HNSLY_Gross_Res</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#hnslycarryover">HnslyCarryover</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#hst_base">HSt_base</a>
+    <li class="toctree-l2"><a class="reference internal" href="#hst_base_1">HSt_base</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#isolatedfacility">IsolatedFacility</a>
     </li>
@@ -310,7 +312,9 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#salinity_std_emt_new">salinity_std_emt_new</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#salinity_std_jpt_new-salinity_std_rsl">salinity_std_jpt_new## salinity_std_rsl</a>
+    <li class="toctree-l2"><a class="reference internal" href="#salinity_std_jpt_new">salinity_std_jpt_new</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#salinity_std_rsl">salinity_std_rsl</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#seep_rates">seep_rates</a>
     </li>
@@ -565,7 +569,12 @@
 <p><strong>Description:</strong>
 Presents minimum GW pumping (as a fraction of applied water demand) for CalSim 3 demand units in the Sacramento River/San Joaquin River/Tulare Lake hydrologic regions. Maximum GW pumping is expressed a “1“ or having a 100 percent non-surface water source.</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/ojp1bsy92q4evhl404v77uzx3zriepl5">CS3_VolI_11_AgriculturalWaterUse_clean (PDF)</a></p>
-<h2 id="agreuse">AgReuse (!!)</h2>
+<h2 id="agreuse">AgReuse</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+Reuse of tailwater from irrigation to meet applied water demands is expressed as a fraction of the applied water demand. For the majority of crops, reuse is a constant fraction, defined in the file arcs-WUfactors.wresl. The exception is rice, for which the volume of tailwater and its relation to applied water varies significantly from month to month depending on cultural practices, including flood-up and drawdown. For rice cultivation, the agreuse.table defines the ratio of tailwater to applied water for each month and the fraction of the tailwater that is reused.</p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/t60uwj6db0hzzfoks4xdgfq9nz4hxdkt">CS3L2015V0_ComparisionDiversions (Excel)</a></p>
 <h2 id="american_resinfo">American_ResInfo</h2>
 <p>Area-capacity curves for reservoirs in the Lower, Middle Fork and Upper American River (French Meadows, Hell Hole, Gerle, Loon Lake, Union Valley, Ice House, Folsom, Lake Valley, Stumpy Meadows, Silver, Caples, Lake Aloha, Echo Lake, Jenkinson Lake, etc.).</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/gk0kkflsssolca7edjcex4bu6gqftlk3">ER_AmericanRiv (Excel)</a></p>
@@ -615,8 +624,8 @@ at the Fair Oaks gage.  A five-level "wetness index" is defined by the following
 </tbody>
 </table>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/su7cbydl4oe0sj17eld16qp7cnzuea3s">hydro-rel-rpt-WBM_Technical_Report (PDF)</a></p>
-<h2 id="amersteelhead">AmerSteelhead (!!)</h2>
-<h2 id="annlimit">ANNlimit (!!)</h2>
+<h2 id="amersteelhead">AmerSteelhead</h2>
+<h2 id="annlimit">ANNlimit</h2>
 <h2 id="annualreqdel_swp">AnnualReqDel_swp</h2>
 <p><strong>Author:</strong> None<br />
 <strong>Date:</strong>  None</p>
@@ -645,6 +654,17 @@ Monthly permitted capacity of Banks Pumping Plant (6680 cfs),  Permitted capacit
 Black Butte Reservoir (capacity 136,000 acre-feet) has a minimum release requirement of 30 cfs to maintain 20,000 acre-feet of space for flood protection.</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/u8k0vf940y0amvnoinsa34c3ycd2szy8">StonyCreek2003ReportandAppendicies (PDF)</a></p>
 <h2 id="calaveras_dist">calaveras_dist</h2>
+<p><strong>Author:</strong> R. Field<br />
+<strong>Date:</strong> 12/03/2003</p>
+<p><strong>Description:</strong>
+Calaveras River ag and mi distributions percentage given month.  The following list identifies the water demand types used in this table:</p>
+<ul>
+<li>SEWD_MI = Stockton East Water District Municipal and Industrial (M&amp;I)</li>
+<li>SEWD_AG = Stockton East Water District Agricultural (Ag)</li>
+<li>CACWD_MI = Calaveras County Water District M&amp;I</li>
+<li>CACWD_AG = Calaveras County Water District Ag</li>
+</ul>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/k7wu4wijguw35e0fys5r16mfax6wvcw0">Calaveras_dem (Excel)</a></p>
 <h2 id="ccwd_ann_demand">CCWD_ann_demand</h2>
 <p><strong>Author:</strong> None<br />
 <strong>Date:</strong>  None</p>
@@ -653,6 +673,14 @@ Contra Costa Water District annual demand depending on water year type.</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/aecdhmsxispmz2yutbv4668adi3pf2h6">CCWD_2015UWMP_Final_June2016_201610111231300825 (PDF)</a></p>
 <h2 id="ccwd_demand_pattern">CCWD_demand_pattern</h2>
 <h2 id="ccwd_intake_pref">CCWD_INTAKE_PREF</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+This table establishes intake preference months as long as service area water quality objectives are met and Los Vaqueros storage is not reduced(1= preference, 0 = no preference).
+<strong>Source:</strong> <a href="https://cadwr.box.com/s/6ldaaqelmp81vg7su0jrnqxug5spprwo">5626_p020749 (PDF)</a></p>
+<p>Set months that intakes should take preference
+!as long as service area water quality objective
+!met and LV storage is not reduced.  1= preference, 0 = no preference</p>
 <h2 id="chilibaryrtype_hist">ChiliBarYrType_hist</h2>
 <h2 id="cho_gcid_min">cho_gcid_min</h2>
 <p><strong>Author:</strong> None<br />
@@ -689,7 +717,7 @@ These are DWR agricultural settlement contracts with Feather River Service Area 
 <p><strong>Description:</strong>
 Not used in CalSim 3.</p>
 <p><strong>Source:</strong> </p>
-<h2 id="cosumnes_demands_oasisval">Cosumnes_demands_OASISVal</h2>
+<h2 id="consumnes_demands_oasisval">Consumnes_demands_OASISVal</h2>
 <h2 id="cvp_sod_contracts">CVP_SOD_Contracts</h2>
 <p><strong>Author:</strong> None<br />
 <strong>Date:</strong>  None</p>
@@ -700,6 +728,11 @@ This table presents CVP water service contracts for servce areas South of Delta 
 <h2 id="daguerre_del_pattern">Daguerre_del_pattern</h2>
 <h2 id="demand">demand</h2>
 <h2 id="dltidx_expidx_swp_s">dltidx_expidx_swp_s</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+This table was originally derived to split the responsibility for export restrictions and supply reductions brought about by the Wanger decisions to the SWP and CVP (the Delta index was based on January to May Eight River Index - please see the entry for EiRatio for a description of this).  The values are currently set to 9999, so as not to constrain operations on top of existing restrictions used in the model.</p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/ujs3ia9m719nv1qaqk4nrv6ck7yzp76i">CA_Main_Document_and_Appendices_032509  (PDF)</a></p>
 <h2 id="do">DO</h2>
 <p><strong>Author:</strong> None<br />
 <strong>Date:</strong>  None</p>
@@ -713,6 +746,16 @@ These are monthly required minimum "surrogate" flows below Goodwin (in TAF) need
 This table presents minimum flow requirements (5 cfs) below East Park Reservoir. The minimum flow is meant to help maintain flood capacity and provide for recreation (during Summer).  East Park was built by Reclamation and is intended to provide water supply, not hydropower. ce areas South of Delta (located in San Joaquin River and Tulare Lake hydrologic regions)..</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/bb3eeoloy7zwkvlsk4sc9b17j0k7cd3z">AppendixC-Reservoir_Operations_ModelingTechnical  (PDF)</a></p>
 <h2 id="eccid_transfer">ECCID_Transfer</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+This table outlines an ECCID transfer schedule to CCWD for Normal Years (CVP allocations of 100%) and specifies an additional dry year supply.</p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/a8ejs471o60avu7xx9n21aytyl9sejd0">CCWD USBR WMP Final Draft wAppdx no reso_201705311512085186  (PDF)</a></p>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+This table outlines an ECCID (East Contra Costa Irrigation District) transfer schedule to CCWD for Normal years (CVP allocations of 100%) and Dry years (allocations less than 100%).</p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/c10w9un41sgbz7za5ndqv5vek2lrukor">ARWA 602 - Technical Memorandum 1- Lower American River Flow Management Standard - Project Description-Modified  (PDF)</a></p>
 <h2 id="eiratio">EiRatio</h2>
 <p><strong>Author:</strong> None<br />
 <strong>Date:</strong>  None</p>
@@ -731,8 +774,24 @@ This helps determine the End-of-May storage target for the American River Flow M
 <h2 id="estmncarryover">EstmnCarryover</h2>
 <h2 id="evap_est">evap_est</h2>
 <h2 id="exchcontractlimits">ExchContractLimits</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+Not used in CalSim 3.</p>
 <h2 id="exportestimate_cvp">ExportEstimate_CVP</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+The export estimates for CVP  represented an average monthly estimate of maximum export per month where the primary restrictions on export are based regulatory constraints.  This table was developed using model iterations and also serves to fine tune allocations (which are influenced by seasonal conditions) and to limit shortages simulated in the model.  For example, estimates may change due to wet/flood year conditions on the San Joaquin River which may
+lead to higher export capacity for the months of April, May, and June. The export estimates are no longer applied through this table (values have been replaced by '99999').</p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/jphqgsoz44lits3he97gnz7mejct4rfl">Export Estimatev2  (DOCX)</a></p>
 <h2 id="exportestimate_swp">ExportEstimate_SWP</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong>
+The export estimate for SWP represents an average monthly estimate of maximum export per month where the primary restrictions on export are based regulatory constraints.  This table was developed using model iterations and also serves to fine tune allocations (which are influenced by seasonal conditions) and to limit shortages simulated in the model.  For example, estimates may change due to wet/flood year conditions on the San Joaquin River which may
+lead to higher export capacity for the months of April, May, and June.  </p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/jphqgsoz44lits3he97gnz7mejct4rfl">Export Estimatev2  (DOCX)</a></p>
 <h2 id="featherfish_058">featherfish_058</h2>
 <p><strong>Author:</strong> None<br />
 <strong>Date:</strong>  None</p>
@@ -787,10 +846,18 @@ These loss fractions determine what fraction of the surface water delivery is lo
 <h2 id="friant_evap">Friant_Evap</h2>
 <h2 id="friant_max_del">Friant_max_del</h2>
 <h2 id="historicflow">HistoricFlow</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong> Not used in CalSim 3.</p>
 <h2 id="historicunimp_precip">HistoricUnimp_Precip</h2>
+<h2 id="hst_base">HSt_base</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None </p>
+<p><strong>Description:</strong>
+Not used in CalSim 3.</p>
 <h2 id="hnsly_gross_res">HNSLY_Gross_Res</h2>
 <h2 id="hnslycarryover">HnslyCarryover</h2>
-<h2 id="hst_base">HSt_base</h2>
+<h2 id="hst_base_1">HSt_base</h2>
 <p><strong>Author:</strong> None<br />
 <strong>Date:</strong>  None </p>
 <p><strong>Description:</strong>
@@ -798,15 +865,41 @@ Based on State Water Resources Control Board Decision 893 (D-893) which was enac
 <p>Example:  For September (Month = "12"), if conditions are not critically dry (D-893 index is “1”), D-893 calls for a 250 cfs minimum for the first part of the month, then a 500 cfs minimum for the latter half (averaging out to 375 cfs for the entire month). </p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/rzwiei5rhs9mtg8tlymfgb7wtxuogvt3">Decision on Major Applications to Appropriate Water from American River Systems (PDF)</a></p>
 <h2 id="isolatedfacility">IsolatedFacility</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None </p>
+<p><strong>Description:</strong>
+This table sets the total capacity (in CFS) of the Isolated Facility (Delta Tunnels) if modeled.  This table can allow diversions into the tunnels as a function of Sacramento River flow (at Freeport) due to fish screens at the intakes.</p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/4o5um7xy1y3ywhwvgxfn6m0qk1pyg5m2">Public Draft BDCP Chapter 09 - 0 - Alternatives to Take (PDF)</a></p>
 <h2 id="isolatedfacilitycontrol">IsolatedFacilityControl</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None </p>
+<p><strong>Description:</strong>
+This table contains user controlled "switches" which can activate a modeled facility ("1") or deactivate it ("0").  No source listed..</p>
 <h2 id="jubsfu_dist">JUBSFU_Dist</h2>
 <h2 id="kellogg_creek_inflow">Kellogg_Creek_Inflow</h2>
 <h2 id="kern_gw_rechlim">Kern_GW_RechLim</h2>
 <h2 id="kerngw_nodstor">KernGW_NODStor</h2>
 <h2 id="keswickwinterflow">KeswickWinterFlow</h2>
 <h2 id="lcpsim_jobcontrol">LCPSIM_JobControl</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None </p>
+<p><strong>Description:</strong>
+This table provides assumptions regarding how the flow and storage adjustment terms for SB and SC are distributed in CalSim due to LCPSIM interaction. LCPSIM (Least-cost planning simulation model) is an economics optimization model for urban
+water management options developed by DWR.  The South SF Region is one of two areas modeled by LCPSIM.  Not used in CalSim 3. </p>
 <h2 id="lcpsim_sb_output">LCPSIM_SB_Output</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None </p>
+<p><strong>Description:</strong>
+This table provides adjustments to flow and storage values in CalSim due to LCPSIM interaction for the South San Francisco Bay (SB) Region. Values were set to zero during WSI-DI regeneration to prevent LCPSIM output from influencing the CalSim model.  LCPSIM (Least-cost planning simulation model) is an economics optimization model for urban
+water management options developed by DWR.  The South SF Bay Region is one of two areas modeled by LCPSIM.  Not used in CalSim 3. </p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/5k8kaw3tdu6dtqncc00hw0hyptj38uj7">BST_CALSIMII_WSI-DI_Protocol_022710 (DOCX)</a></p>
 <h2 id="lcpsim_sc_output">LCPSIM_SC_Output</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None </p>
+<p><strong>Description:</strong>
+This table provides adjustments to flow and storage values in CalSim due to LCPSIM interaction for the South Coast Region. Values are set to zero during WSI-DI regeneration to prevent LCPSIM output from influencing the CalSim model.  LCPSIM (Least-cost planning simulation model) is an economics optimization model for urban
+water management options developed by DWR.  The South Coast Region is one of two areas modeled by LCPSIM.  Not used in CalSim 3. </p>
+<p><strong>Source:</strong> <a href="https://cadwr.box.com/s/5k8kaw3tdu6dtqncc00hw0hyptj38uj7">BST_CALSIMII_WSI-DI_Protocol_022710 (DOCX</a></p>
 <h2 id="lv_evaporation">LV_evaporation</h2>
 <h2 id="lv_precipitation">LV_Precipitation</h2>
 <h2 id="lyons_target">lyons_target</h2>
@@ -926,11 +1019,11 @@ The Lodi Decree is a series of court orders, stipulations and agreements establi
 <strong>Date:</strong>  None </p>
 <p><strong>Description:</strong>
 Minimum flow requirements from the 2000 Joint Settlement Agreement for Relicensing of FERC Project 137 for several location at North Fork Mokelumne River including: Tiger's Creek Dam, Electra Dam and Salt Springs Dam. The minimum streamflow schedules have been separated into five water year types:Wet, Above Normal (AN), Below Normal (BN), Dry, and Critically Dry (CD). Water Year Types are based on unimpaired inflow into Pardee Reaervoir where: </p>
-<p>Wet:    Pardee Inflow &gt;= 958,700 AF
-AN:     Pardee Inflow &lt; 958,700 AF but &gt;= 724,400 AF
-BN:     Pardee Inflow &lt; 724,400 AF but &gt;= 518,100 AF
-Dry:    Pardee Inflow &lt; 518,100 AF but &gt;= 376,100 AF
-CD: Pardee Inflow &lt; 376,100 AF</p>
+<p>Wet:    Pardee Inflow is greater than 958,700 AF
+AN:     Pardee Inflow less than 958,700 AF but greater than 724,400 AF
+BN:     Pardee Inflow less than 724,400 AF but greater than 518,100 AF
+Dry:    Pardee Inflow less than 518,100 AF but greater than 376,100 AF
+CD: Pardee Inflow less than 376,100 AF</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/ukkioltabel12z1vwvlcveb53jljgqaq">WS-Final-Rprt_Appendices_033018  (PDF)</a></p>
 <h2 id="mok_pardeetargets">Mok_PardeeTargets</h2>
 <h2 id="mok_percut">Mok_percut</h2>
@@ -975,9 +1068,18 @@ not require delivery cuts (0 percent, etc.).</p>
 <p><strong>Description:</strong> Miniumum average Delta outflow requirement based on month and water year type (40-30-30 index).</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/sp1gpydb5d9q8aw6l5nf445h6r6tqtvt">Delta_Standards (modified) (PDF)</a></p>
 <h2 id="newfacswitch">NewFacSwitch</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong> This table contains user entered "switches" that can activate modeled facilities or functions ("1") or deactivate them ("0").  The facilities/functions controlled by this table include the intertie between the California Aqueduct and the Delta-Mendota Canal, dedicated Banks pumping for CVP (wheeling), and Shasta storage for SWP. No source listed.</p>
 <h2 id="newspicer_target">newspicer_target</h2>
 <h2 id="nodos">NODOS</h2>
+<p><strong>Author:</strong> None
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong> Not used in CalSim 3.</p>
 <h2 id="nodos_jobcontrol">NODOS_jobcontrol</h2>
+<p><strong>Author:</strong> None
+<strong>Date:</strong>  None</p>
+<p><strong>Description:</strong> Not used in CalSim 3.</p>
 <h2 id="omriverfloweq2">OMRiverFlowEq2</h2>
 <p><strong>Author:</strong> Paul Hutton<br />
 <strong>Date:</strong>  April 2008</p>
@@ -1035,8 +1137,12 @@ The table also defines one state variable for miscellaneous evaporative and ripa
 <strong>Date:</strong>  None </p>
 <p><strong>Description:</strong> Salinity standard (EC, mmhos/cm) standard at Emmaton based on month and water year type (Sacramento Vally 40-30-30 index). for Collinsville.  Currently, only "EC Standard 1" is being used.</p>
 <p><strong>Source:</strong> <a href="https://cadwr.box.com/s/1gd2229l39ca7xj60be3ocvzo0jg7mit">D1641rev (PDF)</a></p>
-<h2 id="salinity_std_jpt_new-salinity_std_rsl">salinity_std_jpt_new## salinity_std_rsl</h2>
+<h2 id="salinity_std_jpt_new">salinity_std_jpt_new</h2>
+<h2 id="salinity_std_rsl">salinity_std_rsl</h2>
 <h2 id="seep_rates">seep_rates</h2>
+<p><strong>Author:</strong> None<br />
+<strong>Date:</strong>  None </p>
+<p><strong>Description:</strong> Not used in CalSim 3.</p>
 <h2 id="shastancplevel">ShastaNCPlevel</h2>
 <h2 id="shrngratios">ShrngRatios</h2>
 <p><strong>Author:</strong> None<br />
