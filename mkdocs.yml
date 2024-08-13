@@ -2,10 +2,12 @@ site_name: CalSim 3 Documentation
 nav:
   - Home: index.md
   - Hello CalSim: hellocalsim.md
+  - Post-Processing: hellopostpro.md
   - Model Setup: modelsetup.md
   - Lookup Tables: lookuptables.md
   - Common CalSim 3 Variables: common_cs3vars.md
   - Common CalSim 2 Variables (Legacy): common_cs2vars.md
+  - Glossary: glossary.md
 theme: readthedocs
 markdown_extensions:
   - admonition
