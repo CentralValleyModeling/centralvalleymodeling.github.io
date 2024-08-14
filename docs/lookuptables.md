@@ -1,6 +1,6 @@
 # Lookup Table Documentation
 
-!!! Warning
+!!! Note
     Under Construction
 
 ## AgMinMaxGW
