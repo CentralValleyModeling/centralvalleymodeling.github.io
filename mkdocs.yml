@@ -8,6 +8,7 @@ nav:
   - Common CalSim 3 Variables: common_cs3vars.md
   - Common CalSim 2 Variables (Legacy): common_cs2vars.md
   - Glossary: glossary.md
+  - FAQ: faq.md
 theme: readthedocs
 markdown_extensions:
   - admonition
