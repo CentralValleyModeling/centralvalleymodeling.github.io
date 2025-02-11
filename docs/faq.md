@@ -100,3 +100,88 @@ the latest CalSim 3 Hydrology Report on DWR's website has detailed documentation
 There is no delta outflow requirement that drives releases from the San Joaquin
 
 *Keywords: cycles, delta outflow hydrology*
+
+### How are rim inflows derived when no gauge data exists and does it account for residence time in larger watersheds?	
+A simple method is employed which assumes that runoff is proportional to the product of drainage area and average annual precipitation depth over the watershed. Residence time is not taken into account.
+
+*Keywords: Rim inflows*
+
+### Why is it necessary to calculate unimpaired flows?	
+It's part of the philosphy of CalSim, since we are taking into account historical hydrology (e.g. precipitation and temperature) for the modeling scenarios.
+
+*Keywords: Unimpaired flows, Historical hydrology*
+
+### What are the units used in the Rim Inflow spreadsheets?	
+It is TAF/year. CalSim can convert this into CFS.
+
+*Keywords: Units, Rim inflows, Hydrology spreadsheets*
+
+### For the Rim Inflow spreadsheets, how do you get pop-up (menu) to see (hidden) tabs in Excel?	
+Right click on arrows at the on bottom left of workbook and select the tab to unhide it.
+
+*Keywords: Rim inflows, Hydrology spreadsheets*
+
+### Are there schematics available that show the same variables as the ones in CalSim 3 hydrology spreadsheets? 
+Sometimes there are schematic tabs within the Excel workbooks. They are typically USGS schematics.
+
+*Keywords: Schematics, Hydrology spreadsheets, USGS* 
+
+### Would a process-based hydrologic model (e.g., SWAT) produce more realistic and coherent flow simulations for watersheds with limited or no data records compared to statistical linear regression based on another watershed selected with some degree of randomness? 
+The former accounts for hydrological processes, dynamic hydroclimatic forcing, and static watershed characteristics. Model parameters can be calibrated using the particle data record, or a regional model can be calibrated and applied to the ungauged watershed. The choice to use model or gauge data is subjective.
+
+*Keywords: Hydrologic Model, SWAT, Linear Regression, Dynamic hydroclimatic forcing*
+
+### There are some negative flow values in the data. What is the physical meaning of these values?
+There are two possibilities.  First of all, if the value is '-902' it means that data was not available. Secondly, it could be due to gauge error. When that happens, further preprocessing is needec to distribute the error to other months. 
+
+*Keywords: Flow data, Preprocessing*
+
+### For evapotranspiration, assuming the existence of a reservoir versus unimpaired flows, is surface area based on bathymetry of the reservoir accounted for?	
+Yes. These factors are considered in the ET calculation for the reservoirs. There are separate workbooks used for the calculation of reservoir ET. Stream ET is assumed negligible on a monthly time scale.
+
+*Keywords: Evapotranspiration, Unimpaired flows, Bathymetry*
+
+### What is the most common reason to update the 200 or so hydrology spreadsheets used for CalSim 3 modeling?	
+The last big update was due to simulation period extension. If we get new data from the source agencies, updating the spreadsheets could improve watershed representation in the model.
+
+*Keywords: Hydrology spreadsheets, Simulation period*
+
+### If rim inflows are assumed to be unimpaired, why do the rim inflow spreadsheets state '2020 Level of Development?'	
+Prior to the last few years, we did not change or adjust the historical record for climate change. The workbook should have stated 'Existing Conditions.'
+
+*Keywords: Rim inflows, Unimpaired flows, Historical record, Hydrology spreadsheets*
+
+### Do the modules for the interconnected upper watersheds need to be run together (e.g. the Yuba and American upper watersheds)?  If so, why were two separate modules developed instead of one?  	
+We develop standalone modules that can be run and debugged. The interconnections have to be preprocessed.
+
+*Keywords: Upper watershed module, Yuba module, Upper american module, Preprocessed*
+
+### Are the switches declared in statements within the CalSim 3 main wresl file (e.g. `svar simulateUpperFeather {value 1.}`) used to change from unimpaired flow ('0') to real conditions ('1')? 	
+The switches activate a cycle for the upper watershed module. When it is set to "0", the Valley floor module will take its values from SV file. When set to "1", values are derived dynamically from the upper watershed module. Typically, timeseries values from the SV file should be similar to corresponding watershed results derived from dynamic runs.
+
+*Keywords: Cycles, Upper watershed module, Dynamic runs*
+
+### What are rules used to decide whether to use dynamically generated data or data from the SV file? Are there lists of considerations for when to run one versus the other?	
+The only advantage of running modules and storing those results in SV file would be runtime. It's easier to run everything dynamically.
+
+*Keywords: Dynamic runs, Upper watershed module*
+
+### Is temporal and spatial variation represented in the Upper watersheds?	
+These are represented by the GCMs. Climate change is not uniform across watersheds.
+
+*Keywords: Temporal variation, Spatial variation, Upper watershed module*
+
+### For Delta precipitation, why not use PRISM data (instead of Thiesen polygons) since we are now using it for CalSim 3?	
+We use PRISM data for the station. But then use the Thiesen polygons to account for the spatial extent. Comparisons have shown that PRISM precip and station precip data seem comparable.
+
+*Keywords: Delta precipitaton, PRISM, Thiesen polygons, Upper watershed module*
+
+### What is spatial resolution of PRISM?	
+It is 4 km by 4 km.
+
+*Keywords: PRISM, Spatial resolution*
+
+### Is double-counted water eliminated from the point-of-view of the water balance used inside CalSim 3?	
+The DCD model accounts for double counting.
+
+*Keywords: DCD model, Water balance*
