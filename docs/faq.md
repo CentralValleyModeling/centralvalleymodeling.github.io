@@ -38,7 +38,7 @@ While hydrology is one of the major inputs we can change, planning studies will 
 
 ### What happens if you have flooding events where physical limits are exceeded?
 
-There are flood zones for channels and reservoirs and limitations for CS3 on real-time operations.  Flood zones have large negative weights which make flood events less likely to occur. In addition, CS3 uses channel flow limits, bypass channels and weir operations to deal with flood conditions.
+There are flood zones for channels and reservoirs and limitations for CalSim 3 on real-time operations.  Flood zones have large negative weights which make flood events less likely to occur. In addition, CS3 uses channel flow limits, bypass channels and weir operations to deal with flood conditions.
 
 *Keywords: Linear Programming, Solver; physical capacity*
 
@@ -185,3 +185,51 @@ It is 4 km by 4 km.
 The DCD model accounts for double counting.
 
 *Keywords: DCD model, Water balance*
+
+### Are the rim watershed's simulated in CalSimHydro? 
+No, they are calculated using Excels and also upper watershed modules. CalSimHydro deals with valley floor hydrology.
+
+### How often is input data revised? 
+It is constantly being revised as new GIS data becomes available.  We are working on revising land use, for example
+
+*Keywords: GIS, land use*
+
+### Will all the applied water demands calculated by CalSimHydro be met? Is applied water part of from CalSimHydro output?
+CalSim 3 will meet all the applied water demands. If it does not get enough from stream diversion, it will take it from groundwater pumping. Applied water is output from the CalSimHydro model and used as input to CalSim 3.
+
+*Keywords: CalSimHydro, applied water*
+
+### Are return flow and deep percolation data pre-processed, assuming that the Ag and urban applied demand is fully met in CalSim 3? 
+Yes. The exception is refuge demand which is handled in CalSim 3, not CalSimHydro. There can be shortages (not fully met) in CalSim 3.
+
+*Keywords: Return flow, Refuge demand*
+
+### How often does the Level-of-Development (LOD) get updated? 
+Roughly about every 5-10 years.  The current update went from 2015 to 2020 LOD. LOD means more than just land use.  It also considers facilities, water supply contracts, and regulatory requirements. These are all represented at the 2020 level.
+
+*Keywords: LOD*
+
+### Does the growing season for rice ever change with time in CalSim 3? 
+It does not change with time.
+
+*Keywords: Rice*
+
+### Is the pumping distributed across different aquifer layers according to C2VSim-CG (Coarse Grid) assumptions? 
+Yes. In C2VSim-CG, the fraction of pumping from each layer is defined. 
+
+*Keywords: C2VSim-CG, aquifer*
+
+### Please explain how the GW DLL feeds back into CalSim 3 for tile drains. Why are tile drains not simulated in CalSimHydro? 
+Tile drains are used by farmers to drain the water table below the root zone to prevent oversaturation.  Tile drain outflow is retrieved from the GW DLL to CalSim 3 using a function that is invoked from the model using the WRESL language.  CalSimHydro has nothing to do with GW and only calculates recharge back into groundwater. 
+
+*Keywords: GW DLL, tile drains*
+
+### What is the calibration period for the GW DLL (C2VSim-CG ver374) to provide aquifer parameters?
+It was 1922-2009.
+
+*Keywords: Calibration*
+
+### Subsidence can impact hydraulic conductivity and aquifer storage over time. Does the GW DLL dynamically account for reductions in storage capacity and changes in hydraulic conductivity, or are these as static parameters? 
+The change in storage capacity is represented in the model. Hydraulic conductivity is assumed to be static.
+
+*Keywords: Subsidence, hydraulic conductivity, aquifer, GW DLL*
