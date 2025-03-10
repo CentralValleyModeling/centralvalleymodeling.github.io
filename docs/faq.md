@@ -233,3 +233,50 @@ It was 1922-2009.
 The change in storage capacity is represented in the model. Hydraulic conductivity is assumed to be static.
 
 *Keywords: Subsidence, hydraulic conductivity, aquifer, GW DLL*
+
+### How do you define the three water year types (i.e. Wet Years, Average Years and Dry Years)? 
+We take 30 years of annual precipitation data, rank this and divide it into the three portions.
+
+*Keywords: water year, precipitation*
+
+### Do you envision that we'll need to redo the stress testing (seeing how the system responds to high temperatures or lower precipitation, higher sea levels, etc.) in the future? Or is the Eight River Index a sufficiently robust proxy (for SWP deliveries)?
+We might want to sometime in the future.  For major infrastructure or operational changes maybe, but for now the Eight River Index seems pretty robust.
+
+*Keywords: Stress testing*
+
+### How about potentially adding dimensions to the risk analysis? Like subsidence? 
+Yes. The San Francisco Public Utility District did something similar where they had financial risk built into their stress tests, Regulatory risk is another one.  So you could make that two or three dimensional stress test twenty dimensional if you wanted to.  However it becomes harder to interpret things.
+
+*Keywords: Risk analysis, Stress testing*
+
+### Are the Weather Generator graded data (precipitation and temperature) publically available?
+Yes. All of the data are on a Box site. The output for the DWR's Delivery Capability Report (DCR) are available, as are the VIC inputs for the CalSim watersheds and the meterological outputs for the statewide grid.  There are also 23 different stress test scenarios using different combinations of temperature and precipitation.
+
+[Weather Generator Data](https://cadwr.box.com/s/64ghda1cqfy4vtdwkbsr8s6o813lbem5)
+
+*Keywords: Weather Generator, VIC*
+
+### What is your experience conveying risk information to contractors and how are they receiving this information?
+Contractors have just made comments on the DCR, but we need to get them to take greater ownership of this.  They need to understand the uncertainty involved and figure out how to deal with it because we can answer those question for them.
+
+*Keywords: Risk information, contractors*
+
+### How do you calculate how much land use reductions you need to impose to control groundwater decline?  Do all crops get reduced in landuse reduction? 
+This was determined by conducting a sensitivity analysis.  Just annual crops are reduced, not permanent crops.
+
+*Keywords: Land use, groundwater*
+
+### Do the assumptions for climate change scenarios, take into account regulatory changes?
+We don’t make assumptions about how regulations will change as a result of climate change.
+
+*Keywords Assumptions, climate change*
+
+### To determine if settlement contractors must take a deficiency (in allocation), do we use perfect foresight in CalSim 3? 
+CalSim 3 used to rely on perfect foresight but currently has the ability to dynamically make forecasts. Ultimately we try to replicate the level of accuracy of Bulletin 120. 
+
+Keywords: Perfect foresight, forecast*
+
+### In CalSim 3, are contract limits applicable to surface water deliveries only or are they ever applied to the total applied water amounts? 
+Contract limits only apply to surface water. No agreements to limit groundwater pumping. 
+
+*Keywords: Contract limits, applied water*
