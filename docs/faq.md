@@ -252,7 +252,7 @@ Yes. The San Francisco Public Utility District did something similar where they 
 ### Are the Weather Generator graded data (precipitation and temperature) publically available?
 Yes. All of the data are on a Box site. The output for the DWR's Delivery Capability Report (DCR) are available, as are the VIC inputs for the CalSim watersheds and the meterological outputs for the statewide grid.  There are also 23 different stress test scenarios using different combinations of temperature and precipitation.
 
-[Weather Generator Data](https://cadwr.box.com/s/64ghda1cqfy4vtdwkbsr8s6o813lbem5)
+[Weather Generator Data](https://cadwr.app.box.com/s/64ghda1cqfy4vtdwkbsr8s6o8i3lbem5)
 
 *Keywords: Weather Generator, VIC*
 
