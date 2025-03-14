@@ -280,3 +280,64 @@ Keywords: Perfect foresight, forecast*
 Contract limits only apply to surface water. No agreements to limit groundwater pumping. 
 
 *Keywords: Contract limits, applied water*
+
+### How does CalSim 3 meet temperature requirements at Clear Creek?
+CalSim 3 does not model temperature requirements directly.  It uses flow requirements to represent them. 
+
+*Keywords: Temperature, flow requirements*
+
+### How does CalSim 3 make the decision to open or close the Delta Cross Channel (DCC) gates?
+They are operated according to a schedule defined by D1641.  Additionally, it may also depend on water quality conditions at Rock Slough. And also whether the flow requirement at Rio Vista is controlling upstream releases.  In this case, the gates would be closed to keep water from just going into the cross channel.
+
+*Keywords: Delta Cross Channel, Rock Slough, Rio Vista*
+
+### Does CalSim 3 offer a way to determine at what times OMR is controlling?
+There is a post-processing tool (Master Control spreadsheet) that can be used to view what variables are controlling for a particular month.
+
+*Keywords: Post-processing tool*
+
+### There was a new ITP (Interim Take Permit) that came out last year (2024).  Is there a lag when ITP comes out and when we adopt those into the model?
+The 2023 Delivery Capability Report (DCR) focused on the 2019 Biological Opinions (BOs) and the 2020 ITP.  For the 2025 DCR, we'll roll out the 2024 BOs and ITP.
+
+*Keywords: Interim Take Permit, Biological Opinions*
+
+### Is there flow range or operational criteria that calls for retraining the ANN?
+There's really no specifically defined criteria, but if there is a major change in hydrology, like sea level rise, we would consider retraining the ANN DLL.
+
+*Keywords: ANN, sea level rise*
+
+### When there is a minimum instream flow requirement below a reservoir, it it required to release stored water or just provide water passing through it?
+We don't distinguish between them.  A flow requirement just needs to be met.
+
+*Keywords: Minimum instream flow*
+
+### Does Calsim 3 model water turbidity?
+No.  A flow surrogate is used when turbidity would be a concern.  
+
+*Keywords: Turbidity, flow surrogate*
+
+### In COA balance equation, what do the surplus terms (for SWP and CVP) represent?  
+Basically, it is outflow from the Delta of excess project water.  For example, in the case of SWP surplus, it may come from a storm that dumps a lot of water and Oroville can't store it all because of flood control rules.  Some of this water might be exported but because of regulations like OMR, some of the water leaves the Delta as outflow.
+
+*Keywords:  COA, surplus*
+
+### In CalSim 3, is there such a thing as a demand cut?
+Allocation can be cut, not demand.
+
+*Keywords: Allocation, demand*
+
+### Is Unstored Water For Export (UWFE) essentially unplanned inflows into the Valley below the dams?
+It might be a good way to think about this.  It may also come from precipitation and from groundwater to surface water exchange.
+
+*Keywords: Unstored Water for Export*
+
+### How are excess/balanced conditions determined in Calsim 3?
+Typically, the system is considered balanced if the Export/Inflow (EI) ratio is controlling (projects are essentially operating to meet water quality objectives).  However, if say
+OMR is controlling, the Delta is pushed into excess conditions (classified as "Excess with Export Restrictions").
+
+*Keywords: Excess conditions, balanced conditions*
+
+### San Luis operates as two different reservoirs. Does CalSim 3 incorporate borrowing of water (capacity) between CVP and SWP (that seems to happen in real time)?
+No.  CalSim 3 does not represent this.
+
+*Keywords: San Luis, borrowing*
