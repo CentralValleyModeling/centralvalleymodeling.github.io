@@ -9,8 +9,13 @@ nav:
   - Common CalSim 2 Variables (Legacy): common_cs2vars.md
   - Glossary: glossary.md
   - FAQ: faq.md
+  - CalSim Training: 
+      - Training Overview: calsim-training/training-overview.md
+      - Session 1: calsim-training/session1.md
 theme: readthedocs
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+#extra_css:
+#  - css/extra.css
