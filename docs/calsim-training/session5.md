@@ -16,10 +16,10 @@
 
 | Topic and Video Link | Synopsis | Instructor | Hands-On | Subsection Knowledge Check  | 
 | --- | --- | --- | --- | --- |
-| [Upstream Flow Requirements For CVP and SWP]()  |   | Puneet Khatavkar | N/A | [Quiz]() |
-| [SWRCB D-1641]()  |   | Jonathan Byers | N/A | [Quiz]() |
-| [Delta Control (Hands On)]()  |   | Nicole Osorio | [Delta Control](https://cadwr.box.com/s/3760yk4xvy2zmpnii1ln10ngd384g3mx) | [Quiz]() |
-| [BiOps and ITP]()  |   | Tom FitzHugh | N/A | [Quiz]() |
-| [Delta Salinity and ANN]()  |   | Malinda Wimalaratne | N/A | [Quiz]() |
+| [Upstream Flow Requirements For CVP and SWP]()  |   | Puneet Khatavkar | N/A | [Quiz](https://forms.office.com/g/h0PV8FeZ4n?origin=lprLink) |
+| [SWRCB D-1641]()  |   | Jonathan Byers | N/A | [Quiz](https://forms.office.com/g/PkiDGiJHKb?origin=lprLink) |
+| [Delta Control (Hands On)]()  |   | Nicole Osorio | [Delta Control](https://cadwr.box.com/s/3760yk4xvy2zmpnii1ln10ngd384g3mx) | N/A |
+| [BiOps and ITP]()  |   | Tom FitzHugh | N/A | [Quiz](https://forms.office.com/g/v5ec8zSEgT?origin=lprLink) |
+| [Delta Salinity and ANN]()  |   | Malinda Wimalaratne | N/A | [Quiz](https://forms.office.com/g/AsEkB0hbj4?origin=lprLink) |
 | [Session 5 Final Knowledge Check]() | A series of questions to gauge understanding of Session 5 content.  | N/A | N/A | Quiz |
 

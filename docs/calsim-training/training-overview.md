@@ -18,6 +18,10 @@ At the end of this workshop, participants should be able to:
 
 All materials are hosted on [Box](https://cadwr.box.com/s/w6ocnn43pz45w6ualsf0if09bxcl5mxc).
 
+Please contact us at **[CVMsupport@water.ca.gov](mailto:CVMsupport@water.ca.gov)** if you have questions or comments.
+
+
+
 # Helpful References
 * 2023 Delivery Capability Report - Final DCR 2023 Report([PDF](https://data.cnra.ca.gov/dataset/finaldcr2023/resource/92356681-957a-48ee-97c4-529d25b9dbb2)) 
 
