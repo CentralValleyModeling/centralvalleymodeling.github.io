@@ -27,7 +27,7 @@ At the end of this workshop, participants should be able to:
 
     * Climate Adjusted Historical Documentation([PDF](https://data.cnra.ca.gov/dataset/finaldcr2023/resource/02429384-40a5-4167-9bd1-588ca5e213a4)) 
 
-    * Risk-Informed Future Climate Scenario Development for SWP DCR([PDF]https://data.cnra.ca.gov/dataset/finaldcr2023/resource/e41f531d-dace-4d37-b52e-35a6ddd2224e) 
+    * Risk-Informed Future Climate Scenario Development for SWP DCR([PDF](https://data.cnra.ca.gov/dataset/finaldcr2023/resource/e41f531d-dace-4d37-b52e-35a6ddd2224e)) 
 
 * CalSim 3 Models and Data 
 

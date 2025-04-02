@@ -12,5 +12,5 @@
 
 | Topic and Video Link | Synopsis | Instructor | Subsection Knowledge Check  | 
 | --- | --- | --- | --- |
-| [Tech Setup](https://cadwr.box.com/s/vp9d7buzus3goc4zhphnsz0jqbixv0hy)  | Provides information on what programs and files are needed to participate in the training. | Nicole Osorio | N/A |
+| [Tech Setup](https://cadwr.box.com/s/jrnvkg0n2exwh3kljdjbsogjvxfy8wq3)  | Provides information on what programs and files are needed to participate in the training. | Nicole Osorio | N/A |
 
