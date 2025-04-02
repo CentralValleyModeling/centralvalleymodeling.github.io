@@ -11,7 +11,13 @@ nav:
   - FAQ: faq.md
   - CalSim Training: 
       - Training Overview: calsim-training/training-overview.md
-      - Session 1: calsim-training/session1.md
+      - Session 1 - Intro: calsim-training/session1.md
+      - Session 2 - Upper Watersheds and Delta Hydrology: calsim-training/session2.md
+      - Session 3 - Hydrology Part 1: calsim-training/session3.md
+      - Session 4 - Modeling for Change and Access to Water: calsim-training/session4.md
+      - Session 5 - Regulations and Operations I: calsim-training/session5.md
+      - Session 6 - Regulations and Operations II: calsim-training/session6.md
+
 theme: readthedocs
 markdown_extensions:
   - admonition
