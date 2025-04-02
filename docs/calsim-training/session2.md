@@ -5,20 +5,16 @@
 
 !!! important "CLASS MATERIALS - DOWNLOAD THEM HERE"
    
-    1. [Slides]()
+    1. [Slides](https://cadwr.box.com/s/2yyuwrl5zfkw945styy5oef3zd4m5oxu)
 
     2. Hands-on (See table)
 
-    3. [Supplemental readings]()
-
-    4. [Homework]()
-
+    3. [Supplemental readings](https://cadwr.box.com/s/17dektg2qt6c9e5bosk71izumpxggjy0)
 
 | Topic and Video Link | Synopsis | Instructor |Hands-On | Subsection Knowledge Check  | 
 | --- | --- | --- | --- | --- |
-| [Adjusted Historical Hydrology]()  |   | Richard Chen | N/A | [Quiz]() |
-| [Climate Change Scenario Development]()  |   | Andrew Schwarzs | N/A | [Quiz]() |
-| [Long Term Future Operational Adjustments]()  |   | Puneet Khatavkar | N/A | [Quiz]() |
-| [Access to Surface Water and ]()  |   | Andy Draper | N/A | [Quiz]() |
-| [Session 4 Final Knowledge Check]() | A series of questions to gauge understanding of Session 4 content.  | N/A | Link |
+| [Rim Watersheds – Hydrology]()  |   | Bridget Childs | N/A | [Quiz]() |
+| [Upper Watersheds – Overview]()  |   | Andy Draper | N/A | [Quiz]() |
+| [Delta Hydrology ]()  |   | Mohammad Hasan | N/A | [Quiz]() |
+| [Session 2 Final Knowledge Check]() | A series of questions to gauge understanding of Session 2 content.  | N/A | Link |
 

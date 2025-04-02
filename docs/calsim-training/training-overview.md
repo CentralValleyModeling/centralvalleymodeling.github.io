@@ -16,6 +16,8 @@ At the end of this workshop, participants should be able to:
 6. Understand how reservoirs and allocations are simulated within CalSim 3 
 7. Analyze and Interpret Study results, including post-processing tools 
 
+All materials are hosted on [Box](https://cadwr.box.com/s/w6ocnn43pz45w6ualsf0if09bxcl5mxc).
+
 # Helpful References
 * 2023 Delivery Capability Report - Final DCR 2023 Report([PDF](https://data.cnra.ca.gov/dataset/finaldcr2023/resource/92356681-957a-48ee-97c4-529d25b9dbb2)) 
 
