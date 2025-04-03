@@ -18,5 +18,4 @@
 | [Climate Change Scenario Development]()  |   | Andrew Schwarz | N/A | [Quiz]() |
 | [Long Term Future Operational Adjustments]()  |   | Puneet Khatavkar | N/A | [Quiz]() |
 | [Access to Surface Water and Groundwater ]()  |   | Andy Draper | N/A | [Quiz]() |
-| [Session 2 Final Knowledge Check]() | A series of questions to gauge understanding of Session 4 content.  | N/A | N/A | Quiz |
 
