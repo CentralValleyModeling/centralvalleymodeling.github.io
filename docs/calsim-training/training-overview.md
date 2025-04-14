@@ -16,6 +16,17 @@ At the end of this workshop, participants should be able to:
 6. Understand how reservoirs and allocations are simulated within CalSim 3 
 7. Analyze and Interpret Study results, including post-processing tools 
 
+| Session |
+| --- |
+| [Session 0: Technical Setup]()  |
+| [Session 1: Introduction & Overview]()  |
+| [Session 2: Rim Watersheds and Delta Hydrology]() |
+| [Session 3: Hydrology]() |
+| [Session 4: Modeling for Change and Access to Water]() |
+| [Session 4: Modeling for Change and Access to Water]() |
+| [Session 5: Regulations & Operations I]() |
+| [Session 6: Regulations & Operations II]() |
+
 All materials are hosted on [Box](https://cadwr.box.com/s/w6ocnn43pz45w6ualsf0if09bxcl5mxc).
 
 Please contact us at **[CVMsupport@water.ca.gov](mailto:CVMsupport@water.ca.gov)** if you have questions or comments.

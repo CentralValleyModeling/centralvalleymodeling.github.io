@@ -16,9 +16,9 @@
 
 | Topic and Video Link | Synopsis | Instructor | Hands-On | Subsection Knowledge Check  | 
 | --- | --- | --- | --- | --- |
-| [Upstream Flow Requirements For CVP and SWP]()  |   | Puneet Khatavkar | N/A | [Quiz](https://forms.office.com/g/h0PV8FeZ4n?origin=lprLink) |
-| [SWRCB D-1641]()  |   | Jonathan Byers | N/A | [Quiz](https://forms.office.com/g/PkiDGiJHKb?origin=lprLink) |
-| [Delta Control (Hands On)]()  |   | Nicole Osorio | [Delta Control](https://cadwr.box.com/s/3760yk4xvy2zmpnii1ln10ngd384g3mx) | N/A |
-| [BiOps and ITP]()  |   | Tom FitzHugh | N/A | [Quiz](https://forms.office.com/g/v5ec8zSEgT?origin=lprLink) |
-| [Delta Salinity and ANN]()  |   | Malinda Wimalaratne | N/A | [Quiz](https://forms.office.com/g/AsEkB0hbj4?origin=lprLink) |
+| [Upstream Flow Requirements For CVP and SWP]()  | Explains the various upstream instream flow requirements in the Sacramento and San Joaquin Basin rivers. | Puneet Khatavkar | N/A | [Quiz](https://forms.office.com/g/h0PV8FeZ4n?origin=lprLink) |
+| [SWRCB D-1641]()  | Describes the State Water Resources Control Board Decision-1641 flow/operational and water quality regulations and CalSim 3 model implementation. | Jonathan Byers | N/A | [Quiz](https://forms.office.com/g/PkiDGiJHKb?origin=lprLink) |
+| [Delta Control (Hands On)]()  | CalSim results review include Delta controls evaluation. This video demonstrates a simple spreadsheet example and previews a more detailed controls workbook.  | Nicole Osorio | [Delta Control](https://cadwr.box.com/s/3760yk4xvy2zmpnii1ln10ngd384g3mx) | N/A |
+| [BiOps and ITP]()  | Describes federal Biological Opinions (2019) and state Incidental Take Permit (2020) regulations and CalSim 3 model implementation. | Tom FitzHugh | N/A | [Quiz](https://forms.office.com/g/v5ec8zSEgT?origin=lprLink) |
+| [Delta Salinity and ANN]()  | Provides background on the need for an artificial neural networks in CalSim, details how Delta salinity and X2 position, and the corresponding flow and export requirements are determined, and explains the ANN training and validation process. | Malinda Wimalaratne | N/A | [Quiz](https://forms.office.com/g/AsEkB0hbj4?origin=lprLink) |
 
