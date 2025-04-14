@@ -18,11 +18,10 @@ nav:
       - Session 4 - Modeling for Change and Access to Water: calsim-training/session4.md
       - Session 5 - Regulations and Operations I: calsim-training/session5.md
       - Session 6 - Regulations and Operations II: calsim-training/session6.md
-
+extra_css:
+  - stylesheets/extra.css
 theme: readthedocs
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-#extra_css:
-#  - css/extra.css
