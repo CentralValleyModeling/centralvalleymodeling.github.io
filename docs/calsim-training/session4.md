@@ -14,9 +14,9 @@
 
 | Topic and Video Link | Synopsis | Instructor |Hands-On | Subsection Knowledge Check  | 
 | --- | --- | --- | --- | --- |
-| [Adjusted Historical Hydrology]()  | Explains the motivation for and how climate change that has already happened was implemented through developing adjusted historical hydrology model inputs.  | Richard Chen | N/A | [Quiz]() |
-| [Climate Change Scenario Development]()  |  Outlines how risk-informed future climate scenarios that incorporated the best available science and tools were implemented in the 2023 Delivery Capability Report studies. | Andrew Schwarz | N/A | [Quiz]() |
-| [Long Term Future Operational Adjustments]()  | Describes the model baseline adjustments needed such as those for regulatory and contractual obligations to evaluate long-term future climate conditions performance. | Puneet Khatavkar | N/A | [Quiz]() |
-| [Access to Surface Water and Groundwater ]()  | Discusses the CalSim 3 water rights domain, Sacramento Valley contracts, deficiency calculations,  and diversions from tributaries and groundwater pumping.  | Andy Draper | N/A | [Quiz]() |
+| [Adjusted Historical Hydrology]()  | Explains the motivation for and how climate change that has already happened was implemented through developing adjusted historical hydrology model inputs.  | Richard Chen | N/A | [Quiz](https://forms.office.com/g/1d3v5c0s29?origin=lprLink) |
+| [Climate Change Scenario Development]()  |  Outlines how risk-informed future climate scenarios that incorporated the best available science and tools were implemented in the 2023 Delivery Capability Report studies. | Andrew Schwarz | N/A | N/A |
+| [Long Term Future Operational Adjustments]()  | Describes the model baseline adjustments needed such as those for regulatory and contractual obligations to evaluate long-term future climate conditions performance. | Puneet Khatavkar | N/A | [Quiz](https://forms.office.com/g/N3Q8hXmie9?origin=lprLink) |
+| [Access to Surface Water and Groundwater ]()  | Discusses the CalSim 3 water rights domain, Sacramento Valley contracts, deficiency calculations,  and diversions from tributaries and groundwater pumping.  | Andy Draper | N/A | N/A |
 
 
