@@ -18,14 +18,13 @@ At the end of this workshop, participants should be able to:
 
 | Session |
 | --- |
-| [Session 0: Technical Setup]()  |
-| [Session 1: Introduction & Overview]()  |
-| [Session 2: Rim Watersheds and Delta Hydrology]() |
-| [Session 3: Hydrology]() |
-| [Session 4: Modeling for Change and Access to Water]() |
-| [Session 4: Modeling for Change and Access to Water]() |
-| [Session 5: Regulations & Operations I]() |
-| [Session 6: Regulations & Operations II]() |
+| [Session 0: Technical Setup](https://centralvalleymodeling.github.io/calsim-training/session0/)  |
+| [Session 1: Introduction & Overview](https://centralvalleymodeling.github.io/calsim-training/session1/)  |
+| [Session 2: Rim Watersheds and Delta Hydrology](https://centralvalleymodeling.github.io/calsim-training/session2/) |
+| [Session 3: Hydrology](https://centralvalleymodeling.github.io/calsim-training/session3/) |
+| [Session 4: Modeling for Change and Access to Water](https://centralvalleymodeling.github.io/calsim-training/session4/) |
+| [Session 5: Regulations & Operations I](https://centralvalleymodeling.github.io/calsim-training/session5/) |
+| [Session 6: Regulations & Operations II](https://centralvalleymodeling.github.io/calsim-training/session6/) |
 
 All materials are hosted on [Box](https://cadwr.box.com/s/w6ocnn43pz45w6ualsf0if09bxcl5mxc).
 
