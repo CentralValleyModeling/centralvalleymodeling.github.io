@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Session 3 - Hydrology Part 1 - CalSim 3 Documentation</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Session 3 - Hydrology Part 1";
+        var mkdocs_page_input_path = "calsim-training\\session3.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> CalSim 3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../hellocalsim/">Hello CalSim</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../hellopostpro/">Post-Processing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../modelsetup/">Model Setup</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../lookuptables/">Lookup Tables</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../common_cs3vars/">Common CalSim 3 Variables</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../common_cs2vars/">Common CalSim 2 Variables (Legacy)</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../glossary/">Glossary</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CalSim Training (2025)</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../training-overview/">Training Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../session0/">Session 0 - Tech Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../session1/">Session 1 - Intro</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../session2/">Session 2 - Upper Watersheds and Delta Hydrology</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Session 3 - Hydrology Part 1</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../session4/">Session 4 - Modeling for Change and Access to Water</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../session5/">Session 5 - Regulations and Operations I</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../session6/">Session 6 - Regulations and Operations II</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">CalSim 3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">CalSim Training (2025)</li>
+      <li class="breadcrumb-item active">Session 3 - Hydrology Part 1</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Under Development</p>
+</div>
+<h1 id="session-3-hydrology-part-1">Session 3 - Hydrology Part 1</h1>
+<div class="admonition important">
+<p class="admonition-title">CLASS MATERIALS - DOWNLOAD THEM HERE</p>
+<ol>
+<li>
+<p><a href="https://cadwr.box.com/s/zzpczwxugnh6yj2hdimdx99jbrmm8gxu">Slides</a></p>
+</li>
+<li>
+<p>Hands-on (See table)</p>
+</li>
+<li>
+<p><a href="https://cadwr.box.com/s/1a0f9hxeglkon6d9omlsp4ips036rdj1">Supplemental readings</a></p>
+</li>
+</ol>
+</div>
+<table>
+<thead>
+<tr>
+<th>Topic and Video Link</th>
+<th>Synopsis</th>
+<th>Instructor</th>
+<th>Hands-On</th>
+<th>Subsection Knowledge Check </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://cadwr.box.com/s/24z3jpzvqbqiwjl9co0ioawp48uldar9">Valley Hydrology</a> </td>
+<td>Overview of CalSim 3 hydology in the Central Valley. Mainly focuses on the CalSim Hydro computer model. The theory is summarized and a run through of the model structure.</td>
+<td>Jim Polsinelli</td>
+<td>N/A</td>
+<td><a href="https://forms.office.com/g/nybP8TzsDU?origin=lprLink">Quiz</a></td>
+</tr>
+<tr>
+<td><a href="https://cadwr.box.com/s/4e6vb3oj0wm4h8ijifplovpmpxa6wub8">State Variables (SV) Composer</a> </td>
+<td>Introduction to the CalSim 3 State Variable file composer. Program components and the various input files that the composer brings together. Hands-on demonstration of the program.</td>
+<td>Mohammad Hasan</td>
+<td><a href="https://cadwr.box.com/s/k8prhgb0airysl26jpw4l0gg95g87ucx">SV Composer</a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><a href="https://cadwr.box.com/s/gly63wlix5a2v714ru6ncsvzhr2ncgpq">Groundwater Hydrology</a> </td>
+<td>Introduction to IWFM, C2VSimCG, and the CalSim 3 groundwater dynamic link library (GWDLL). Theoretical summary of the GWDLL and implementation in CalSim 3.</td>
+<td>Can Dogrul</td>
+<td>N/A</td>
+<td><a href="https://forms.office.com/g/e3Gd8SJ5br?origin=lprLink">Quiz 1, </a> <a href="https://forms.office.com/g/x8TesKHZtm?origin=lprLink">Quiz 2</a></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../session2/" class="btn btn-neutral float-left" title="Session 2 - Upper Watersheds and Delta Hydrology"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../session4/" class="btn btn-neutral float-right" title="Session 4 - Modeling for Change and Access to Water">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../session2/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../session4/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

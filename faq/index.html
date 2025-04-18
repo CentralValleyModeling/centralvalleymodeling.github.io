@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
     
       <script>
         // Current page data
@@ -110,8 +111,123 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#the-san-joaquin-cycles-come-before-the-sacramento-valley-cycles-so-does-this-mean-that-delta-outflow-doesnt-impact-sjr-reservoir-operations-requirement">The San Joaquin Cycles come before the Sacramento Valley Cycles, so does this mean that Delta Outflow doesn't impact SJR reservoir operations requirement?</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-are-rim-inflows-derived-when-no-gauge-data-exists-and-does-it-account-for-residence-time-in-larger-watersheds">How are rim inflows derived when no gauge data exists and does it account for residence time in larger watersheds?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#why-is-it-necessary-to-calculate-unimpaired-flows">Why is it necessary to calculate unimpaired flows?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-are-the-units-used-in-the-rim-inflow-spreadsheets">What are the units used in the Rim Inflow spreadsheets?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#for-the-rim-inflow-spreadsheets-how-do-you-get-pop-up-menu-to-see-hidden-tabs-in-excel">For the Rim Inflow spreadsheets, how do you get pop-up (menu) to see (hidden) tabs in Excel?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#are-there-schematics-available-that-show-the-same-variables-as-the-ones-in-calsim-3-hydrology-spreadsheets">Are there schematics available that show the same variables as the ones in CalSim 3 hydrology spreadsheets?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#would-a-process-based-hydrologic-model-eg-swat-produce-more-realistic-and-coherent-flow-simulations-for-watersheds-with-limited-or-no-data-records-compared-to-statistical-linear-regression-based-on-another-watershed-selected-with-some-degree-of-randomness">Would a process-based hydrologic model (e.g., SWAT) produce more realistic and coherent flow simulations for watersheds with limited or no data records compared to statistical linear regression based on another watershed selected with some degree of randomness?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#there-are-some-negative-flow-values-in-the-data-what-is-the-physical-meaning-of-these-values">There are some negative flow values in the data. What is the physical meaning of these values?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#for-evapotranspiration-assuming-the-existence-of-a-reservoir-versus-unimpaired-flows-is-surface-area-based-on-bathymetry-of-the-reservoir-accounted-for">For evapotranspiration, assuming the existence of a reservoir versus unimpaired flows, is surface area based on bathymetry of the reservoir accounted for?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-the-most-common-reason-to-update-the-200-or-so-hydrology-spreadsheets-used-for-calsim-3-modeling">What is the most common reason to update the 200 or so hydrology spreadsheets used for CalSim 3 modeling?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#if-rim-inflows-are-assumed-to-be-unimpaired-why-do-the-rim-inflow-spreadsheets-state-2020-level-of-development">If rim inflows are assumed to be unimpaired, why do the rim inflow spreadsheets state '2020 Level of Development?'</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#do-the-modules-for-the-interconnected-upper-watersheds-need-to-be-run-together-eg-the-yuba-and-american-upper-watersheds-if-so-why-were-two-separate-modules-developed-instead-of-one">Do the modules for the interconnected upper watersheds need to be run together (e.g. the Yuba and American upper watersheds)?  If so, why were two separate modules developed instead of one?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#are-the-switches-declared-in-statements-within-the-calsim-3-main-wresl-file-eg-svar-simulateupperfeather-value-1-used-to-change-from-unimpaired-flow-0-to-real-conditions-1">Are the switches declared in statements within the CalSim 3 main wresl file (e.g. svar simulateUpperFeather {value 1.}) used to change from unimpaired flow ('0') to real conditions ('1')?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-are-rules-used-to-decide-whether-to-use-dynamically-generated-data-or-data-from-the-sv-file-are-there-lists-of-considerations-for-when-to-run-one-versus-the-other">What are rules used to decide whether to use dynamically generated data or data from the SV file? Are there lists of considerations for when to run one versus the other?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#is-temporal-and-spatial-variation-represented-in-the-upper-watersheds">Is temporal and spatial variation represented in the Upper watersheds?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#for-delta-precipitation-why-not-use-prism-data-instead-of-thiesen-polygons-since-we-are-now-using-it-for-calsim-3">For Delta precipitation, why not use PRISM data (instead of Thiesen polygons) since we are now using it for CalSim 3?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-spatial-resolution-of-prism">What is spatial resolution of PRISM?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#is-double-counted-water-eliminated-from-the-point-of-view-of-the-water-balance-used-inside-calsim-3">Is double-counted water eliminated from the point-of-view of the water balance used inside CalSim 3?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#are-the-rim-watersheds-simulated-in-calsimhydro">Are the rim watershed's simulated in CalSimHydro?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-often-is-input-data-revised">How often is input data revised?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#will-all-the-applied-water-demands-calculated-by-calsimhydro-be-met-is-applied-water-part-of-from-calsimhydro-output">Will all the applied water demands calculated by CalSimHydro be met? Is applied water part of from CalSimHydro output?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#are-return-flow-and-deep-percolation-data-pre-processed-assuming-that-the-ag-and-urban-applied-demand-is-fully-met-in-calsim-3">Are return flow and deep percolation data pre-processed, assuming that the Ag and urban applied demand is fully met in CalSim 3?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-often-does-the-level-of-development-lod-get-updated">How often does the Level-of-Development (LOD) get updated?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#does-the-growing-season-for-rice-ever-change-with-time-in-calsim-3">Does the growing season for rice ever change with time in CalSim 3?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#is-the-pumping-distributed-across-different-aquifer-layers-according-to-c2vsim-cg-coarse-grid-assumptions">Is the pumping distributed across different aquifer layers according to C2VSim-CG (Coarse Grid) assumptions?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#please-explain-how-the-gw-dll-feeds-back-into-calsim-3-for-tile-drains-why-are-tile-drains-not-simulated-in-calsimhydro">Please explain how the GW DLL feeds back into CalSim 3 for tile drains. Why are tile drains not simulated in CalSimHydro?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-the-calibration-period-for-the-gw-dll-c2vsim-cg-ver374-to-provide-aquifer-parameters">What is the calibration period for the GW DLL (C2VSim-CG ver374) to provide aquifer parameters?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#subsidence-can-impact-hydraulic-conductivity-and-aquifer-storage-over-time-does-the-gw-dll-dynamically-account-for-reductions-in-storage-capacity-and-changes-in-hydraulic-conductivity-or-are-these-as-static-parameters">Subsidence can impact hydraulic conductivity and aquifer storage over time. Does the GW DLL dynamically account for reductions in storage capacity and changes in hydraulic conductivity, or are these as static parameters?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-do-you-define-the-three-water-year-types-ie-wet-years-average-years-and-dry-years">How do you define the three water year types (i.e. Wet Years, Average Years and Dry Years)?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#do-you-envision-that-well-need-to-redo-the-stress-testing-seeing-how-the-system-responds-to-high-temperatures-or-lower-precipitation-higher-sea-levels-etc-in-the-future-or-is-the-eight-river-index-a-sufficiently-robust-proxy-for-swp-deliveries">Do you envision that we'll need to redo the stress testing (seeing how the system responds to high temperatures or lower precipitation, higher sea levels, etc.) in the future? Or is the Eight River Index a sufficiently robust proxy (for SWP deliveries)?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-about-potentially-adding-dimensions-to-the-risk-analysis-like-subsidence">How about potentially adding dimensions to the risk analysis? Like subsidence?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#are-the-weather-generator-graded-data-precipitation-and-temperature-publically-available">Are the Weather Generator graded data (precipitation and temperature) publically available?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-your-experience-conveying-risk-information-to-contractors-and-how-are-they-receiving-this-information">What is your experience conveying risk information to contractors and how are they receiving this information?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-do-you-calculate-how-much-land-use-reductions-you-need-to-impose-to-control-groundwater-decline-do-all-crops-get-reduced-in-landuse-reduction">How do you calculate how much land use reductions you need to impose to control groundwater decline?  Do all crops get reduced in landuse reduction?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#do-the-assumptions-for-climate-change-scenarios-take-into-account-regulatory-changes">Do the assumptions for climate change scenarios, take into account regulatory changes?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#to-determine-if-settlement-contractors-must-take-a-deficiency-in-allocation-do-we-use-perfect-foresight-in-calsim-3">To determine if settlement contractors must take a deficiency (in allocation), do we use perfect foresight in CalSim 3?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#in-calsim-3-are-contract-limits-applicable-to-surface-water-deliveries-only-or-are-they-ever-applied-to-the-total-applied-water-amounts">In CalSim 3, are contract limits applicable to surface water deliveries only or are they ever applied to the total applied water amounts?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-does-calsim-3-meet-temperature-requirements-at-clear-creek">How does CalSim 3 meet temperature requirements at Clear Creek?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-does-calsim-3-make-the-decision-to-open-or-close-the-delta-cross-channel-dcc-gates">How does CalSim 3 make the decision to open or close the Delta Cross Channel (DCC) gates?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#does-calsim-3-offer-a-way-to-determine-at-what-times-omr-is-controlling">Does CalSim 3 offer a way to determine at what times OMR is controlling?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#there-was-a-new-itp-interim-take-permit-that-came-out-last-year-2024-is-there-a-lag-when-itp-comes-out-and-when-we-adopt-those-into-the-model">There was a new ITP (Interim Take Permit) that came out last year (2024).  Is there a lag when ITP comes out and when we adopt those into the model?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#is-there-flow-range-or-operational-criteria-that-calls-for-retraining-the-ann">Is there flow range or operational criteria that calls for retraining the ANN?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#when-there-is-a-minimum-instream-flow-requirement-below-a-reservoir-it-it-required-to-release-stored-water-or-just-provide-water-passing-through-it">When there is a minimum instream flow requirement below a reservoir, it it required to release stored water or just provide water passing through it?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#does-calsim-3-model-water-turbidity">Does Calsim 3 model water turbidity?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#in-coa-balance-equation-what-do-the-surplus-terms-for-swp-and-cvp-represent">In COA balance equation, what do the surplus terms (for SWP and CVP) represent?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#in-calsim-3-is-there-such-a-thing-as-a-demand-cut">In CalSim 3, is there such a thing as a demand cut?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#is-unstored-water-for-export-uwfe-essentially-unplanned-inflows-into-the-valley-below-the-dams">Is Unstored Water For Export (UWFE) essentially unplanned inflows into the Valley below the dams?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-are-excessbalanced-conditions-determined-in-calsim-3">How are excess/balanced conditions determined in Calsim 3?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#san-luis-operates-as-two-different-reservoirs-does-calsim-3-incorporate-borrowing-of-water-capacity-between-cvp-and-swp-that-seems-to-happen-in-real-time">San Luis operates as two different reservoirs. Does CalSim 3 incorporate borrowing of water (capacity) between CVP and SWP (that seems to happen in real time)?</a>
+    </li>
     </ul>
                 </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CalSim Training (2025)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/training-overview/">Training Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/session0/">Session 0 - Tech Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/session1/">Session 1 - Intro</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/session2/">Session 2 - Upper Watersheds and Delta Hydrology</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/session3/">Session 3 - Hydrology Part 1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/session4/">Session 4 - Modeling for Change and Access to Water</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/session5/">Session 5 - Regulations and Operations I</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../calsim-training/session6/">Session 6 - Regulations and Operations II</a>
+                  </li>
               </ul>
       </div>
     </div>
@@ -158,7 +274,7 @@
 <p>While hydrology is one of the major inputs we can change, planning studies will often vary other inputs such as demands, regulatory assumptions (minimum required outflows), operational assumptions (reservoir rule curves, etc.), and even infrastructure assumptions (channel capacity, pumping plant outages).</p>
 <p><em>Keywords: Hydrology, Inputs/Outputs, Operations, Infrastructure</em></p>
 <h3 id="what-happens-if-you-have-flooding-events-where-physical-limits-are-exceeded">What happens if you have flooding events where physical limits are exceeded?</h3>
-<p>There are flood zones for channels and reservoirs and limitations for CS3 on real-time operations.  Flood zones have large negative weights which make flood events less likely to occur. In addition, CS3 uses channel flow limits, bypass channels and weir operations to deal with flood conditions.</p>
+<p>There are flood zones for channels and reservoirs and limitations for CalSim 3 on real-time operations.  Flood zones have large negative weights which make flood events less likely to occur. In addition, CS3 uses channel flow limits, bypass channels and weir operations to deal with flood conditions.</p>
 <p><em>Keywords: Linear Programming, Solver; physical capacity</em></p>
 <h3 id="what-are-weights-and-hare-are-their-values-determined-in-calsim">What are weights and hare are their values determined in CalSim?</h3>
 <p>Weights are coefficients in the objective function and influence how the solver prioritizes allocations, ensuring that higher-priority diversions are favored while still complying with constraints like environmental flows, contractual deliveries, and reservoir operations. For example, meeting regulatory requirements like D1641 have some of the highest weights of around 5000.</p>
@@ -195,11 +311,157 @@ Note: in the WRESL syntax, <code>&lt;</code> is <code>&lt;=</code> and <code>&gt
 <h3 id="the-san-joaquin-cycles-come-before-the-sacramento-valley-cycles-so-does-this-mean-that-delta-outflow-doesnt-impact-sjr-reservoir-operations-requirement">The San Joaquin Cycles come before the Sacramento Valley Cycles, so does this mean that Delta Outflow doesn't impact SJR reservoir operations requirement?</h3>
 <p>There is no delta outflow requirement that drives releases from the San Joaquin</p>
 <p><em>Keywords: cycles, delta outflow hydrology</em></p>
+<h3 id="how-are-rim-inflows-derived-when-no-gauge-data-exists-and-does-it-account-for-residence-time-in-larger-watersheds">How are rim inflows derived when no gauge data exists and does it account for residence time in larger watersheds?</h3>
+<p>A simple method is employed which assumes that runoff is proportional to the product of drainage area and average annual precipitation depth over the watershed. Residence time is not taken into account.</p>
+<p><em>Keywords: Rim inflows</em></p>
+<h3 id="why-is-it-necessary-to-calculate-unimpaired-flows">Why is it necessary to calculate unimpaired flows?</h3>
+<p>It's part of the philosphy of CalSim, since we are taking into account historical hydrology (e.g. precipitation and temperature) for the modeling scenarios.</p>
+<p><em>Keywords: Unimpaired flows, Historical hydrology</em></p>
+<h3 id="what-are-the-units-used-in-the-rim-inflow-spreadsheets">What are the units used in the Rim Inflow spreadsheets?</h3>
+<p>It is TAF/year. CalSim can convert this into CFS.</p>
+<p><em>Keywords: Units, Rim inflows, Hydrology spreadsheets</em></p>
+<h3 id="for-the-rim-inflow-spreadsheets-how-do-you-get-pop-up-menu-to-see-hidden-tabs-in-excel">For the Rim Inflow spreadsheets, how do you get pop-up (menu) to see (hidden) tabs in Excel?</h3>
+<p>Right click on arrows at the on bottom left of workbook and select the tab to unhide it.</p>
+<p><em>Keywords: Rim inflows, Hydrology spreadsheets</em></p>
+<h3 id="are-there-schematics-available-that-show-the-same-variables-as-the-ones-in-calsim-3-hydrology-spreadsheets">Are there schematics available that show the same variables as the ones in CalSim 3 hydrology spreadsheets?</h3>
+<p>Sometimes there are schematic tabs within the Excel workbooks. They are typically USGS schematics.</p>
+<p><em>Keywords: Schematics, Hydrology spreadsheets, USGS</em> </p>
+<h3 id="would-a-process-based-hydrologic-model-eg-swat-produce-more-realistic-and-coherent-flow-simulations-for-watersheds-with-limited-or-no-data-records-compared-to-statistical-linear-regression-based-on-another-watershed-selected-with-some-degree-of-randomness">Would a process-based hydrologic model (e.g., SWAT) produce more realistic and coherent flow simulations for watersheds with limited or no data records compared to statistical linear regression based on another watershed selected with some degree of randomness?</h3>
+<p>The former accounts for hydrological processes, dynamic hydroclimatic forcing, and static watershed characteristics. Model parameters can be calibrated using the particle data record, or a regional model can be calibrated and applied to the ungauged watershed. The choice to use model or gauge data is subjective.</p>
+<p><em>Keywords: Hydrologic Model, SWAT, Linear Regression, Dynamic hydroclimatic forcing</em></p>
+<h3 id="there-are-some-negative-flow-values-in-the-data-what-is-the-physical-meaning-of-these-values">There are some negative flow values in the data. What is the physical meaning of these values?</h3>
+<p>There are two possibilities.  First of all, if the value is '-902' it means that data was not available. Secondly, it could be due to gauge error. When that happens, further preprocessing is needec to distribute the error to other months. </p>
+<p><em>Keywords: Flow data, Preprocessing</em></p>
+<h3 id="for-evapotranspiration-assuming-the-existence-of-a-reservoir-versus-unimpaired-flows-is-surface-area-based-on-bathymetry-of-the-reservoir-accounted-for">For evapotranspiration, assuming the existence of a reservoir versus unimpaired flows, is surface area based on bathymetry of the reservoir accounted for?</h3>
+<p>Yes. These factors are considered in the ET calculation for the reservoirs. There are separate workbooks used for the calculation of reservoir ET. Stream ET is assumed negligible on a monthly time scale.</p>
+<p><em>Keywords: Evapotranspiration, Unimpaired flows, Bathymetry</em></p>
+<h3 id="what-is-the-most-common-reason-to-update-the-200-or-so-hydrology-spreadsheets-used-for-calsim-3-modeling">What is the most common reason to update the 200 or so hydrology spreadsheets used for CalSim 3 modeling?</h3>
+<p>The last big update was due to simulation period extension. If we get new data from the source agencies, updating the spreadsheets could improve watershed representation in the model.</p>
+<p><em>Keywords: Hydrology spreadsheets, Simulation period</em></p>
+<h3 id="if-rim-inflows-are-assumed-to-be-unimpaired-why-do-the-rim-inflow-spreadsheets-state-2020-level-of-development">If rim inflows are assumed to be unimpaired, why do the rim inflow spreadsheets state '2020 Level of Development?'</h3>
+<p>Prior to the last few years, we did not change or adjust the historical record for climate change. The workbook should have stated 'Existing Conditions.'</p>
+<p><em>Keywords: Rim inflows, Unimpaired flows, Historical record, Hydrology spreadsheets</em></p>
+<h3 id="do-the-modules-for-the-interconnected-upper-watersheds-need-to-be-run-together-eg-the-yuba-and-american-upper-watersheds-if-so-why-were-two-separate-modules-developed-instead-of-one">Do the modules for the interconnected upper watersheds need to be run together (e.g. the Yuba and American upper watersheds)?  If so, why were two separate modules developed instead of one?</h3>
+<p>We develop standalone modules that can be run and debugged. The interconnections have to be preprocessed.</p>
+<p><em>Keywords: Upper watershed module, Yuba module, Upper american module, Preprocessed</em></p>
+<h3 id="are-the-switches-declared-in-statements-within-the-calsim-3-main-wresl-file-eg-svar-simulateupperfeather-value-1-used-to-change-from-unimpaired-flow-0-to-real-conditions-1">Are the switches declared in statements within the CalSim 3 main wresl file (e.g. <code>svar simulateUpperFeather {value 1.}</code>) used to change from unimpaired flow ('0') to real conditions ('1')?</h3>
+<p>The switches activate a cycle for the upper watershed module. When it is set to "0", the Valley floor module will take its values from SV file. When set to "1", values are derived dynamically from the upper watershed module. Typically, timeseries values from the SV file should be similar to corresponding watershed results derived from dynamic runs.</p>
+<p><em>Keywords: Cycles, Upper watershed module, Dynamic runs</em></p>
+<h3 id="what-are-rules-used-to-decide-whether-to-use-dynamically-generated-data-or-data-from-the-sv-file-are-there-lists-of-considerations-for-when-to-run-one-versus-the-other">What are rules used to decide whether to use dynamically generated data or data from the SV file? Are there lists of considerations for when to run one versus the other?</h3>
+<p>The only advantage of running modules and storing those results in SV file would be runtime. It's easier to run everything dynamically.</p>
+<p><em>Keywords: Dynamic runs, Upper watershed module</em></p>
+<h3 id="is-temporal-and-spatial-variation-represented-in-the-upper-watersheds">Is temporal and spatial variation represented in the Upper watersheds?</h3>
+<p>These are represented by the GCMs. Climate change is not uniform across watersheds.</p>
+<p><em>Keywords: Temporal variation, Spatial variation, Upper watershed module</em></p>
+<h3 id="for-delta-precipitation-why-not-use-prism-data-instead-of-thiesen-polygons-since-we-are-now-using-it-for-calsim-3">For Delta precipitation, why not use PRISM data (instead of Thiesen polygons) since we are now using it for CalSim 3?</h3>
+<p>We use PRISM data for the station. But then use the Thiesen polygons to account for the spatial extent. Comparisons have shown that PRISM precip and station precip data seem comparable.</p>
+<p><em>Keywords: Delta precipitaton, PRISM, Thiesen polygons, Upper watershed module</em></p>
+<h3 id="what-is-spatial-resolution-of-prism">What is spatial resolution of PRISM?</h3>
+<p>It is 4 km by 4 km.</p>
+<p><em>Keywords: PRISM, Spatial resolution</em></p>
+<h3 id="is-double-counted-water-eliminated-from-the-point-of-view-of-the-water-balance-used-inside-calsim-3">Is double-counted water eliminated from the point-of-view of the water balance used inside CalSim 3?</h3>
+<p>The DCD model accounts for double counting.</p>
+<p><em>Keywords: DCD model, Water balance</em></p>
+<h3 id="are-the-rim-watersheds-simulated-in-calsimhydro">Are the rim watershed's simulated in CalSimHydro?</h3>
+<p>No, they are calculated using Excels and also upper watershed modules. CalSimHydro deals with valley floor hydrology.</p>
+<h3 id="how-often-is-input-data-revised">How often is input data revised?</h3>
+<p>It is constantly being revised as new GIS data becomes available.  We are working on revising land use, for example</p>
+<p><em>Keywords: GIS, land use</em></p>
+<h3 id="will-all-the-applied-water-demands-calculated-by-calsimhydro-be-met-is-applied-water-part-of-from-calsimhydro-output">Will all the applied water demands calculated by CalSimHydro be met? Is applied water part of from CalSimHydro output?</h3>
+<p>CalSim 3 will meet all the applied water demands. If it does not get enough from stream diversion, it will take it from groundwater pumping. Applied water is output from the CalSimHydro model and used as input to CalSim 3.</p>
+<p><em>Keywords: CalSimHydro, applied water</em></p>
+<h3 id="are-return-flow-and-deep-percolation-data-pre-processed-assuming-that-the-ag-and-urban-applied-demand-is-fully-met-in-calsim-3">Are return flow and deep percolation data pre-processed, assuming that the Ag and urban applied demand is fully met in CalSim 3?</h3>
+<p>Yes. The exception is refuge demand which is handled in CalSim 3, not CalSimHydro. There can be shortages (not fully met) in CalSim 3.</p>
+<p><em>Keywords: Return flow, Refuge demand</em></p>
+<h3 id="how-often-does-the-level-of-development-lod-get-updated">How often does the Level-of-Development (LOD) get updated?</h3>
+<p>Roughly about every 5-10 years.  The current update went from 2015 to 2020 LOD. LOD means more than just land use.  It also considers facilities, water supply contracts, and regulatory requirements. These are all represented at the 2020 level.</p>
+<p><em>Keywords: LOD</em></p>
+<h3 id="does-the-growing-season-for-rice-ever-change-with-time-in-calsim-3">Does the growing season for rice ever change with time in CalSim 3?</h3>
+<p>It does not change with time.</p>
+<p><em>Keywords: Rice</em></p>
+<h3 id="is-the-pumping-distributed-across-different-aquifer-layers-according-to-c2vsim-cg-coarse-grid-assumptions">Is the pumping distributed across different aquifer layers according to C2VSim-CG (Coarse Grid) assumptions?</h3>
+<p>Yes. In C2VSim-CG, the fraction of pumping from each layer is defined. </p>
+<p><em>Keywords: C2VSim-CG, aquifer</em></p>
+<h3 id="please-explain-how-the-gw-dll-feeds-back-into-calsim-3-for-tile-drains-why-are-tile-drains-not-simulated-in-calsimhydro">Please explain how the GW DLL feeds back into CalSim 3 for tile drains. Why are tile drains not simulated in CalSimHydro?</h3>
+<p>Tile drains are used by farmers to drain the water table below the root zone to prevent oversaturation.  Tile drain outflow is retrieved from the GW DLL to CalSim 3 using a function that is invoked from the model using the WRESL language.  CalSimHydro has nothing to do with GW and only calculates recharge back into groundwater. </p>
+<p><em>Keywords: GW DLL, tile drains</em></p>
+<h3 id="what-is-the-calibration-period-for-the-gw-dll-c2vsim-cg-ver374-to-provide-aquifer-parameters">What is the calibration period for the GW DLL (C2VSim-CG ver374) to provide aquifer parameters?</h3>
+<p>It was 1922-2009.</p>
+<p><em>Keywords: Calibration</em></p>
+<h3 id="subsidence-can-impact-hydraulic-conductivity-and-aquifer-storage-over-time-does-the-gw-dll-dynamically-account-for-reductions-in-storage-capacity-and-changes-in-hydraulic-conductivity-or-are-these-as-static-parameters">Subsidence can impact hydraulic conductivity and aquifer storage over time. Does the GW DLL dynamically account for reductions in storage capacity and changes in hydraulic conductivity, or are these as static parameters?</h3>
+<p>The change in storage capacity is represented in the model. Hydraulic conductivity is assumed to be static.</p>
+<p><em>Keywords: Subsidence, hydraulic conductivity, aquifer, GW DLL</em></p>
+<h3 id="how-do-you-define-the-three-water-year-types-ie-wet-years-average-years-and-dry-years">How do you define the three water year types (i.e. Wet Years, Average Years and Dry Years)?</h3>
+<p>We take 30 years of annual precipitation data, rank this and divide it into the three portions.</p>
+<p><em>Keywords: water year, precipitation</em></p>
+<h3 id="do-you-envision-that-well-need-to-redo-the-stress-testing-seeing-how-the-system-responds-to-high-temperatures-or-lower-precipitation-higher-sea-levels-etc-in-the-future-or-is-the-eight-river-index-a-sufficiently-robust-proxy-for-swp-deliveries">Do you envision that we'll need to redo the stress testing (seeing how the system responds to high temperatures or lower precipitation, higher sea levels, etc.) in the future? Or is the Eight River Index a sufficiently robust proxy (for SWP deliveries)?</h3>
+<p>We might want to sometime in the future.  For major infrastructure or operational changes maybe, but for now the Eight River Index seems pretty robust.</p>
+<p><em>Keywords: Stress testing</em></p>
+<h3 id="how-about-potentially-adding-dimensions-to-the-risk-analysis-like-subsidence">How about potentially adding dimensions to the risk analysis? Like subsidence?</h3>
+<p>Yes. The San Francisco Public Utility District did something similar where they had financial risk built into their stress tests, Regulatory risk is another one.  So you could make that two or three dimensional stress test twenty dimensional if you wanted to.  However it becomes harder to interpret things.</p>
+<p><em>Keywords: Risk analysis, Stress testing</em></p>
+<h3 id="are-the-weather-generator-graded-data-precipitation-and-temperature-publically-available">Are the Weather Generator graded data (precipitation and temperature) publically available?</h3>
+<p>Yes. All of the data are on a Box site. The output for the DWR's Delivery Capability Report (DCR) are available, as are the VIC inputs for the CalSim watersheds and the meterological outputs for the statewide grid.  There are also 23 different stress test scenarios using different combinations of temperature and precipitation.</p>
+<p><a href="https://cadwr.app.box.com/s/64ghda1cqfy4vtdwkbsr8s6o8i3lbem5">Weather Generator Data</a></p>
+<p><em>Keywords: Weather Generator, VIC</em></p>
+<h3 id="what-is-your-experience-conveying-risk-information-to-contractors-and-how-are-they-receiving-this-information">What is your experience conveying risk information to contractors and how are they receiving this information?</h3>
+<p>Contractors have just made comments on the DCR, but we need to get them to take greater ownership of this.  They need to understand the uncertainty involved and figure out how to deal with it because we can answer those question for them.</p>
+<p><em>Keywords: Risk information, contractors</em></p>
+<h3 id="how-do-you-calculate-how-much-land-use-reductions-you-need-to-impose-to-control-groundwater-decline-do-all-crops-get-reduced-in-landuse-reduction">How do you calculate how much land use reductions you need to impose to control groundwater decline?  Do all crops get reduced in landuse reduction?</h3>
+<p>This was determined by conducting a sensitivity analysis.  Just annual crops are reduced, not permanent crops.</p>
+<p><em>Keywords: Land use, groundwater</em></p>
+<h3 id="do-the-assumptions-for-climate-change-scenarios-take-into-account-regulatory-changes">Do the assumptions for climate change scenarios, take into account regulatory changes?</h3>
+<p>We don’t make assumptions about how regulations will change as a result of climate change.</p>
+<p><em>Keywords Assumptions, climate change</em></p>
+<h3 id="to-determine-if-settlement-contractors-must-take-a-deficiency-in-allocation-do-we-use-perfect-foresight-in-calsim-3">To determine if settlement contractors must take a deficiency (in allocation), do we use perfect foresight in CalSim 3?</h3>
+<p>CalSim 3 used to rely on perfect foresight but currently has the ability to dynamically make forecasts. Ultimately we try to replicate the level of accuracy of Bulletin 120. </p>
+<p>Keywords: Perfect foresight, forecast*</p>
+<h3 id="in-calsim-3-are-contract-limits-applicable-to-surface-water-deliveries-only-or-are-they-ever-applied-to-the-total-applied-water-amounts">In CalSim 3, are contract limits applicable to surface water deliveries only or are they ever applied to the total applied water amounts?</h3>
+<p>Contract limits only apply to surface water. No agreements to limit groundwater pumping. </p>
+<p><em>Keywords: Contract limits, applied water</em></p>
+<h3 id="how-does-calsim-3-meet-temperature-requirements-at-clear-creek">How does CalSim 3 meet temperature requirements at Clear Creek?</h3>
+<p>CalSim 3 does not model temperature requirements directly.  It uses flow requirements to represent them. </p>
+<p><em>Keywords: Temperature, flow requirements</em></p>
+<h3 id="how-does-calsim-3-make-the-decision-to-open-or-close-the-delta-cross-channel-dcc-gates">How does CalSim 3 make the decision to open or close the Delta Cross Channel (DCC) gates?</h3>
+<p>They are operated according to a schedule defined by D1641.  Additionally, it may also depend on water quality conditions at Rock Slough. And also whether the flow requirement at Rio Vista is controlling upstream releases.  In this case, the gates would be closed to keep water from just going into the cross channel.</p>
+<p><em>Keywords: Delta Cross Channel, Rock Slough, Rio Vista</em></p>
+<h3 id="does-calsim-3-offer-a-way-to-determine-at-what-times-omr-is-controlling">Does CalSim 3 offer a way to determine at what times OMR is controlling?</h3>
+<p>There is a post-processing tool (Master Control spreadsheet) that can be used to view what variables are controlling for a particular month.</p>
+<p><em>Keywords: Post-processing tool</em></p>
+<h3 id="there-was-a-new-itp-interim-take-permit-that-came-out-last-year-2024-is-there-a-lag-when-itp-comes-out-and-when-we-adopt-those-into-the-model">There was a new ITP (Interim Take Permit) that came out last year (2024).  Is there a lag when ITP comes out and when we adopt those into the model?</h3>
+<p>The 2023 Delivery Capability Report (DCR) focused on the 2019 Biological Opinions (BOs) and the 2020 ITP.  For the 2025 DCR, we'll roll out the 2024 BOs and ITP.</p>
+<p><em>Keywords: Interim Take Permit, Biological Opinions</em></p>
+<h3 id="is-there-flow-range-or-operational-criteria-that-calls-for-retraining-the-ann">Is there flow range or operational criteria that calls for retraining the ANN?</h3>
+<p>There's really no specifically defined criteria, but if there is a major change in hydrology, like sea level rise, we would consider retraining the ANN DLL.</p>
+<p><em>Keywords: ANN, sea level rise</em></p>
+<h3 id="when-there-is-a-minimum-instream-flow-requirement-below-a-reservoir-it-it-required-to-release-stored-water-or-just-provide-water-passing-through-it">When there is a minimum instream flow requirement below a reservoir, it it required to release stored water or just provide water passing through it?</h3>
+<p>We don't distinguish between them.  A flow requirement just needs to be met.</p>
+<p><em>Keywords: Minimum instream flow</em></p>
+<h3 id="does-calsim-3-model-water-turbidity">Does Calsim 3 model water turbidity?</h3>
+<p>No.  A flow surrogate is used when turbidity would be a concern.  </p>
+<p><em>Keywords: Turbidity, flow surrogate</em></p>
+<h3 id="in-coa-balance-equation-what-do-the-surplus-terms-for-swp-and-cvp-represent">In COA balance equation, what do the surplus terms (for SWP and CVP) represent?</h3>
+<p>Basically, it is outflow from the Delta of excess project water.  For example, in the case of SWP surplus, it may come from a storm that dumps a lot of water and Oroville can't store it all because of flood control rules.  Some of this water might be exported but because of regulations like OMR, some of the water leaves the Delta as outflow.</p>
+<p><em>Keywords:  COA, surplus</em></p>
+<h3 id="in-calsim-3-is-there-such-a-thing-as-a-demand-cut">In CalSim 3, is there such a thing as a demand cut?</h3>
+<p>Allocation can be cut, not demand.</p>
+<p><em>Keywords: Allocation, demand</em></p>
+<h3 id="is-unstored-water-for-export-uwfe-essentially-unplanned-inflows-into-the-valley-below-the-dams">Is Unstored Water For Export (UWFE) essentially unplanned inflows into the Valley below the dams?</h3>
+<p>It might be a good way to think about this.  It may also come from precipitation and from groundwater to surface water exchange.</p>
+<p><em>Keywords: Unstored Water for Export</em></p>
+<h3 id="how-are-excessbalanced-conditions-determined-in-calsim-3">How are excess/balanced conditions determined in Calsim 3?</h3>
+<p>Typically, the system is considered balanced if the Export/Inflow (EI) ratio is controlling (projects are essentially operating to meet water quality objectives).  However, if say
+OMR is controlling, the Delta is pushed into excess conditions (classified as "Excess with Export Restrictions").</p>
+<p><em>Keywords: Excess conditions, balanced conditions</em></p>
+<h3 id="san-luis-operates-as-two-different-reservoirs-does-calsim-3-incorporate-borrowing-of-water-capacity-between-cvp-and-swp-that-seems-to-happen-in-real-time">San Luis operates as two different reservoirs. Does CalSim 3 incorporate borrowing of water (capacity) between CVP and SWP (that seems to happen in real time)?</h3>
+<p>No.  CalSim 3 does not represent this.</p>
+<p><em>Keywords: San Luis, borrowing</em></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../glossary/" class="btn btn-neutral float-left" title="Glossary"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../calsim-training/training-overview/" class="btn btn-neutral float-right" title="Training Overview">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -224,6 +486,8 @@ Note: in the WRESL syntax, <code>&lt;</code> is <code>&lt;=</code> and <code>&gt
     
       <span><a href="../glossary/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
+    
+      <span><a href="../calsim-training/training-overview/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

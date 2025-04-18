@@ -1,0 +1,38 @@
+/* Remove horizontal scroll on tables */
+.wy-table-responsive {
+    overflow-x: visible !important;
+  }
+  
+  /* Let the table take full width and wrap text */
+  .wy-table-responsive table {
+    table-layout: fixed;
+    width: 100% !important;
+  }
+  
+  /* Wrap text in header and cells */
+  .wy-table-responsive th,
+  .wy-table-responsive td {
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Widen the content area for large screens */
+@media (min-width: 1000px) {
+  .wy-nav-content {
+    max-width: 100% !important;
+  }
+
+  .wy-body-for-nav {
+    max-width: 100% !important;
+  }
+
+  .rst-content {
+    max-width: 90% !important;
+  }
+}
+
+/* Add padding around the content for better readability */
+.wy-nav-content {
+    padding: 2em; /* Adjust the padding value as needed */
+  }
