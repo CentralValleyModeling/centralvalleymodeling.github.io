@@ -15,6 +15,7 @@ Raymond Hoang (DWR), Nicole Osorio (DWR), Cameron Koizumi (USBR), Ryan Lucas (US
 
 ## Members
 The CalSim User Group comprises the following members: DWR, USBR, Contractors, Academia, CalSim-Adjacent Consultants 
+
 - **Developers**: Individuals involved in the coding, testing, and maintenance of CalSim models and its components (e.g. groundwater module, solver, ANN). 
 - **Users**: Practitioners and researchers who utilize CalSim for water resources modeling. 
 - **Management**: Stakeholders responsible for overseeing the implementation and strategic direction of CalSim. 
