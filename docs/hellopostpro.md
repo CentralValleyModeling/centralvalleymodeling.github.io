@@ -1,5 +1,3 @@
-!!! Note
-    Under Development 
 # Post-Processing Tools
 Congratulations, you've run CalSim! Now, let's help you make sense of the results.  
 When a CalSim run is completed, the outputs will reside in a [Decision Variable (DV) DSS file](modelsetup.md#decision-variable-dv-output-files)
@@ -9,7 +7,7 @@ The PDF Report tool is a summary report generator to compare two CalSim 3 DV fil
 
 # 2. Excel Tools
 !!! Note
-    To use these tools, you will need to install the HEC DSS Add-In. The installer can be downloaded here: 
+    To use these tools, you will need to install the HEC DSS Add-In. Please refer to the [Tech Setup page](https://centralvalleymodeling.github.io/calsim-training/session0/) for more information.
 
 Excel spreadsheet tools are the most flexible tools to review CalSim 3 results. There are many tools developed to review different areas of the model. The list of tools below is not exhaustive; there have been many tools developed to accomodate different post-processing needs.
 
