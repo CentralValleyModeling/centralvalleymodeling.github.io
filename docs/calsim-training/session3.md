@@ -1,6 +1,3 @@
-!!! Note
-    Under Development
-
 # Session 3 - Hydrology Part 1
 
 !!! important "CLASS MATERIALS - DOWNLOAD THEM HERE"

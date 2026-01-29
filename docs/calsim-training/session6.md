@@ -1,6 +1,3 @@
-!!! Note
-    Under Development
-
 # Session 6 - Regulations and Operations II 
 
 !!! important "CLASS MATERIALS - DOWNLOAD THEM HERE"

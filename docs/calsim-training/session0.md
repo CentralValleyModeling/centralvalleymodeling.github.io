@@ -1,6 +1,3 @@
-!!! Note
-    Under Development
-
 # Session 0 - Tech Setup
 
 !!! important "CLASS MATERIALS - DOWNLOAD THEM HERE"

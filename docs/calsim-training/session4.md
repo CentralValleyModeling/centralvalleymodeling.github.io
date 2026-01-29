@@ -1,6 +1,3 @@
-!!! Note
-    Under Development
-
 # Session 4 - Modeling for Change and Access to Water
 
 !!! important "CLASS MATERIALS - DOWNLOAD THEM HERE"

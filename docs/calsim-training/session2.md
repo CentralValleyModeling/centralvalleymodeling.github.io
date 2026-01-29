@@ -1,6 +1,3 @@
-!!! Note
-    Under Development
-
 # Session 2 - Upper Watersheds and Delta Hydrology
 
 !!! important "CLASS MATERIALS - DOWNLOAD THEM HERE"

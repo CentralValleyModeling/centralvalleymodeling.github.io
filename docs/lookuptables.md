@@ -1,8 +1,4 @@
 # Lookup Table Documentation
-
-!!! Note
-    Under Construction
-
 ## AgMinMaxGW
 **Author:** None  
 **Date:**  None

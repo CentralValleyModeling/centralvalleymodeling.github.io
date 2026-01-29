@@ -1,6 +1,3 @@
-!!! Note
-    Under Development
-
 # Session 1 - Introduction
 
 !!! important "CLASS MATERIALS - DOWNLOAD THEM HERE"

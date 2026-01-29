@@ -1,6 +1,3 @@
-!!! Note
-    Under Development 
-
 # CalSim On-Demand Training
 Welcome! The California Department of Water Resources Modeling Support Office hosted a 6 session, 18-hour CalSim 3 fundamentals training workshop in Winter 2025 to provide participants with an overview of WRIMS and CalSim 3.
 
