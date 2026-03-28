@@ -11,7 +11,10 @@ Please contact us at [CVMsupport@water.ca.gov](mailto:CVMsupport@water.ca.gov) i
 - **Networking**: Foster a sense of community among CalSim users, developers, and stakeholders. 
 
 ## Steering Committee Members 
-Raymond Hoang (DWR), Nicole Osorio (DWR), Cameron Koizumi (USBR), Ryan Lucas (USBR) 
+Yiwei Cheng (DWR), Jonathan Byers (DWR), Cameron Koizumi (USBR), Ryan Lucas (USBR) 
+
+### Previous Members
+Raymond Hoang and Nicole Osorio (DWR) - 2025
 
 ## Members
 The CalSim User Group comprises the following members: DWR, USBR, Contractors, Academia, CalSim-Adjacent Consultants 
@@ -40,3 +43,5 @@ The CalSim User Group comprises the following members: DWR, USBR, Contractors, A
 ---
 
  *Draft CalSim Model User Group Charter – Last Update 11/15/2024*
+ 
+ *CSUG Steering Committee – Last Update February 2026*
